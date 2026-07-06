@@ -24,21 +24,15 @@ interface ModuleSearchBarProps {
 
 const CONTROL_HEIGHT = 44;
 
-export function ModuleSearchBar({
-  modules,
-  value,
-  onChange,
-}: ModuleSearchBarProps) {
-  const [open, setOpen] = useState(false);
-  const [query, setQuery] = useState(value ?? "");
-  const containerRef = useRef<HTMLDivElement>(null);
+export function ModuleSearchBar({ modules, value, onChange }: ModuleSearchBarProps) {
+  const [open, setOpen]   = useState(false);
+  const [query, setQuery] = useState("");
+  const containerRef      = useRef<HTMLDivElement>(null);
 
+  // Close dropdown on outside click
   useEffect(() => {
     function onMouseDown(e: MouseEvent) {
-      if (
-        containerRef.current &&
-        !containerRef.current.contains(e.target as Node)
-      ) {
+      if (containerRef.current && !containerRef.current.contains(e.target as Node)) {
         setOpen(false);
       }
     }
@@ -49,58 +43,87 @@ export function ModuleSearchBar({
   const filtered = useMemo(() => {
     if (!query) return modules;
     const q = query.toLowerCase();
-    return modules.filter((m) => m.name.toLowerCase().includes(q));
+    return modules.filter(m => m.name.toLowerCase().includes(q));
   }, [query, modules]);
 
-  const inputSx = {
-    flex: 1,
-    "&.MuiOutlinedInput-root": {
-      height: CONTROL_HEIGHT,
-      backgroundColor: "#ffffff !important",
-      border: "1px solid",
-      borderColor: "divider",
-      borderRadius: 2,
-    },
-    "& input": { py: 0, fontSize: 14 },
-  };
+  function clear() {
+    onChange(null);
+    setQuery("");
+    setOpen(false);
+  }
+
+  function select(name: string) {
+    onChange(name);
+    setQuery("");
+    setOpen(false);
+  }
+
+  // Chip rendered inline as a startAdornment when a module is selected
+  const chip = value ? (
+    <Stack
+      direction="row"
+      alignItems="center"
+      sx={{
+        bgcolor: "primary.main",
+        borderRadius: 1,
+        pl: 1.25,
+        pr: 0.75,
+        py: 1,
+        mr: 0.75,
+        flexShrink: 0,
+        gap: 0.5,
+      }}
+    >
+      <Typography sx={{ fontSize: 12, fontWeight: 600, color: "#fff", lineHeight: 1, whiteSpace: "nowrap" }}>
+        {value}/
+      </Typography>
+      <Box
+        component="button"
+        onClick={clear}
+        sx={{
+          display: "flex",
+          alignItems: "center",
+          border: "none",
+          background: "none",
+          cursor: "pointer",
+          color: "rgba(255,255,255,0.65)",
+          p: 0,
+          lineHeight: 1,
+          "&:hover": { color: "#fff" },
+        }}
+      >
+        <X size={11} strokeWidth={2} />
+      </Box>
+    </Stack>
+  ) : null;
 
   return (
     <Box ref={containerRef} sx={{ position: "relative", width: "100%" }}>
-      {/* ── Input row: text field + search button ─────────────────────── */}
+      {/* ── Input row ──────────────────────────────────────────────────── */}
       <Stack direction="row" spacing={0.5} alignItems="stretch">
         <OutlinedInput
           fullWidth
-          placeholder="Defaults to entire codebase, or search for a specific module to focus on..."
-          value={query}
-          onChange={(e) => {
-            setQuery(e.target.value);
-            setOpen(true);
-          }}
-          onFocus={() => setOpen(true)}
-          endAdornment={
-            value ? (
-              <Box
-                component="button"
-                onClick={() => {
-                  onChange(null);
-                  setQuery("");
-                }}
-                sx={{
-                  display: "flex",
-                  border: "none",
-                  background: "none",
-                  cursor: "pointer",
-                  color: "text.disabled",
-                  p: 0,
-                  mr: -0.5,
-                  "&:hover": { color: "text.primary" },
-                }}
-              >
-                <X size={14} strokeWidth={1.5} />
-              </Box>
-            ) : null
+          placeholder={
+            value
+              ? "Search another module to switch…"
+              : "Defaults to entire codebase — search a module to focus scores on it…"
           }
-          sx={inputSx}
+          value={query}
+          onChange={e => { setQuery(e.target.value); setOpen(true); }}
+          onFocus={() => setOpen(true)}
+          startAdornment={chip}
+          sx={{
+            flex: 1,
+            "&.MuiOutlinedInput-root": {
+              height: CONTROL_HEIGHT,
+              backgroundColor: "#ffffff !important",
+              border: "1px solid",
+              borderColor: "divider",
+              borderRadius: 2,
+              pl: value ? 0.75 : 1.75,
+            },
+            "& input": { py: 0, fontSize: 14 },
+          }}
         />
 
         <IconButton
@@ -121,7 +144,7 @@ export function ModuleSearchBar({
         </IconButton>
       </Stack>
 
-      {/* ── Dropdown ──────────────────────────────────────────────────── */}
+      {/* ── Dropdown ───────────────────────────────────────────────────── */}
       {open && filtered.length > 0 && (
         <Paper
           elevation={0}
@@ -129,7 +152,7 @@ export function ModuleSearchBar({
             position: "absolute",
             top: "calc(100% + 4px)",
             left: 0,
-            right: CONTROL_HEIGHT + 4, // align with right edge of input (not button)
+            right: CONTROL_HEIGHT + 4,
             zIndex: 1300,
             border: "1px solid",
             borderColor: "divider",
@@ -140,7 +163,7 @@ export function ModuleSearchBar({
             boxShadow: "0 8px 24px rgba(0,0,0,0.08)",
           }}
         >
-          {filtered.map((mod) => {
+          {filtered.map(mod => {
             const isSelected = mod.name === value;
             return (
               <Stack
@@ -149,11 +172,7 @@ export function ModuleSearchBar({
                 direction="row"
                 justifyContent="space-between"
                 alignItems="center"
-                onMouseDown={(e) => {
-                  e.preventDefault();
-                  onChange(mod.name);
-                  setOpen(false);
-                }}
+                onMouseDown={e => { e.preventDefault(); select(mod.name); }}
                 sx={{
                   width: "100%",
                   px: 1.75,
@@ -162,9 +181,7 @@ export function ModuleSearchBar({
                   bgcolor: isSelected ? "primary.light" : "background.paper",
                   cursor: "pointer",
                   textAlign: "left",
-                  "&:hover": {
-                    bgcolor: isSelected ? "primary.light" : "grey.50",
-                  },
+                  "&:hover": { bgcolor: isSelected ? "primary.light" : "grey.50" },
                 }}
               >
                 <Typography

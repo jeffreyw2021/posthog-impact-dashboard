@@ -26,6 +26,15 @@ export type ModuleContrib = {
   additions: number;
 };
 
+export type ModuleScore = {
+  centralityScore: number;
+  influenceScore:  number;
+  breadthScore:    number;
+  shippingScore:   number;
+  reviewingScore:  number;
+  impactScore:     number;
+};
+
 export type Engineer = {
   login: string;
   avatarUrl: string;
@@ -48,6 +57,7 @@ export type Engineer = {
   moduleContribs?: ModuleContrib[];
   weeklyShipping?: { week: string; weight: number }[];
   weeklyReviewing?: { week: string; comments: number; approvals: number; total: number }[];
+  moduleScores?: Record<string, ModuleScore>;
 };
 
 // Each dimension scores 0–20; total impact = sum of all five (0–100)
