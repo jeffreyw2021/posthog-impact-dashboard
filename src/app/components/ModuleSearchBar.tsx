@@ -7,7 +7,6 @@ import Typography from "@mui/material/Typography";
 import OutlinedInput from "@mui/material/OutlinedInput";
 import IconButton from "@mui/material/IconButton";
 import Paper from "@mui/material/Paper";
-import { useTheme } from "@mui/material/styles";
 import { Search, X } from "lucide-react";
 
 export type Module = {
@@ -30,7 +29,6 @@ export function ModuleSearchBar({
   value,
   onChange,
 }: ModuleSearchBarProps) {
-  const theme = useTheme();
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState(value ?? "");
   const containerRef = useRef<HTMLDivElement>(null);
@@ -57,7 +55,13 @@ export function ModuleSearchBar({
 
   const inputSx = {
     flex: 1,
-    "&.MuiOutlinedInput-root": { height: CONTROL_HEIGHT },
+    "&.MuiOutlinedInput-root": {
+      height: CONTROL_HEIGHT,
+      backgroundColor: "#ffffff !important",
+      border: "1px solid",
+      borderColor: "divider",
+      borderRadius: 2,
+    },
     "& input": { py: 0, fontSize: 14 },
   };
 
@@ -67,14 +71,13 @@ export function ModuleSearchBar({
       <Stack direction="row" spacing={0.5} alignItems="stretch">
         <OutlinedInput
           fullWidth
-          placeholder="Focus on a module (e.g. frontend, posthog)…"
+          placeholder="Defaults to entire codebase — search for a specific module to focus on"
           value={query}
           onChange={(e) => {
             setQuery(e.target.value);
             setOpen(true);
           }}
           onFocus={() => setOpen(true)}
-          style={{ height: CONTROL_HEIGHT, backgroundColor: theme.palette.background.default }}
           endAdornment={
             value ? (
               <Box
@@ -104,7 +107,7 @@ export function ModuleSearchBar({
             width: CONTROL_HEIGHT,
             height: CONTROL_HEIGHT,
             flexShrink: 0,
-            borderRadius: 1,
+            borderRadius: 2,
             border: "1px solid",
             borderColor: "divider",
             bgcolor: "background.paper",
