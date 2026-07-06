@@ -295,7 +295,7 @@ async function main() {
     all: scored.slice(0, 25),
   };
 
-  const outPath = join(__dirname, '..', 'app', 'data.json');
+  const outPath = join(__dirname, '..', 'src', 'app', 'data.json');
   writeFileSync(outPath, JSON.stringify(output, null, 2));
   console.log(`\nWritten to ${outPath}`);
   console.log('\nTop 15 by impact:');

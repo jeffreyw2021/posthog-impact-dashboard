@@ -2,25 +2,30 @@
 /**
  * Step 3: Compute impact scores from file-level contribution data.
  *
- * Impact Model:
+ * Impact Model — 5 dimensions, each 0–20 (total 0–100):
  *
- *   CENTRALITY (40%)
+ *   CENTRALITY (20pts)
  *     Files that many unique engineers touch are load-bearing shared infrastructure.
  *     Score = Σ (file_unique_authors / max_unique_authors) × (your_additions / file_total_additions)
- *     This rewards working on high-traffic files in proportion to your contribution.
  *
- *   INFLUENCE (35%)
+ *   INFLUENCE (20pts)
  *     Files you were among the first 3 contributors to, that others subsequently built on.
- *     Score = Σ unique_later_authors_on_your_early_files / max_unique_authors
- *     Captures "I built it, others kept extending it" — compounding leverage.
+ *     Score = Σ unique_later_authors_on_your_early_files
  *
- *   BREADTH (25%)
+ *   BREADTH (20pts)
  *     unique_top_level_modules_you_contributed_to / max_any_engineer
- *     Engineers who span the codebase reduce silos and multiply coordination value.
+ *
+ *   SHIPPING (20pts)
+ *     Merged PRs weighted by √(filesChanged) × log₁₀(max(additions+deletions, 1)).
+ *     Penalizes noise (1-line PRs) while not over-rewarding mass auto-generated changes.
+ *
+ *   REVIEWING (20pts)
+ *     review_comments + 0.5 × approvals on OTHER people's PRs.
+ *     Catches engineers who unblock the team but don't appear in commit counts.
  *
  *   MODULE FILTER (pre-computed):
- *     Per-module scores pre-computed for the top 20 modules.
- *     UI lets engineering leader select a module; scores update instantly.
+ *     Per-module scores for top 20 modules (Centrality/Influence/Breadth/Shipping are
+ *     module-scoped; Reviewing is global and stays constant across filters).
  */
 
 import { readFileSync, writeFileSync, existsSync } from 'fs';
@@ -28,9 +33,10 @@ import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const prsPath = join(__dirname, 'prs-raw.json');
-const filesPath = join(__dirname, 'files-raw.json');
-const outPath = join(__dirname, '..', 'app', 'data.json');
+const prsPath     = join(__dirname, 'prs-raw.json');
+const filesPath   = join(__dirname, 'files-raw.json');
+const reviewsPath = join(__dirname, 'reviews-raw.json');
+const outPath     = join(__dirname, '..', 'src', 'app', 'data.json');
 
 function getModule(filePath) {
   const parts = filePath.split('/');
@@ -44,9 +50,36 @@ function main() {
     console.error('Missing prs-raw.json or files-raw.json. Run fetch scripts first.');
     process.exit(1);
   }
+  if (!existsSync(reviewsPath)) {
+    console.warn('reviews-raw.json not found — Reviewing dimension will be 0. Run fetch-reviews.mjs first.');
+  }
 
   const { prs, since, until } = JSON.parse(readFileSync(prsPath, 'utf8'));
   const { files: prFiles } = JSON.parse(readFileSync(filesPath, 'utf8'));
+  const reviewsRaw = existsSync(reviewsPath)
+    ? JSON.parse(readFileSync(reviewsPath, 'utf8'))
+    : [];
+
+  // Bot patterns shared with fetch-reviews.mjs
+  const REVIEW_BOT_PATTERNS = [
+    /\[bot\]$/i, /-bot$/i, /-app$/i, /-apps$/i, /-ai$/i,
+    /^copilot/i, /^dependabot/i, /^renovate/i, /^github-actions/i,
+    /^stale$/i, /^netlify$/i, /^vercel$/i, /^snyk/i, /^semantic-release/i,
+    /^mergify/i, /^linear$/i, /^codecov/i, /^chatgpt/i, /^graphite-/i,
+    /^hex-/i, /^greptile/i, /^veria/i, /^stamphog$/i, /^sweep-ai/i,
+  ];
+  const REVIEW_SKIP = new Set(['posthog', 'stamphog', 'copilot']);
+  function isBotReviewer(login) {
+    if (REVIEW_SKIP.has(login?.toLowerCase())) return true;
+    return REVIEW_BOT_PATTERNS.some(p => p.test(login));
+  }
+
+  // reviewing raw score: comments + 0.5 × approvals, keyed by login
+  const reviewingByLogin = new Map(
+    reviewsRaw
+      .filter(r => !isBotReviewer(r.login))
+      .map(r => [r.login, r.reviewComments + r.approvals * 0.5])
+  );
 
   const prsByNumber = new Map(prs.map(pr => [pr.number, pr]));
 
@@ -90,19 +123,23 @@ function main() {
         login,
         prCount: 0,
         samplePRTitles: [],
-        // files: [{path, additions, mergedAt, module}]
         fileContribs: [],
         modules: new Set(),
+        shippingRaw: 0,
       });
     }
     return engineerMap.get(login);
   }
 
-  // Populate base PR data
+  // Populate base PR data (also accumulate shipping weight)
   for (const pr of prs) {
     const e = getOrCreate(pr.author);
     e.prCount++;
-    if (e.samplePRTitles.length < 3) e.samplePRTitles.push(pr.title);
+    if (e.samplePRTitles.length < 5) e.samplePRTitles.push(pr.title);
+    // Shipping: √(changedFiles) × log₁₀(max(additions+deletions, 1))
+    const loc = Math.max((pr.additions || 0) + (pr.deletions || 0), 1);
+    const files = Math.max(pr.changedFiles || 0, 0);
+    e.shippingRaw += Math.sqrt(files) * Math.log10(loc);
   }
 
   // Populate file contributions
@@ -175,15 +212,27 @@ function main() {
   }
 
   // === Global scores ===
-  const rawScores = allEngineers.map(e => ({ e, ...scoreEngineer(e, null) }));
-  const maxC = Math.max(...rawScores.map(s => s.centralityRaw)) || 1;
-  const maxI = Math.max(...rawScores.map(s => s.influenceRaw)) || 1;
-  const maxB = Math.max(...rawScores.map(s => s.breadthRaw)) || 1;
+  const rawScores = allEngineers.map(e => ({
+    e,
+    ...scoreEngineer(e, null),
+    shippingRaw:  e.shippingRaw,
+    reviewingRaw: reviewingByLogin.get(e.login) || 0,
+  }));
 
-  const globalScored = rawScores.map(({ e, centralityRaw, influenceRaw, breadthRaw }) => {
-    const c = (centralityRaw / maxC) * 100;
-    const inf = (influenceRaw / maxI) * 100;
-    const b = (breadthRaw / maxB) * 100;
+  const maxC  = Math.max(...rawScores.map(s => s.centralityRaw))  || 1;
+  const maxI  = Math.max(...rawScores.map(s => s.influenceRaw))   || 1;
+  const maxB  = Math.max(...rawScores.map(s => s.breadthRaw))     || 1;
+  const maxSh = Math.max(...rawScores.map(s => s.shippingRaw))    || 1;
+  const maxRv = Math.max(...rawScores.map(s => s.reviewingRaw))   || 1;
+
+  const norm20 = (raw, max) => Math.round((raw / max) * 200) / 10; // → 0–20 with 1dp
+
+  const globalScored = rawScores.map(({ e, centralityRaw, influenceRaw, breadthRaw, shippingRaw, reviewingRaw }) => {
+    const c  = norm20(centralityRaw,  maxC);
+    const inf = norm20(influenceRaw,  maxI);
+    const b  = norm20(breadthRaw,     maxB);
+    const sh = norm20(shippingRaw,    maxSh);
+    const rv = norm20(reviewingRaw,   maxRv);
     return {
       login: e.login,
       avatarUrl: `https://github.com/${e.login}.png?size=64`,
@@ -191,10 +240,12 @@ function main() {
       filesCount: e.fileContribs.length,
       uniqueModules: e.modules.size,
       samplePRTitles: e.samplePRTitles,
-      centralityScore: Math.round(c * 10) / 10,
-      influenceScore: Math.round(inf * 10) / 10,
-      breadthScore: Math.round(b * 10) / 10,
-      impactScore: Math.round((c * 0.40 + inf * 0.35 + b * 0.25) * 10) / 10,
+      centralityScore: c,
+      influenceScore:  inf,
+      breadthScore:    b,
+      shippingScore:   sh,
+      reviewingScore:  rv,
+      impactScore: Math.round((c + inf + b + sh + rv) * 10) / 10,
       topFiles: [...new Map(e.fileContribs.map(f => [f.path, f])).values()]
         .map(f => ({
           path: f.path,
@@ -237,6 +288,22 @@ function main() {
   console.log(`Computing per-module scores for: ${topModuleNames.join(', ')}`);
 
   // Enrich engineers with per-module scores
+  // Shipping per-module uses file-level additions from prFiles
+  function moduleShippingRaw(engineer, scopeFiles) {
+    // sum √(files_in_scope_for_this_pr) × log₁₀(additions_in_scope+1) across engineer's PRs
+    let raw = 0;
+    for (const key of sortedPRKeys) {
+      const prNum = Number(key);
+      const { files, author } = prFiles[prNum] || {};
+      if (author !== engineer.login || !files?.length) continue;
+      const inScope = files.filter(f => f.path && scopeFiles.has(f.path));
+      if (!inScope.length) continue;
+      const adds = inScope.reduce((s, f) => s + (f.additions || 0), 0);
+      raw += Math.sqrt(inScope.length) * Math.log10(Math.max(adds, 1));
+    }
+    return raw;
+  }
+
   const enriched = globalScored.slice(0, 25).map(eng => {
     const engineer = engineerMap.get(eng.login);
     const moduleScores = {};
@@ -244,8 +311,12 @@ function main() {
       const scopeFiles = moduleFileSets.get(mod);
       if (!scopeFiles) continue;
       const { centralityRaw, influenceRaw, breadthRaw } = scoreEngineer(engineer, scopeFiles);
-      // Store raw (will normalize per-module in UI)
-      moduleScores[mod] = { centralityRaw, influenceRaw, breadthRaw };
+      moduleScores[mod] = {
+        centralityRaw,
+        influenceRaw,
+        breadthRaw,
+        shippingRaw: moduleShippingRaw(engineer, scopeFiles),
+      };
     }
     return { ...eng, moduleScores };
   });
@@ -253,27 +324,33 @@ function main() {
   // For each module, compute normalization factors and resolve scores
   const moduleNorms = {};
   for (const mod of topModuleNames) {
-    const maxC_ = Math.max(...enriched.map(e => e.moduleScores[mod]?.centralityRaw || 0)) || 1;
-    const maxI_ = Math.max(...enriched.map(e => e.moduleScores[mod]?.influenceRaw || 0)) || 1;
-    const maxB_ = Math.max(...enriched.map(e => e.moduleScores[mod]?.breadthRaw || 0)) || 1;
-    moduleNorms[mod] = { maxC: maxC_, maxI: maxI_, maxB: maxB_ };
+    moduleNorms[mod] = {
+      maxC:  Math.max(...enriched.map(e => e.moduleScores[mod]?.centralityRaw || 0)) || 1,
+      maxI:  Math.max(...enriched.map(e => e.moduleScores[mod]?.influenceRaw  || 0)) || 1,
+      maxB:  Math.max(...enriched.map(e => e.moduleScores[mod]?.breadthRaw    || 0)) || 1,
+      maxSh: Math.max(...enriched.map(e => e.moduleScores[mod]?.shippingRaw   || 0)) || 1,
+    };
   }
 
-  // Replace raw with normalized 0-100 scores
+  // Replace raw with normalized 0–20 scores (Reviewing stays global)
   const finalEngineers = enriched.map(eng => {
     const moduleScoresFinal = {};
     for (const mod of topModuleNames) {
       const raw = eng.moduleScores[mod];
       if (!raw) continue;
-      const { maxC: mC, maxI: mI, maxB: mB } = moduleNorms[mod];
-      const c = (raw.centralityRaw / mC) * 100;
-      const i = (raw.influenceRaw / mI) * 100;
-      const b = (raw.breadthRaw / mB) * 100;
+      const { maxC: mC, maxI: mI, maxB: mB, maxSh: mSh } = moduleNorms[mod];
+      const c  = norm20(raw.centralityRaw, mC);
+      const i  = norm20(raw.influenceRaw,  mI);
+      const b  = norm20(raw.breadthRaw,    mB);
+      const sh = norm20(raw.shippingRaw,   mSh);
+      const rv = eng.reviewingScore; // global, not module-scoped
       moduleScoresFinal[mod] = {
-        centralityScore: Math.round(c * 10) / 10,
-        influenceScore: Math.round(i * 10) / 10,
-        breadthScore: Math.round(b * 10) / 10,
-        impactScore: Math.round((c * 0.40 + i * 0.35 + b * 0.25) * 10) / 10,
+        centralityScore: c,
+        influenceScore:  i,
+        breadthScore:    b,
+        shippingScore:   sh,
+        reviewingScore:  rv,
+        impactScore: Math.round((c + i + b + sh + rv) * 10) / 10,
       };
     }
     const { moduleScores: _, ...rest } = eng;
@@ -313,9 +390,11 @@ function main() {
     all: finalEngineers,
     topCentralFiles,
     methodology: {
-      centrality: { weight: 0.40, description: "Files touched by many unique engineers = load-bearing infrastructure. Score weights your contribution share by file popularity." },
-      influence: { weight: 0.35, description: "Files you contributed to early that others subsequently built on. Captures 'I laid the foundation, others extended it'." },
-      breadth: { weight: 0.25, description: "Unique modules (top-level directories) contributed to. Broad contributors reduce silos and multiply team-wide value." },
+      centrality: { maxPts: 20, description: "Files touched by many unique engineers = load-bearing infrastructure. Score weights your contribution share by file popularity." },
+      influence:  { maxPts: 20, description: "Files you contributed to early that others subsequently built on. Captures 'I laid the foundation, others extended it'." },
+      breadth:    { maxPts: 20, description: "Unique modules (top-level directories) contributed to. Broad contributors reduce silos and multiply team-wide value." },
+      shipping:   { maxPts: 20, description: "Merged PRs weighted by √(filesChanged) × log₁₀(additions+deletions). Rewards genuine scope; penalizes 1-line noise and auto-generated mass changes." },
+      reviewing:  { maxPts: 20, description: "Review comments on others' PRs + 0.5× approvals. Catches engineers who unblock the team but don't show up in commit counts." },
     },
   };
 
@@ -323,7 +402,7 @@ function main() {
 
   console.log('\nTop 10 engineers:');
   finalEngineers.slice(0, 10).forEach((e, i) => {
-    console.log(`  ${i+1}. ${e.login}: ${e.impactScore} (C:${e.centralityScore} I:${e.influenceScore} B:${e.breadthScore}) PRs:${e.prCount} files:${e.filesCount}`);
+    console.log(`  ${i+1}. ${e.login}: ${e.impactScore} (C:${e.centralityScore} I:${e.influenceScore} B:${e.breadthScore} Sh:${e.shippingScore} Rv:${e.reviewingScore}) PRs:${e.prCount} files:${e.filesCount}`);
   });
 
   console.log(`\nTop modules: ${modules.slice(0, 6).map(m => `${m.name}(${m.prCount})`).join(', ')}`);

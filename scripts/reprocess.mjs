@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const dataPath = join(__dirname, '..', 'app', 'data.json');
+const dataPath = join(__dirname, '..', 'src', 'app', 'data.json');
 
 const BOT_PATTERNS = [
   /\[bot\]$/i, /-bot$/i, /-app$/i, /-apps$/i, /-ai$/i,

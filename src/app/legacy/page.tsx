@@ -5,7 +5,7 @@ import {
   BarChart, Bar, XAxis, YAxis, Tooltip, Legend,
   ResponsiveContainer, CartesianGrid,
 } from "recharts";
-import data from "./data.json";
+import data from "../data.json";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 type ModuleScore = {
