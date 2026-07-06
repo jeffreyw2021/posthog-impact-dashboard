@@ -118,8 +118,11 @@ function main() {
     }
   }
 
-  // Filter to engineers with meaningful activity
-  const allEngineers = [...engineerMap.values()].filter(e => e.prCount >= 2 || e.fileContribs.length >= 5);
+  // Filter to engineers with meaningful activity (exclude shared/company accounts)
+  const SKIP_ACCOUNTS = new Set(['posthog', 'stamphog']);
+  const allEngineers = [...engineerMap.values()].filter(e =>
+    !SKIP_ACCOUNTS.has(e.login) && (e.prCount >= 2 || e.fileContribs.length >= 5)
+  );
   const totalEngineers = allEngineers.length;
   console.log(`Engineers (≥2 PRs or 5 files): ${totalEngineers}`);
 

@@ -1,17 +1,5911 @@
 {
-  "generatedAt": "2026-07-06T00:00:00.000Z",
-  "since": "2026-04-06",
-  "until": "2026-07-05",
-  "totalPRs": 0,
-  "prsWithFileData": 0,
-  "totalEngineers": 0,
-  "modules": [],
-  "top5": [],
-  "all": [],
-  "topCentralFiles": [],
+  "generatedAt": "2026-07-06T04:23:25.196Z",
+  "since": "2026-04-07",
+  "until": "2026-07-06",
+  "totalPRs": 5984,
+  "prsWithFileData": 3000,
+  "totalEngineers": 25,
+  "modules": [
+    {
+      "name": "products",
+      "fileCount": 5959,
+      "prCount": 1548,
+      "uniqueEngineers": 110
+    },
+    {
+      "name": "posthog",
+      "fileCount": 3302,
+      "prCount": 1166,
+      "uniqueEngineers": 113
+    },
+    {
+      "name": "frontend",
+      "fileCount": 7011,
+      "prCount": 1117,
+      "uniqueEngineers": 103
+    },
+    {
+      "name": "services",
+      "fileCount": 1534,
+      "prCount": 739,
+      "uniqueEngineers": 94
+    },
+    {
+      "name": "ee",
+      "fileCount": 476,
+      "prCount": 182,
+      "uniqueEngineers": 48
+    },
+    {
+      "name": "rust",
+      "fileCount": 631,
+      "prCount": 157,
+      "uniqueEngineers": 28
+    },
+    {
+      "name": ".github",
+      "fileCount": 154,
+      "prCount": 141,
+      "uniqueEngineers": 40
+    },
+    {
+      "name": "nodejs",
+      "fileCount": 587,
+      "prCount": 131,
+      "uniqueEngineers": 35
+    },
+    {
+      "name": "packages",
+      "fileCount": 344,
+      "prCount": 82,
+      "uniqueEngineers": 15
+    },
+    {
+      "name": "common",
+      "fileCount": 104,
+      "prCount": 66,
+      "uniqueEngineers": 22
+    },
+    {
+      "name": ".semgrep",
+      "fileCount": 93,
+      "prCount": 65,
+      "uniqueEngineers": 33
+    },
+    {
+      "name": "tools",
+      "fileCount": 192,
+      "prCount": 63,
+      "uniqueEngineers": 18
+    },
+    {
+      "name": ".agents",
+      "fileCount": 87,
+      "prCount": 45,
+      "uniqueEngineers": 18
+    },
+    {
+      "name": "docs",
+      "fileCount": 365,
+      "prCount": 41,
+      "uniqueEngineers": 21
+    },
+    {
+      "name": "bin",
+      "fileCount": 62,
+      "prCount": 39,
+      "uniqueEngineers": 22
+    },
+    {
+      "name": "playwright",
+      "fileCount": 54,
+      "prCount": 22,
+      "uniqueEngineers": 15
+    },
+    {
+      "name": "cli",
+      "fileCount": 46,
+      "prCount": 21,
+      "uniqueEngineers": 8
+    },
+    {
+      "name": "cli-2.0",
+      "fileCount": 54,
+      "prCount": 14,
+      "uniqueEngineers": 4
+    },
+    {
+      "name": "proto",
+      "fileCount": 8,
+      "prCount": 11,
+      "uniqueEngineers": 5
+    },
+    {
+      "name": "docker",
+      "fileCount": 10,
+      "prCount": 10,
+      "uniqueEngineers": 6
+    }
+  ],
+  "top5": [
+    {
+      "login": "a-lider",
+      "avatarUrl": "https://github.com/a-lider.png?size=64",
+      "prCount": 48,
+      "filesCount": 3291,
+      "uniqueModules": 21,
+      "samplePRTitles": [
+        "fix: attribute delivery export assets to the subscription owner",
+        "fix(insights): run all-time earliest-timestamp query as the insight user",
+        "fix(experiments): thread user into live metric SQL generation"
+      ],
+      "centralityScore": 100,
+      "influenceScore": 34.9,
+      "breadthScore": 100,
+      "impactScore": 77.2,
+      "topFiles": [
+        {
+          "path": "services/mcp/src/api/generated.ts",
+          "module": "services",
+          "additions": 14,
+          "uniqueAuthors": 88
+        },
+        {
+          "path": "frontend/snapshots.yml",
+          "module": "frontend",
+          "additions": 2696,
+          "uniqueAuthors": 59
+        },
+        {
+          "path": "frontend/src/types.ts",
+          "module": "frontend",
+          "additions": 1,
+          "uniqueAuthors": 46
+        },
+        {
+          "path": "frontend/src/lib/constants.tsx",
+          "module": "frontend",
+          "additions": 54,
+          "uniqueAuthors": 46
+        },
+        {
+          "path": "frontend/src/queries/schema.json",
+          "module": "frontend",
+          "additions": 3854,
+          "uniqueAuthors": 44
+        }
+      ],
+      "moduleList": [
+        "(root)",
+        ".agents",
+        ".claude",
+        ".dagster_home",
+        ".depot",
+        ".flox",
+        ".github",
+        ".run",
+        ".semgrep",
+        ".vscode",
+        "bin",
+        "cli",
+        "common",
+        "devenv",
+        "docker",
+        "docs",
+        "ee",
+        "frontend",
+        "posthog",
+        "products",
+        "services"
+      ],
+      "moduleScores": {
+        "products": {
+          "centralityScore": 5.7,
+          "influenceScore": 12.1,
+          "breadthScore": 100,
+          "impactScore": 31.5
+        },
+        "posthog": {
+          "centralityScore": 3.8,
+          "influenceScore": 17.5,
+          "breadthScore": 100,
+          "impactScore": 32.6
+        },
+        "frontend": {
+          "centralityScore": 100,
+          "influenceScore": 22,
+          "breadthScore": 100,
+          "impactScore": 72.7
+        },
+        "services": {
+          "centralityScore": 5.1,
+          "influenceScore": 7.5,
+          "breadthScore": 100,
+          "impactScore": 29.7
+        },
+        "ee": {
+          "centralityScore": 100,
+          "influenceScore": 19.4,
+          "breadthScore": 100,
+          "impactScore": 71.8
+        },
+        "rust": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".github": {
+          "centralityScore": 100,
+          "influenceScore": 5,
+          "breadthScore": 100,
+          "impactScore": 66.8
+        },
+        "nodejs": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "packages": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "common": {
+          "centralityScore": 100,
+          "influenceScore": 9.1,
+          "breadthScore": 100,
+          "impactScore": 68.2
+        },
+        ".semgrep": {
+          "centralityScore": 100,
+          "influenceScore": 96,
+          "breadthScore": 100,
+          "impactScore": 98.6
+        },
+        "tools": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".agents": {
+          "centralityScore": 100,
+          "influenceScore": 50,
+          "breadthScore": 100,
+          "impactScore": 82.5
+        },
+        "docs": {
+          "centralityScore": 21.7,
+          "influenceScore": 100,
+          "breadthScore": 100,
+          "impactScore": 68.7
+        },
+        "bin": {
+          "centralityScore": 100,
+          "influenceScore": 16.7,
+          "breadthScore": 100,
+          "impactScore": 70.8
+        },
+        "playwright": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli": {
+          "centralityScore": 100,
+          "influenceScore": 3.7,
+          "breadthScore": 100,
+          "impactScore": 66.3
+        },
+        "cli-2.0": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "proto": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docker": {
+          "centralityScore": 100,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 65
+        }
+      }
+    },
+    {
+      "login": "webjunkie",
+      "avatarUrl": "https://github.com/webjunkie.png?size=64",
+      "prCount": 180,
+      "filesCount": 5494,
+      "uniqueModules": 19,
+      "samplePRTitles": [
+        "fix(devex): restore cached master schema in validate migrations job",
+        "feat(devex): add devex:feedback command for dev experience feedback",
+        "feat(devex): lens-stack ux overhaul for engineering analytics"
+      ],
+      "centralityScore": 51.8,
+      "influenceScore": 93.1,
+      "breadthScore": 90.5,
+      "impactScore": 75.9,
+      "topFiles": [
+        {
+          "path": "services/mcp/src/api/generated.ts",
+          "module": "services",
+          "additions": 208,
+          "uniqueAuthors": 88
+        },
+        {
+          "path": "frontend/snapshots.yml",
+          "module": "frontend",
+          "additions": 4,
+          "uniqueAuthors": 59
+        },
+        {
+          "path": "services/mcp/schema/tool-definitions-all.json",
+          "module": "services",
+          "additions": 14,
+          "uniqueAuthors": 54
+        },
+        {
+          "path": "services/mcp/schema/generated-tool-definitions.json",
+          "module": "services",
+          "additions": 14,
+          "uniqueAuthors": 53
+        },
+        {
+          "path": "pnpm-lock.yaml",
+          "module": "(root)",
+          "additions": 0,
+          "uniqueAuthors": 41
+        }
+      ],
+      "moduleList": [
+        "(root)",
+        ".agents",
+        ".claude",
+        ".github",
+        ".semgrep",
+        "bin",
+        "common",
+        "devenv",
+        "docs",
+        "ee",
+        "frontend",
+        "livestream",
+        "packages",
+        "posthog",
+        "products",
+        "proto",
+        "rust",
+        "services",
+        "tools"
+      ],
+      "moduleScores": {
+        "products": {
+          "centralityScore": 92.3,
+          "influenceScore": 100,
+          "breadthScore": 100,
+          "impactScore": 96.9
+        },
+        "posthog": {
+          "centralityScore": 35.8,
+          "influenceScore": 83.2,
+          "breadthScore": 100,
+          "impactScore": 68.4
+        },
+        "frontend": {
+          "centralityScore": 0.6,
+          "influenceScore": 1.9,
+          "breadthScore": 100,
+          "impactScore": 25.9
+        },
+        "services": {
+          "centralityScore": 98.7,
+          "influenceScore": 26.1,
+          "breadthScore": 100,
+          "impactScore": 73.6
+        },
+        "ee": {
+          "centralityScore": 32.1,
+          "influenceScore": 100,
+          "breadthScore": 100,
+          "impactScore": 72.8
+        },
+        "rust": {
+          "centralityScore": 3.4,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 26.4
+        },
+        ".github": {
+          "centralityScore": 27.5,
+          "influenceScore": 35.2,
+          "breadthScore": 100,
+          "impactScore": 48.3
+        },
+        "nodejs": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "packages": {
+          "centralityScore": 1.4,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25.6
+        },
+        "common": {
+          "centralityScore": 30.9,
+          "influenceScore": 13.6,
+          "breadthScore": 100,
+          "impactScore": 42.1
+        },
+        ".semgrep": {
+          "centralityScore": 65.3,
+          "influenceScore": 24,
+          "breadthScore": 100,
+          "impactScore": 59.5
+        },
+        "tools": {
+          "centralityScore": 90.7,
+          "influenceScore": 68.8,
+          "breadthScore": 100,
+          "impactScore": 85.3
+        },
+        ".agents": {
+          "centralityScore": 10,
+          "influenceScore": 87.5,
+          "breadthScore": 100,
+          "impactScore": 59.6
+        },
+        "docs": {
+          "centralityScore": 1.2,
+          "influenceScore": 29.4,
+          "breadthScore": 100,
+          "impactScore": 35.8
+        },
+        "bin": {
+          "centralityScore": 12.6,
+          "influenceScore": 83.3,
+          "breadthScore": 100,
+          "impactScore": 59.2
+        },
+        "playwright": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli-2.0": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "proto": {
+          "centralityScore": 19.2,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 32.7
+        },
+        "docker": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        }
+      }
+    },
+    {
+      "login": "rafaeelaudibert",
+      "avatarUrl": "https://github.com/rafaeelaudibert.png?size=64",
+      "prCount": 83,
+      "filesCount": 1836,
+      "uniqueModules": 18,
+      "samplePRTitles": [
+        "fix(max): gate code capability badge behind PRODUCT_AUTONOMY flag",
+        "chore(navigation): remove orphaned PosthogStories dead code",
+        "feat(insights): show sample data placeholder before first event ingestion"
+      ],
+      "centralityScore": 33.7,
+      "influenceScore": 100,
+      "breadthScore": 85.7,
+      "impactScore": 69.9,
+      "topFiles": [
+        {
+          "path": "services/mcp/src/api/generated.ts",
+          "module": "services",
+          "additions": 53,
+          "uniqueAuthors": 88
+        },
+        {
+          "path": "frontend/snapshots.yml",
+          "module": "frontend",
+          "additions": 12,
+          "uniqueAuthors": 59
+        },
+        {
+          "path": "services/mcp/schema/tool-definitions-all.json",
+          "module": "services",
+          "additions": 3,
+          "uniqueAuthors": 54
+        },
+        {
+          "path": "services/mcp/schema/generated-tool-definitions.json",
+          "module": "services",
+          "additions": 3,
+          "uniqueAuthors": 53
+        },
+        {
+          "path": "frontend/src/lib/constants.tsx",
+          "module": "frontend",
+          "additions": 1,
+          "uniqueAuthors": 46
+        }
+      ],
+      "moduleList": [
+        "(root)",
+        ".agents",
+        ".flox",
+        ".github",
+        ".semgrep",
+        "bin",
+        "cli",
+        "common",
+        "docs",
+        "ee",
+        "frontend",
+        "nodejs",
+        "packages",
+        "playwright",
+        "posthog",
+        "products",
+        "services",
+        "tools"
+      ],
+      "moduleScores": {
+        "products": {
+          "centralityScore": 33.6,
+          "influenceScore": 24.2,
+          "breadthScore": 100,
+          "impactScore": 46.9
+        },
+        "posthog": {
+          "centralityScore": 6.6,
+          "influenceScore": 31.4,
+          "breadthScore": 100,
+          "impactScore": 38.6
+        },
+        "frontend": {
+          "centralityScore": 27.6,
+          "influenceScore": 100,
+          "breadthScore": 100,
+          "impactScore": 71
+        },
+        "services": {
+          "centralityScore": 44.4,
+          "influenceScore": 15.7,
+          "breadthScore": 100,
+          "impactScore": 48.2
+        },
+        "ee": {
+          "centralityScore": 1,
+          "influenceScore": 14.2,
+          "breadthScore": 100,
+          "impactScore": 30.4
+        },
+        "rust": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".github": {
+          "centralityScore": 0.2,
+          "influenceScore": 2.5,
+          "breadthScore": 100,
+          "impactScore": 26
+        },
+        "nodejs": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25
+        },
+        "packages": {
+          "centralityScore": 1.9,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25.8
+        },
+        "common": {
+          "centralityScore": 9.2,
+          "influenceScore": 59.1,
+          "breadthScore": 100,
+          "impactScore": 49.4
+        },
+        ".semgrep": {
+          "centralityScore": 23.3,
+          "influenceScore": 8,
+          "breadthScore": 100,
+          "impactScore": 37.1
+        },
+        "tools": {
+          "centralityScore": 6.9,
+          "influenceScore": 12.5,
+          "breadthScore": 100,
+          "impactScore": 32.1
+        },
+        ".agents": {
+          "centralityScore": 6,
+          "influenceScore": 37.5,
+          "breadthScore": 100,
+          "impactScore": 40.5
+        },
+        "docs": {
+          "centralityScore": 0.1,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25
+        },
+        "bin": {
+          "centralityScore": 0.2,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25.1
+        },
+        "playwright": {
+          "centralityScore": 5.8,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 27.3
+        },
+        "cli": {
+          "centralityScore": 3.1,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 26.2
+        },
+        "cli-2.0": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "proto": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docker": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        }
+      }
+    },
+    {
+      "login": "Gilbert09",
+      "avatarUrl": "https://github.com/Gilbert09.png?size=64",
+      "prCount": 609,
+      "filesCount": 3315,
+      "uniqueModules": 12,
+      "samplePRTitles": [
+        "fix(data-warehouse): size Mongo extraction chunk to document size to avoid OOM",
+        "fix(data-warehouse): base repartition detection on live partition size",
+        "fix(gitlab): give an actionable message when the instance URL redirects"
+      ],
+      "centralityScore": 65.9,
+      "influenceScore": 66.2,
+      "breadthScore": 57.1,
+      "impactScore": 63.8,
+      "topFiles": [
+        {
+          "path": "services/mcp/src/api/generated.ts",
+          "module": "services",
+          "additions": 26,
+          "uniqueAuthors": 88
+        },
+        {
+          "path": "services/mcp/schema/tool-definitions-all.json",
+          "module": "services",
+          "additions": 2,
+          "uniqueAuthors": 54
+        },
+        {
+          "path": "services/mcp/schema/generated-tool-definitions.json",
+          "module": "services",
+          "additions": 2,
+          "uniqueAuthors": 53
+        },
+        {
+          "path": "frontend/src/lib/constants.tsx",
+          "module": "frontend",
+          "additions": 0,
+          "uniqueAuthors": 46
+        },
+        {
+          "path": "frontend/src/types.ts",
+          "module": "frontend",
+          "additions": 2,
+          "uniqueAuthors": 46
+        }
+      ],
+      "moduleList": [
+        "(root)",
+        ".agents",
+        ".github",
+        ".semgrep",
+        "docs",
+        "ee",
+        "frontend",
+        "nodejs",
+        "playwright",
+        "posthog",
+        "products",
+        "services"
+      ],
+      "moduleScores": {
+        "products": {
+          "centralityScore": 100,
+          "influenceScore": 17,
+          "breadthScore": 100,
+          "impactScore": 71
+        },
+        "posthog": {
+          "centralityScore": 100,
+          "influenceScore": 39.5,
+          "breadthScore": 100,
+          "impactScore": 78.8
+        },
+        "frontend": {
+          "centralityScore": 2.8,
+          "influenceScore": 62.9,
+          "breadthScore": 100,
+          "impactScore": 48.1
+        },
+        "services": {
+          "centralityScore": 20.1,
+          "influenceScore": 9.2,
+          "breadthScore": 100,
+          "impactScore": 36.2
+        },
+        "ee": {
+          "centralityScore": 0.3,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25.1
+        },
+        "rust": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".github": {
+          "centralityScore": 0.6,
+          "influenceScore": 0.5,
+          "breadthScore": 100,
+          "impactScore": 25.4
+        },
+        "nodejs": {
+          "centralityScore": 2.5,
+          "influenceScore": 8.6,
+          "breadthScore": 100,
+          "impactScore": 29
+        },
+        "packages": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "common": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".semgrep": {
+          "centralityScore": 17.9,
+          "influenceScore": 8,
+          "breadthScore": 100,
+          "impactScore": 34.9
+        },
+        "tools": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".agents": {
+          "centralityScore": 2.9,
+          "influenceScore": 25,
+          "breadthScore": 100,
+          "impactScore": 34.9
+        },
+        "docs": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25
+        },
+        "bin": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "playwright": {
+          "centralityScore": 2.6,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 26
+        },
+        "cli": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli-2.0": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "proto": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docker": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        }
+      }
+    },
+    {
+      "login": "pauldambra",
+      "avatarUrl": "https://github.com/pauldambra.png?size=64",
+      "prCount": 360,
+      "filesCount": 1663,
+      "uniqueModules": 18,
+      "samplePRTitles": [
+        "fix(dashboards): keep layouts identity stable across per-tile refreshes",
+        "fix(exports): remove download anchor from the DOM after download",
+        "feat(elements): expose element stats as an MCP tool and finish HogQL conversion"
+      ],
+      "centralityScore": 32.8,
+      "influenceScore": 77,
+      "breadthScore": 85.7,
+      "impactScore": 61.5,
+      "topFiles": [
+        {
+          "path": "services/mcp/src/api/generated.ts",
+          "module": "services",
+          "additions": 45,
+          "uniqueAuthors": 88
+        },
+        {
+          "path": "frontend/snapshots.yml",
+          "module": "frontend",
+          "additions": 8,
+          "uniqueAuthors": 59
+        },
+        {
+          "path": "services/mcp/schema/tool-definitions-all.json",
+          "module": "services",
+          "additions": 14,
+          "uniqueAuthors": 54
+        },
+        {
+          "path": "services/mcp/schema/generated-tool-definitions.json",
+          "module": "services",
+          "additions": 14,
+          "uniqueAuthors": 53
+        },
+        {
+          "path": "frontend/src/lib/constants.tsx",
+          "module": "frontend",
+          "additions": 1,
+          "uniqueAuthors": 46
+        }
+      ],
+      "moduleList": [
+        "(root)",
+        ".agents",
+        ".claude",
+        ".depot",
+        ".flox",
+        ".github",
+        ".semgrep",
+        "common",
+        "docs",
+        "ee",
+        "frontend",
+        "nodejs",
+        "packages",
+        "playwright",
+        "posthog",
+        "products",
+        "services",
+        "tools"
+      ],
+      "moduleScores": {
+        "products": {
+          "centralityScore": 27,
+          "influenceScore": 28.4,
+          "breadthScore": 100,
+          "impactScore": 45.7
+        },
+        "posthog": {
+          "centralityScore": 16.3,
+          "influenceScore": 40.8,
+          "breadthScore": 100,
+          "impactScore": 45.8
+        },
+        "frontend": {
+          "centralityScore": 18.1,
+          "influenceScore": 45,
+          "breadthScore": 100,
+          "impactScore": 48
+        },
+        "services": {
+          "centralityScore": 60.1,
+          "influenceScore": 58.8,
+          "breadthScore": 100,
+          "impactScore": 69.6
+        },
+        "ee": {
+          "centralityScore": 6.8,
+          "influenceScore": 18.7,
+          "breadthScore": 100,
+          "impactScore": 34.3
+        },
+        "rust": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".github": {
+          "centralityScore": 13.3,
+          "influenceScore": 2,
+          "breadthScore": 100,
+          "impactScore": 31
+        },
+        "nodejs": {
+          "centralityScore": 0.2,
+          "influenceScore": 6.5,
+          "breadthScore": 100,
+          "impactScore": 27.4
+        },
+        "packages": {
+          "centralityScore": 5.6,
+          "influenceScore": 14.8,
+          "breadthScore": 100,
+          "impactScore": 32.4
+        },
+        "common": {
+          "centralityScore": 27.1,
+          "influenceScore": 50,
+          "breadthScore": 100,
+          "impactScore": 53.3
+        },
+        ".semgrep": {
+          "centralityScore": 20.4,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 33.2
+        },
+        "tools": {
+          "centralityScore": 23.7,
+          "influenceScore": 12.5,
+          "breadthScore": 100,
+          "impactScore": 38.8
+        },
+        ".agents": {
+          "centralityScore": 47,
+          "influenceScore": 100,
+          "breadthScore": 100,
+          "impactScore": 78.8
+        },
+        "docs": {
+          "centralityScore": 2,
+          "influenceScore": 35.3,
+          "breadthScore": 100,
+          "impactScore": 38.2
+        },
+        "bin": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "playwright": {
+          "centralityScore": 20.7,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 33.3
+        },
+        "cli": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli-2.0": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "proto": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docker": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        }
+      }
+    }
+  ],
+  "all": [
+    {
+      "login": "a-lider",
+      "avatarUrl": "https://github.com/a-lider.png?size=64",
+      "prCount": 48,
+      "filesCount": 3291,
+      "uniqueModules": 21,
+      "samplePRTitles": [
+        "fix: attribute delivery export assets to the subscription owner",
+        "fix(insights): run all-time earliest-timestamp query as the insight user",
+        "fix(experiments): thread user into live metric SQL generation"
+      ],
+      "centralityScore": 100,
+      "influenceScore": 34.9,
+      "breadthScore": 100,
+      "impactScore": 77.2,
+      "topFiles": [
+        {
+          "path": "services/mcp/src/api/generated.ts",
+          "module": "services",
+          "additions": 14,
+          "uniqueAuthors": 88
+        },
+        {
+          "path": "frontend/snapshots.yml",
+          "module": "frontend",
+          "additions": 2696,
+          "uniqueAuthors": 59
+        },
+        {
+          "path": "frontend/src/types.ts",
+          "module": "frontend",
+          "additions": 1,
+          "uniqueAuthors": 46
+        },
+        {
+          "path": "frontend/src/lib/constants.tsx",
+          "module": "frontend",
+          "additions": 54,
+          "uniqueAuthors": 46
+        },
+        {
+          "path": "frontend/src/queries/schema.json",
+          "module": "frontend",
+          "additions": 3854,
+          "uniqueAuthors": 44
+        }
+      ],
+      "moduleList": [
+        "(root)",
+        ".agents",
+        ".claude",
+        ".dagster_home",
+        ".depot",
+        ".flox",
+        ".github",
+        ".run",
+        ".semgrep",
+        ".vscode",
+        "bin",
+        "cli",
+        "common",
+        "devenv",
+        "docker",
+        "docs",
+        "ee",
+        "frontend",
+        "posthog",
+        "products",
+        "services"
+      ],
+      "moduleScores": {
+        "products": {
+          "centralityScore": 5.7,
+          "influenceScore": 12.1,
+          "breadthScore": 100,
+          "impactScore": 31.5
+        },
+        "posthog": {
+          "centralityScore": 3.8,
+          "influenceScore": 17.5,
+          "breadthScore": 100,
+          "impactScore": 32.6
+        },
+        "frontend": {
+          "centralityScore": 100,
+          "influenceScore": 22,
+          "breadthScore": 100,
+          "impactScore": 72.7
+        },
+        "services": {
+          "centralityScore": 5.1,
+          "influenceScore": 7.5,
+          "breadthScore": 100,
+          "impactScore": 29.7
+        },
+        "ee": {
+          "centralityScore": 100,
+          "influenceScore": 19.4,
+          "breadthScore": 100,
+          "impactScore": 71.8
+        },
+        "rust": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".github": {
+          "centralityScore": 100,
+          "influenceScore": 5,
+          "breadthScore": 100,
+          "impactScore": 66.8
+        },
+        "nodejs": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "packages": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "common": {
+          "centralityScore": 100,
+          "influenceScore": 9.1,
+          "breadthScore": 100,
+          "impactScore": 68.2
+        },
+        ".semgrep": {
+          "centralityScore": 100,
+          "influenceScore": 96,
+          "breadthScore": 100,
+          "impactScore": 98.6
+        },
+        "tools": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".agents": {
+          "centralityScore": 100,
+          "influenceScore": 50,
+          "breadthScore": 100,
+          "impactScore": 82.5
+        },
+        "docs": {
+          "centralityScore": 21.7,
+          "influenceScore": 100,
+          "breadthScore": 100,
+          "impactScore": 68.7
+        },
+        "bin": {
+          "centralityScore": 100,
+          "influenceScore": 16.7,
+          "breadthScore": 100,
+          "impactScore": 70.8
+        },
+        "playwright": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli": {
+          "centralityScore": 100,
+          "influenceScore": 3.7,
+          "breadthScore": 100,
+          "impactScore": 66.3
+        },
+        "cli-2.0": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "proto": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docker": {
+          "centralityScore": 100,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 65
+        }
+      }
+    },
+    {
+      "login": "webjunkie",
+      "avatarUrl": "https://github.com/webjunkie.png?size=64",
+      "prCount": 180,
+      "filesCount": 5494,
+      "uniqueModules": 19,
+      "samplePRTitles": [
+        "fix(devex): restore cached master schema in validate migrations job",
+        "feat(devex): add devex:feedback command for dev experience feedback",
+        "feat(devex): lens-stack ux overhaul for engineering analytics"
+      ],
+      "centralityScore": 51.8,
+      "influenceScore": 93.1,
+      "breadthScore": 90.5,
+      "impactScore": 75.9,
+      "topFiles": [
+        {
+          "path": "services/mcp/src/api/generated.ts",
+          "module": "services",
+          "additions": 208,
+          "uniqueAuthors": 88
+        },
+        {
+          "path": "frontend/snapshots.yml",
+          "module": "frontend",
+          "additions": 4,
+          "uniqueAuthors": 59
+        },
+        {
+          "path": "services/mcp/schema/tool-definitions-all.json",
+          "module": "services",
+          "additions": 14,
+          "uniqueAuthors": 54
+        },
+        {
+          "path": "services/mcp/schema/generated-tool-definitions.json",
+          "module": "services",
+          "additions": 14,
+          "uniqueAuthors": 53
+        },
+        {
+          "path": "pnpm-lock.yaml",
+          "module": "(root)",
+          "additions": 0,
+          "uniqueAuthors": 41
+        }
+      ],
+      "moduleList": [
+        "(root)",
+        ".agents",
+        ".claude",
+        ".github",
+        ".semgrep",
+        "bin",
+        "common",
+        "devenv",
+        "docs",
+        "ee",
+        "frontend",
+        "livestream",
+        "packages",
+        "posthog",
+        "products",
+        "proto",
+        "rust",
+        "services",
+        "tools"
+      ],
+      "moduleScores": {
+        "products": {
+          "centralityScore": 92.3,
+          "influenceScore": 100,
+          "breadthScore": 100,
+          "impactScore": 96.9
+        },
+        "posthog": {
+          "centralityScore": 35.8,
+          "influenceScore": 83.2,
+          "breadthScore": 100,
+          "impactScore": 68.4
+        },
+        "frontend": {
+          "centralityScore": 0.6,
+          "influenceScore": 1.9,
+          "breadthScore": 100,
+          "impactScore": 25.9
+        },
+        "services": {
+          "centralityScore": 98.7,
+          "influenceScore": 26.1,
+          "breadthScore": 100,
+          "impactScore": 73.6
+        },
+        "ee": {
+          "centralityScore": 32.1,
+          "influenceScore": 100,
+          "breadthScore": 100,
+          "impactScore": 72.8
+        },
+        "rust": {
+          "centralityScore": 3.4,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 26.4
+        },
+        ".github": {
+          "centralityScore": 27.5,
+          "influenceScore": 35.2,
+          "breadthScore": 100,
+          "impactScore": 48.3
+        },
+        "nodejs": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "packages": {
+          "centralityScore": 1.4,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25.6
+        },
+        "common": {
+          "centralityScore": 30.9,
+          "influenceScore": 13.6,
+          "breadthScore": 100,
+          "impactScore": 42.1
+        },
+        ".semgrep": {
+          "centralityScore": 65.3,
+          "influenceScore": 24,
+          "breadthScore": 100,
+          "impactScore": 59.5
+        },
+        "tools": {
+          "centralityScore": 90.7,
+          "influenceScore": 68.8,
+          "breadthScore": 100,
+          "impactScore": 85.3
+        },
+        ".agents": {
+          "centralityScore": 10,
+          "influenceScore": 87.5,
+          "breadthScore": 100,
+          "impactScore": 59.6
+        },
+        "docs": {
+          "centralityScore": 1.2,
+          "influenceScore": 29.4,
+          "breadthScore": 100,
+          "impactScore": 35.8
+        },
+        "bin": {
+          "centralityScore": 12.6,
+          "influenceScore": 83.3,
+          "breadthScore": 100,
+          "impactScore": 59.2
+        },
+        "playwright": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli-2.0": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "proto": {
+          "centralityScore": 19.2,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 32.7
+        },
+        "docker": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        }
+      }
+    },
+    {
+      "login": "rafaeelaudibert",
+      "avatarUrl": "https://github.com/rafaeelaudibert.png?size=64",
+      "prCount": 83,
+      "filesCount": 1836,
+      "uniqueModules": 18,
+      "samplePRTitles": [
+        "fix(max): gate code capability badge behind PRODUCT_AUTONOMY flag",
+        "chore(navigation): remove orphaned PosthogStories dead code",
+        "feat(insights): show sample data placeholder before first event ingestion"
+      ],
+      "centralityScore": 33.7,
+      "influenceScore": 100,
+      "breadthScore": 85.7,
+      "impactScore": 69.9,
+      "topFiles": [
+        {
+          "path": "services/mcp/src/api/generated.ts",
+          "module": "services",
+          "additions": 53,
+          "uniqueAuthors": 88
+        },
+        {
+          "path": "frontend/snapshots.yml",
+          "module": "frontend",
+          "additions": 12,
+          "uniqueAuthors": 59
+        },
+        {
+          "path": "services/mcp/schema/tool-definitions-all.json",
+          "module": "services",
+          "additions": 3,
+          "uniqueAuthors": 54
+        },
+        {
+          "path": "services/mcp/schema/generated-tool-definitions.json",
+          "module": "services",
+          "additions": 3,
+          "uniqueAuthors": 53
+        },
+        {
+          "path": "frontend/src/lib/constants.tsx",
+          "module": "frontend",
+          "additions": 1,
+          "uniqueAuthors": 46
+        }
+      ],
+      "moduleList": [
+        "(root)",
+        ".agents",
+        ".flox",
+        ".github",
+        ".semgrep",
+        "bin",
+        "cli",
+        "common",
+        "docs",
+        "ee",
+        "frontend",
+        "nodejs",
+        "packages",
+        "playwright",
+        "posthog",
+        "products",
+        "services",
+        "tools"
+      ],
+      "moduleScores": {
+        "products": {
+          "centralityScore": 33.6,
+          "influenceScore": 24.2,
+          "breadthScore": 100,
+          "impactScore": 46.9
+        },
+        "posthog": {
+          "centralityScore": 6.6,
+          "influenceScore": 31.4,
+          "breadthScore": 100,
+          "impactScore": 38.6
+        },
+        "frontend": {
+          "centralityScore": 27.6,
+          "influenceScore": 100,
+          "breadthScore": 100,
+          "impactScore": 71
+        },
+        "services": {
+          "centralityScore": 44.4,
+          "influenceScore": 15.7,
+          "breadthScore": 100,
+          "impactScore": 48.2
+        },
+        "ee": {
+          "centralityScore": 1,
+          "influenceScore": 14.2,
+          "breadthScore": 100,
+          "impactScore": 30.4
+        },
+        "rust": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".github": {
+          "centralityScore": 0.2,
+          "influenceScore": 2.5,
+          "breadthScore": 100,
+          "impactScore": 26
+        },
+        "nodejs": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25
+        },
+        "packages": {
+          "centralityScore": 1.9,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25.8
+        },
+        "common": {
+          "centralityScore": 9.2,
+          "influenceScore": 59.1,
+          "breadthScore": 100,
+          "impactScore": 49.4
+        },
+        ".semgrep": {
+          "centralityScore": 23.3,
+          "influenceScore": 8,
+          "breadthScore": 100,
+          "impactScore": 37.1
+        },
+        "tools": {
+          "centralityScore": 6.9,
+          "influenceScore": 12.5,
+          "breadthScore": 100,
+          "impactScore": 32.1
+        },
+        ".agents": {
+          "centralityScore": 6,
+          "influenceScore": 37.5,
+          "breadthScore": 100,
+          "impactScore": 40.5
+        },
+        "docs": {
+          "centralityScore": 0.1,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25
+        },
+        "bin": {
+          "centralityScore": 0.2,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25.1
+        },
+        "playwright": {
+          "centralityScore": 5.8,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 27.3
+        },
+        "cli": {
+          "centralityScore": 3.1,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 26.2
+        },
+        "cli-2.0": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "proto": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docker": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        }
+      }
+    },
+    {
+      "login": "Gilbert09",
+      "avatarUrl": "https://github.com/Gilbert09.png?size=64",
+      "prCount": 609,
+      "filesCount": 3315,
+      "uniqueModules": 12,
+      "samplePRTitles": [
+        "fix(data-warehouse): size Mongo extraction chunk to document size to avoid OOM",
+        "fix(data-warehouse): base repartition detection on live partition size",
+        "fix(gitlab): give an actionable message when the instance URL redirects"
+      ],
+      "centralityScore": 65.9,
+      "influenceScore": 66.2,
+      "breadthScore": 57.1,
+      "impactScore": 63.8,
+      "topFiles": [
+        {
+          "path": "services/mcp/src/api/generated.ts",
+          "module": "services",
+          "additions": 26,
+          "uniqueAuthors": 88
+        },
+        {
+          "path": "services/mcp/schema/tool-definitions-all.json",
+          "module": "services",
+          "additions": 2,
+          "uniqueAuthors": 54
+        },
+        {
+          "path": "services/mcp/schema/generated-tool-definitions.json",
+          "module": "services",
+          "additions": 2,
+          "uniqueAuthors": 53
+        },
+        {
+          "path": "frontend/src/lib/constants.tsx",
+          "module": "frontend",
+          "additions": 0,
+          "uniqueAuthors": 46
+        },
+        {
+          "path": "frontend/src/types.ts",
+          "module": "frontend",
+          "additions": 2,
+          "uniqueAuthors": 46
+        }
+      ],
+      "moduleList": [
+        "(root)",
+        ".agents",
+        ".github",
+        ".semgrep",
+        "docs",
+        "ee",
+        "frontend",
+        "nodejs",
+        "playwright",
+        "posthog",
+        "products",
+        "services"
+      ],
+      "moduleScores": {
+        "products": {
+          "centralityScore": 100,
+          "influenceScore": 17,
+          "breadthScore": 100,
+          "impactScore": 71
+        },
+        "posthog": {
+          "centralityScore": 100,
+          "influenceScore": 39.5,
+          "breadthScore": 100,
+          "impactScore": 78.8
+        },
+        "frontend": {
+          "centralityScore": 2.8,
+          "influenceScore": 62.9,
+          "breadthScore": 100,
+          "impactScore": 48.1
+        },
+        "services": {
+          "centralityScore": 20.1,
+          "influenceScore": 9.2,
+          "breadthScore": 100,
+          "impactScore": 36.2
+        },
+        "ee": {
+          "centralityScore": 0.3,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25.1
+        },
+        "rust": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".github": {
+          "centralityScore": 0.6,
+          "influenceScore": 0.5,
+          "breadthScore": 100,
+          "impactScore": 25.4
+        },
+        "nodejs": {
+          "centralityScore": 2.5,
+          "influenceScore": 8.6,
+          "breadthScore": 100,
+          "impactScore": 29
+        },
+        "packages": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "common": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".semgrep": {
+          "centralityScore": 17.9,
+          "influenceScore": 8,
+          "breadthScore": 100,
+          "impactScore": 34.9
+        },
+        "tools": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".agents": {
+          "centralityScore": 2.9,
+          "influenceScore": 25,
+          "breadthScore": 100,
+          "impactScore": 34.9
+        },
+        "docs": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25
+        },
+        "bin": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "playwright": {
+          "centralityScore": 2.6,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 26
+        },
+        "cli": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli-2.0": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "proto": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docker": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        }
+      }
+    },
+    {
+      "login": "pauldambra",
+      "avatarUrl": "https://github.com/pauldambra.png?size=64",
+      "prCount": 360,
+      "filesCount": 1663,
+      "uniqueModules": 18,
+      "samplePRTitles": [
+        "fix(dashboards): keep layouts identity stable across per-tile refreshes",
+        "fix(exports): remove download anchor from the DOM after download",
+        "feat(elements): expose element stats as an MCP tool and finish HogQL conversion"
+      ],
+      "centralityScore": 32.8,
+      "influenceScore": 77,
+      "breadthScore": 85.7,
+      "impactScore": 61.5,
+      "topFiles": [
+        {
+          "path": "services/mcp/src/api/generated.ts",
+          "module": "services",
+          "additions": 45,
+          "uniqueAuthors": 88
+        },
+        {
+          "path": "frontend/snapshots.yml",
+          "module": "frontend",
+          "additions": 8,
+          "uniqueAuthors": 59
+        },
+        {
+          "path": "services/mcp/schema/tool-definitions-all.json",
+          "module": "services",
+          "additions": 14,
+          "uniqueAuthors": 54
+        },
+        {
+          "path": "services/mcp/schema/generated-tool-definitions.json",
+          "module": "services",
+          "additions": 14,
+          "uniqueAuthors": 53
+        },
+        {
+          "path": "frontend/src/lib/constants.tsx",
+          "module": "frontend",
+          "additions": 1,
+          "uniqueAuthors": 46
+        }
+      ],
+      "moduleList": [
+        "(root)",
+        ".agents",
+        ".claude",
+        ".depot",
+        ".flox",
+        ".github",
+        ".semgrep",
+        "common",
+        "docs",
+        "ee",
+        "frontend",
+        "nodejs",
+        "packages",
+        "playwright",
+        "posthog",
+        "products",
+        "services",
+        "tools"
+      ],
+      "moduleScores": {
+        "products": {
+          "centralityScore": 27,
+          "influenceScore": 28.4,
+          "breadthScore": 100,
+          "impactScore": 45.7
+        },
+        "posthog": {
+          "centralityScore": 16.3,
+          "influenceScore": 40.8,
+          "breadthScore": 100,
+          "impactScore": 45.8
+        },
+        "frontend": {
+          "centralityScore": 18.1,
+          "influenceScore": 45,
+          "breadthScore": 100,
+          "impactScore": 48
+        },
+        "services": {
+          "centralityScore": 60.1,
+          "influenceScore": 58.8,
+          "breadthScore": 100,
+          "impactScore": 69.6
+        },
+        "ee": {
+          "centralityScore": 6.8,
+          "influenceScore": 18.7,
+          "breadthScore": 100,
+          "impactScore": 34.3
+        },
+        "rust": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".github": {
+          "centralityScore": 13.3,
+          "influenceScore": 2,
+          "breadthScore": 100,
+          "impactScore": 31
+        },
+        "nodejs": {
+          "centralityScore": 0.2,
+          "influenceScore": 6.5,
+          "breadthScore": 100,
+          "impactScore": 27.4
+        },
+        "packages": {
+          "centralityScore": 5.6,
+          "influenceScore": 14.8,
+          "breadthScore": 100,
+          "impactScore": 32.4
+        },
+        "common": {
+          "centralityScore": 27.1,
+          "influenceScore": 50,
+          "breadthScore": 100,
+          "impactScore": 53.3
+        },
+        ".semgrep": {
+          "centralityScore": 20.4,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 33.2
+        },
+        "tools": {
+          "centralityScore": 23.7,
+          "influenceScore": 12.5,
+          "breadthScore": 100,
+          "impactScore": 38.8
+        },
+        ".agents": {
+          "centralityScore": 47,
+          "influenceScore": 100,
+          "breadthScore": 100,
+          "impactScore": 78.8
+        },
+        "docs": {
+          "centralityScore": 2,
+          "influenceScore": 35.3,
+          "breadthScore": 100,
+          "impactScore": 38.2
+        },
+        "bin": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "playwright": {
+          "centralityScore": 20.7,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 33.3
+        },
+        "cli": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli-2.0": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "proto": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docker": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        }
+      }
+    },
+    {
+      "login": "MattPua",
+      "avatarUrl": "https://github.com/MattPua.png?size=64",
+      "prCount": 75,
+      "filesCount": 811,
+      "uniqueModules": 12,
+      "samplePRTitles": [
+        "fix(alerts): prevent currency symbol doubling when prefix matches currency format",
+        "feat(alerts): add real_time to calculation interval choices with migration",
+        "feat(alerts): validate and schedule real_time alert interval"
+      ],
+      "centralityScore": 15.9,
+      "influenceScore": 61.1,
+      "breadthScore": 57.1,
+      "impactScore": 42,
+      "topFiles": [
+        {
+          "path": "services/mcp/src/api/generated.ts",
+          "module": "services",
+          "additions": 6,
+          "uniqueAuthors": 88
+        },
+        {
+          "path": "frontend/snapshots.yml",
+          "module": "frontend",
+          "additions": 1,
+          "uniqueAuthors": 59
+        },
+        {
+          "path": "services/mcp/schema/tool-definitions-all.json",
+          "module": "services",
+          "additions": 2,
+          "uniqueAuthors": 54
+        },
+        {
+          "path": "services/mcp/schema/generated-tool-definitions.json",
+          "module": "services",
+          "additions": 2,
+          "uniqueAuthors": 53
+        },
+        {
+          "path": "frontend/src/lib/constants.tsx",
+          "module": "frontend",
+          "additions": 0,
+          "uniqueAuthors": 46
+        }
+      ],
+      "moduleList": [
+        "(root)",
+        ".agents",
+        ".github",
+        ".semgrep",
+        "ee",
+        "frontend",
+        "packages",
+        "playwright",
+        "posthog",
+        "products",
+        "services",
+        "terraform"
+      ],
+      "moduleScores": {
+        "products": {
+          "centralityScore": 21.8,
+          "influenceScore": 16.6,
+          "breadthScore": 100,
+          "impactScore": 39.5
+        },
+        "posthog": {
+          "centralityScore": 8.5,
+          "influenceScore": 56.3,
+          "breadthScore": 100,
+          "impactScore": 48.1
+        },
+        "frontend": {
+          "centralityScore": 6.9,
+          "influenceScore": 42.6,
+          "breadthScore": 100,
+          "impactScore": 42.7
+        },
+        "services": {
+          "centralityScore": 31.5,
+          "influenceScore": 8.8,
+          "breadthScore": 100,
+          "impactScore": 40.7
+        },
+        "ee": {
+          "centralityScore": 0.8,
+          "influenceScore": 8.4,
+          "breadthScore": 100,
+          "impactScore": 28.3
+        },
+        "rust": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".github": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25
+        },
+        "nodejs": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "packages": {
+          "centralityScore": 0.6,
+          "influenceScore": 6.2,
+          "breadthScore": 100,
+          "impactScore": 27.4
+        },
+        "common": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".semgrep": {
+          "centralityScore": 2.6,
+          "influenceScore": 92,
+          "breadthScore": 100,
+          "impactScore": 58.2
+        },
+        "tools": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".agents": {
+          "centralityScore": 22.4,
+          "influenceScore": 25,
+          "breadthScore": 100,
+          "impactScore": 42.7
+        },
+        "docs": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "bin": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "playwright": {
+          "centralityScore": 7.8,
+          "influenceScore": 20,
+          "breadthScore": 100,
+          "impactScore": 35.1
+        },
+        "cli": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli-2.0": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "proto": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docker": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        }
+      }
+    },
+    {
+      "login": "mariusandra",
+      "avatarUrl": "https://github.com/mariusandra.png?size=64",
+      "prCount": 43,
+      "filesCount": 652,
+      "uniqueModules": 14,
+      "samplePRTitles": [
+        "fix(notebooks): keep migrated filters closed",
+        "fix(notebooks): preserve markdown migration history author",
+        "fix(notebooks): align markdown converters"
+      ],
+      "centralityScore": 13.7,
+      "influenceScore": 53.6,
+      "breadthScore": 66.7,
+      "impactScore": 40.9,
+      "topFiles": [
+        {
+          "path": "services/mcp/src/api/generated.ts",
+          "module": "services",
+          "additions": 46,
+          "uniqueAuthors": 88
+        },
+        {
+          "path": "frontend/snapshots.yml",
+          "module": "frontend",
+          "additions": 32,
+          "uniqueAuthors": 59
+        },
+        {
+          "path": "services/mcp/schema/tool-definitions-all.json",
+          "module": "services",
+          "additions": 47,
+          "uniqueAuthors": 54
+        },
+        {
+          "path": "services/mcp/schema/generated-tool-definitions.json",
+          "module": "services",
+          "additions": 45,
+          "uniqueAuthors": 53
+        },
+        {
+          "path": "frontend/src/lib/constants.tsx",
+          "module": "frontend",
+          "additions": 0,
+          "uniqueAuthors": 46
+        }
+      ],
+      "moduleList": [
+        "(root)",
+        ".agents",
+        ".github",
+        "bin",
+        "common",
+        "docs",
+        "ee",
+        "frontend",
+        "packages",
+        "playwright",
+        "posthog",
+        "products",
+        "services",
+        "staticfiles"
+      ],
+      "moduleScores": {
+        "products": {
+          "centralityScore": 6.7,
+          "influenceScore": 15.2,
+          "breadthScore": 100,
+          "impactScore": 33
+        },
+        "posthog": {
+          "centralityScore": 14.9,
+          "influenceScore": 100,
+          "breadthScore": 100,
+          "impactScore": 66
+        },
+        "frontend": {
+          "centralityScore": 5.5,
+          "influenceScore": 14.5,
+          "breadthScore": 100,
+          "impactScore": 32.3
+        },
+        "services": {
+          "centralityScore": 12.3,
+          "influenceScore": 17.3,
+          "breadthScore": 100,
+          "impactScore": 36
+        },
+        "ee": {
+          "centralityScore": 13.5,
+          "influenceScore": 44.5,
+          "breadthScore": 100,
+          "impactScore": 46
+        },
+        "rust": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".github": {
+          "centralityScore": 0.1,
+          "influenceScore": 2,
+          "breadthScore": 100,
+          "impactScore": 25.7
+        },
+        "nodejs": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "packages": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25
+        },
+        "common": {
+          "centralityScore": 4,
+          "influenceScore": 27.3,
+          "breadthScore": 100,
+          "impactScore": 36.1
+        },
+        ".semgrep": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "tools": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".agents": {
+          "centralityScore": 8.1,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 28.2
+        },
+        "docs": {
+          "centralityScore": 0.4,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25.2
+        },
+        "bin": {
+          "centralityScore": 4.3,
+          "influenceScore": 16.7,
+          "breadthScore": 100,
+          "impactScore": 32.6
+        },
+        "playwright": {
+          "centralityScore": 9.3,
+          "influenceScore": 20,
+          "breadthScore": 100,
+          "impactScore": 35.7
+        },
+        "cli": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli-2.0": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "proto": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docker": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        }
+      }
+    },
+    {
+      "login": "benjackwhite",
+      "avatarUrl": "https://github.com/benjackwhite.png?size=64",
+      "prCount": 52,
+      "filesCount": 1852,
+      "uniqueModules": 16,
+      "samplePRTitles": [
+        "perf(agent-platform): trim spec-schema tool token spend (ref reuse + sections)",
+        "feat(agent_platform): secrets per revision (encrypted_env app→revision)",
+        "fix(agent-ingress): keepalive heartbeat on /listen SSE so it survives idle timeouts"
+      ],
+      "centralityScore": 27.9,
+      "influenceScore": 29,
+      "breadthScore": 76.2,
+      "impactScore": 40.3,
+      "topFiles": [
+        {
+          "path": "services/mcp/src/api/generated.ts",
+          "module": "services",
+          "additions": 11,
+          "uniqueAuthors": 88
+        },
+        {
+          "path": "frontend/snapshots.yml",
+          "module": "frontend",
+          "additions": 4,
+          "uniqueAuthors": 59
+        },
+        {
+          "path": "services/mcp/schema/tool-definitions-all.json",
+          "module": "services",
+          "additions": 38,
+          "uniqueAuthors": 54
+        },
+        {
+          "path": "services/mcp/schema/generated-tool-definitions.json",
+          "module": "services",
+          "additions": 38,
+          "uniqueAuthors": 53
+        },
+        {
+          "path": "frontend/src/lib/constants.tsx",
+          "module": "frontend",
+          "additions": 1,
+          "uniqueAuthors": 46
+        }
+      ],
+      "moduleList": [
+        "(root)",
+        ".flox",
+        ".github",
+        ".semgrep",
+        ".vscode",
+        "bin",
+        "devenv",
+        "docker",
+        "docs",
+        "ee",
+        "frontend",
+        "nodejs",
+        "posthog",
+        "products",
+        "rust",
+        "services"
+      ],
+      "moduleScores": {
+        "products": {
+          "centralityScore": 55.6,
+          "influenceScore": 5.4,
+          "breadthScore": 100,
+          "impactScore": 49.1
+        },
+        "posthog": {
+          "centralityScore": 6.5,
+          "influenceScore": 46.9,
+          "breadthScore": 100,
+          "impactScore": 44
+        },
+        "frontend": {
+          "centralityScore": 0.2,
+          "influenceScore": 3.7,
+          "breadthScore": 100,
+          "impactScore": 26.4
+        },
+        "services": {
+          "centralityScore": 95.8,
+          "influenceScore": 5.2,
+          "breadthScore": 100,
+          "impactScore": 65.1
+        },
+        "ee": {
+          "centralityScore": 0.4,
+          "influenceScore": 3.2,
+          "breadthScore": 100,
+          "impactScore": 26.3
+        },
+        "rust": {
+          "centralityScore": 19.8,
+          "influenceScore": 50,
+          "breadthScore": 100,
+          "impactScore": 50.4
+        },
+        ".github": {
+          "centralityScore": 4.4,
+          "influenceScore": 3,
+          "breadthScore": 100,
+          "impactScore": 27.8
+        },
+        "nodejs": {
+          "centralityScore": 100,
+          "influenceScore": 100,
+          "breadthScore": 100,
+          "impactScore": 100
+        },
+        "packages": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "common": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".semgrep": {
+          "centralityScore": 26.4,
+          "influenceScore": 20,
+          "breadthScore": 100,
+          "impactScore": 42.5
+        },
+        "tools": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".agents": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docs": {
+          "centralityScore": 0.9,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25.4
+        },
+        "bin": {
+          "centralityScore": 17.8,
+          "influenceScore": 100,
+          "breadthScore": 100,
+          "impactScore": 67.1
+        },
+        "playwright": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli-2.0": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "proto": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docker": {
+          "centralityScore": 46.2,
+          "influenceScore": 100,
+          "breadthScore": 100,
+          "impactScore": 78.5
+        }
+      }
+    },
+    {
+      "login": "sampennington",
+      "avatarUrl": "https://github.com/sampennington.png?size=64",
+      "prCount": 219,
+      "filesCount": 1657,
+      "uniqueModules": 14,
+      "samplePRTitles": [
+        "feat(quill-charts): round stacked bar caps per band, geometrically",
+        "feat(quill-charts): dash patterns for grid lines and the hover crosshair",
+        "feat(quill-charts): canvas tick marks and axis-line coexistence"
+      ],
+      "centralityScore": 22.2,
+      "influenceScore": 26.8,
+      "breadthScore": 66.7,
+      "impactScore": 34.9,
+      "topFiles": [
+        {
+          "path": "services/mcp/src/api/generated.ts",
+          "module": "services",
+          "additions": 1,
+          "uniqueAuthors": 88
+        },
+        {
+          "path": "frontend/snapshots.yml",
+          "module": "frontend",
+          "additions": 1,
+          "uniqueAuthors": 59
+        },
+        {
+          "path": "services/mcp/schema/tool-definitions-all.json",
+          "module": "services",
+          "additions": 15,
+          "uniqueAuthors": 54
+        },
+        {
+          "path": "services/mcp/schema/generated-tool-definitions.json",
+          "module": "services",
+          "additions": 15,
+          "uniqueAuthors": 53
+        },
+        {
+          "path": "frontend/src/lib/constants.tsx",
+          "module": "frontend",
+          "additions": 1,
+          "uniqueAuthors": 46
+        }
+      ],
+      "moduleList": [
+        "(root)",
+        ".agents",
+        ".claude",
+        ".github",
+        "common",
+        "docs",
+        "frontend",
+        "nodejs",
+        "packages",
+        "playwright",
+        "posthog",
+        "products",
+        "rust",
+        "services"
+      ],
+      "moduleScores": {
+        "products": {
+          "centralityScore": 16.6,
+          "influenceScore": 16.6,
+          "breadthScore": 100,
+          "impactScore": 37.4
+        },
+        "posthog": {
+          "centralityScore": 4.6,
+          "influenceScore": 7.1,
+          "breadthScore": 100,
+          "impactScore": 29.3
+        },
+        "frontend": {
+          "centralityScore": 15.2,
+          "influenceScore": 21,
+          "breadthScore": 100,
+          "impactScore": 38.4
+        },
+        "services": {
+          "centralityScore": 21.7,
+          "influenceScore": 2.6,
+          "breadthScore": 100,
+          "impactScore": 34.6
+        },
+        "ee": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "rust": {
+          "centralityScore": 1.8,
+          "influenceScore": 13.6,
+          "breadthScore": 100,
+          "impactScore": 30.5
+        },
+        ".github": {
+          "centralityScore": 1.5,
+          "influenceScore": 2,
+          "breadthScore": 100,
+          "impactScore": 26.3
+        },
+        "nodejs": {
+          "centralityScore": 0.6,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25.3
+        },
+        "packages": {
+          "centralityScore": 40.8,
+          "influenceScore": 24.7,
+          "breadthScore": 100,
+          "impactScore": 49.9
+        },
+        "common": {
+          "centralityScore": 10.1,
+          "influenceScore": 13.6,
+          "breadthScore": 100,
+          "impactScore": 33.8
+        },
+        ".semgrep": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "tools": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".agents": {
+          "centralityScore": 0,
+          "influenceScore": 12.5,
+          "breadthScore": 100,
+          "impactScore": 29.4
+        },
+        "docs": {
+          "centralityScore": 0.3,
+          "influenceScore": 11.8,
+          "breadthScore": 100,
+          "impactScore": 29.2
+        },
+        "bin": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "playwright": {
+          "centralityScore": 57.2,
+          "influenceScore": 20,
+          "breadthScore": 100,
+          "impactScore": 54.9
+        },
+        "cli": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli-2.0": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "proto": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docker": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        }
+      }
+    },
+    {
+      "login": "andrewm4894",
+      "avatarUrl": "https://github.com/andrewm4894.png?size=64",
+      "prCount": 208,
+      "filesCount": 1006,
+      "uniqueModules": 9,
+      "samplePRTitles": [
+        "chore(signals): remove signal-channel guidance from scout skills",
+        "chore(signals): stop manually word-wrapping the scout harness prompt",
+        "feat(signals): let custom scouts self-report skill improvement suggestions"
+      ],
+      "centralityScore": 17.2,
+      "influenceScore": 46.1,
+      "breadthScore": 42.9,
+      "impactScore": 33.7,
+      "topFiles": [
+        {
+          "path": "services/mcp/src/api/generated.ts",
+          "module": "services",
+          "additions": 38,
+          "uniqueAuthors": 88
+        },
+        {
+          "path": "frontend/snapshots.yml",
+          "module": "frontend",
+          "additions": 5,
+          "uniqueAuthors": 59
+        },
+        {
+          "path": "services/mcp/schema/tool-definitions-all.json",
+          "module": "services",
+          "additions": 1,
+          "uniqueAuthors": 54
+        },
+        {
+          "path": "services/mcp/schema/generated-tool-definitions.json",
+          "module": "services",
+          "additions": 1,
+          "uniqueAuthors": 53
+        },
+        {
+          "path": "frontend/src/lib/constants.tsx",
+          "module": "frontend",
+          "additions": 1,
+          "uniqueAuthors": 46
+        }
+      ],
+      "moduleList": [
+        "(root)",
+        ".agents",
+        ".github",
+        ".semgrep",
+        "ee",
+        "frontend",
+        "posthog",
+        "products",
+        "services"
+      ],
+      "moduleScores": {
+        "products": {
+          "centralityScore": 34.3,
+          "influenceScore": 21.4,
+          "breadthScore": 100,
+          "impactScore": 46.2
+        },
+        "posthog": {
+          "centralityScore": 6.9,
+          "influenceScore": 30.1,
+          "breadthScore": 100,
+          "impactScore": 38.3
+        },
+        "frontend": {
+          "centralityScore": 2,
+          "influenceScore": 6.7,
+          "breadthScore": 100,
+          "impactScore": 28.2
+        },
+        "services": {
+          "centralityScore": 89.5,
+          "influenceScore": 99.7,
+          "breadthScore": 100,
+          "impactScore": 95.7
+        },
+        "ee": {
+          "centralityScore": 0.5,
+          "influenceScore": 1.3,
+          "breadthScore": 100,
+          "impactScore": 25.6
+        },
+        "rust": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".github": {
+          "centralityScore": 0.1,
+          "influenceScore": 0.5,
+          "breadthScore": 100,
+          "impactScore": 25.2
+        },
+        "nodejs": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "packages": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "common": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".semgrep": {
+          "centralityScore": 2.6,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 26
+        },
+        "tools": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".agents": {
+          "centralityScore": 0.1,
+          "influenceScore": 12.5,
+          "breadthScore": 100,
+          "impactScore": 29.4
+        },
+        "docs": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "bin": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "playwright": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli-2.0": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "proto": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docker": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        }
+      }
+    },
+    {
+      "login": "adamleithp",
+      "avatarUrl": "https://github.com/adamleithp.png?size=64",
+      "prCount": 72,
+      "filesCount": 708,
+      "uniqueModules": 10,
+      "samplePRTitles": [
+        "feat(quill): add ThreadItem chat primitives and subtle-foreground token",
+        "feat(quill): add chat primitives",
+        "feat(quill): add TableEmpty primitive for table empty states"
+      ],
+      "centralityScore": 16.8,
+      "influenceScore": 40.4,
+      "breadthScore": 47.6,
+      "impactScore": 32.8,
+      "topFiles": [
+        {
+          "path": "services/mcp/src/api/generated.ts",
+          "module": "services",
+          "additions": 4,
+          "uniqueAuthors": 88
+        },
+        {
+          "path": "frontend/snapshots.yml",
+          "module": "frontend",
+          "additions": 26,
+          "uniqueAuthors": 59
+        },
+        {
+          "path": "frontend/src/lib/constants.tsx",
+          "module": "frontend",
+          "additions": 1,
+          "uniqueAuthors": 46
+        },
+        {
+          "path": "pnpm-lock.yaml",
+          "module": "(root)",
+          "additions": 54,
+          "uniqueAuthors": 41
+        },
+        {
+          "path": "posthog/migrations/max_migration.txt",
+          "module": "posthog",
+          "additions": 1,
+          "uniqueAuthors": 33
+        }
+      ],
+      "moduleList": [
+        "(root)",
+        ".agents",
+        ".github",
+        "common",
+        "frontend",
+        "packages",
+        "playwright",
+        "posthog",
+        "products",
+        "services"
+      ],
+      "moduleScores": {
+        "products": {
+          "centralityScore": 1.8,
+          "influenceScore": 4,
+          "breadthScore": 100,
+          "impactScore": 27.1
+        },
+        "posthog": {
+          "centralityScore": 0.6,
+          "influenceScore": 8.4,
+          "breadthScore": 100,
+          "impactScore": 28.2
+        },
+        "frontend": {
+          "centralityScore": 8.2,
+          "influenceScore": 30.4,
+          "breadthScore": 100,
+          "impactScore": 38.9
+        },
+        "services": {
+          "centralityScore": 1.1,
+          "influenceScore": 2,
+          "breadthScore": 100,
+          "impactScore": 26.1
+        },
+        "ee": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "rust": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".github": {
+          "centralityScore": 1.2,
+          "influenceScore": 1.5,
+          "breadthScore": 100,
+          "impactScore": 26
+        },
+        "nodejs": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "packages": {
+          "centralityScore": 100,
+          "influenceScore": 100,
+          "breadthScore": 100,
+          "impactScore": 100
+        },
+        "common": {
+          "centralityScore": 5.6,
+          "influenceScore": 18.2,
+          "breadthScore": 100,
+          "impactScore": 33.6
+        },
+        ".semgrep": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "tools": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".agents": {
+          "centralityScore": 3,
+          "influenceScore": 25,
+          "breadthScore": 100,
+          "impactScore": 35
+        },
+        "docs": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "bin": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "playwright": {
+          "centralityScore": 37.5,
+          "influenceScore": 100,
+          "breadthScore": 100,
+          "impactScore": 75
+        },
+        "cli": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli-2.0": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "proto": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docker": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        }
+      }
+    },
+    {
+      "login": "thmsobrmlr",
+      "avatarUrl": "https://github.com/thmsobrmlr.png?size=64",
+      "prCount": 85,
+      "filesCount": 522,
+      "uniqueModules": 13,
+      "samplePRTitles": [
+        "fix(funnels): describe hovered period in compare drop-off tooltip",
+        "fix(ci): shard jest 4 ways and use all runner cores",
+        "chore(toolbar): remove dead ToolbarButton.scss"
+      ],
+      "centralityScore": 12.4,
+      "influenceScore": 34.4,
+      "breadthScore": 61.9,
+      "impactScore": 32.5,
+      "topFiles": [
+        {
+          "path": "services/mcp/src/api/generated.ts",
+          "module": "services",
+          "additions": 6,
+          "uniqueAuthors": 88
+        },
+        {
+          "path": "frontend/snapshots.yml",
+          "module": "frontend",
+          "additions": 32,
+          "uniqueAuthors": 59
+        },
+        {
+          "path": "services/mcp/schema/tool-definitions-all.json",
+          "module": "services",
+          "additions": 1,
+          "uniqueAuthors": 54
+        },
+        {
+          "path": "services/mcp/schema/generated-tool-definitions.json",
+          "module": "services",
+          "additions": 1,
+          "uniqueAuthors": 53
+        },
+        {
+          "path": "frontend/src/lib/constants.tsx",
+          "module": "frontend",
+          "additions": 2,
+          "uniqueAuthors": 46
+        }
+      ],
+      "moduleList": [
+        "(root)",
+        ".github",
+        ".interface-design",
+        ".semgrep",
+        "bin",
+        "common",
+        "ee",
+        "frontend",
+        "packages",
+        "posthog",
+        "products",
+        "scripts",
+        "services"
+      ],
+      "moduleScores": {
+        "products": {
+          "centralityScore": 16,
+          "influenceScore": 20.3,
+          "breadthScore": 100,
+          "impactScore": 38.5
+        },
+        "posthog": {
+          "centralityScore": 12.4,
+          "influenceScore": 39.2,
+          "breadthScore": 100,
+          "impactScore": 43.6
+        },
+        "frontend": {
+          "centralityScore": 4,
+          "influenceScore": 10.4,
+          "breadthScore": 100,
+          "impactScore": 30.3
+        },
+        "services": {
+          "centralityScore": 5.5,
+          "influenceScore": 32.4,
+          "breadthScore": 100,
+          "impactScore": 38.5
+        },
+        "ee": {
+          "centralityScore": 0.7,
+          "influenceScore": 5.8,
+          "breadthScore": 100,
+          "impactScore": 27.3
+        },
+        "rust": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".github": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25
+        },
+        "nodejs": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "packages": {
+          "centralityScore": 3.4,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 26.4
+        },
+        "common": {
+          "centralityScore": 1.4,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25.6
+        },
+        ".semgrep": {
+          "centralityScore": 2.6,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 26
+        },
+        "tools": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".agents": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docs": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "bin": {
+          "centralityScore": 0.7,
+          "influenceScore": 33.3,
+          "breadthScore": 100,
+          "impactScore": 37
+        },
+        "playwright": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli-2.0": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "proto": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docker": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        }
+      }
+    },
+    {
+      "login": "rnegron",
+      "avatarUrl": "https://github.com/rnegron.png?size=64",
+      "prCount": 130,
+      "filesCount": 492,
+      "uniqueModules": 14,
+      "samplePRTitles": [
+        "fix(ci): capture pytest reruns in CI test telemetry",
+        "fix(phai): match e2e stream route without trailing slash",
+        "fix(dev): make wait-for-docker bash 3.2 safe"
+      ],
+      "centralityScore": 9.2,
+      "influenceScore": 29,
+      "breadthScore": 66.7,
+      "impactScore": 30.5,
+      "topFiles": [
+        {
+          "path": "services/mcp/src/api/generated.ts",
+          "module": "services",
+          "additions": 9,
+          "uniqueAuthors": 88
+        },
+        {
+          "path": "services/mcp/schema/tool-definitions-all.json",
+          "module": "services",
+          "additions": 14,
+          "uniqueAuthors": 54
+        },
+        {
+          "path": "services/mcp/schema/generated-tool-definitions.json",
+          "module": "services",
+          "additions": 14,
+          "uniqueAuthors": 53
+        },
+        {
+          "path": "pnpm-lock.yaml",
+          "module": "(root)",
+          "additions": 3,
+          "uniqueAuthors": 41
+        },
+        {
+          "path": "tach.toml",
+          "module": "(root)",
+          "additions": 1,
+          "uniqueAuthors": 28
+        }
+      ],
+      "moduleList": [
+        "(root)",
+        ".agents",
+        ".depot",
+        ".github",
+        "bin",
+        "common",
+        "docs",
+        "ee",
+        "frontend",
+        "packages",
+        "posthog",
+        "products",
+        "services",
+        "tools"
+      ],
+      "moduleScores": {
+        "products": {
+          "centralityScore": 8.5,
+          "influenceScore": 8.9,
+          "breadthScore": 100,
+          "impactScore": 31.5
+        },
+        "posthog": {
+          "centralityScore": 1,
+          "influenceScore": 8.1,
+          "breadthScore": 100,
+          "impactScore": 28.2
+        },
+        "frontend": {
+          "centralityScore": 0.2,
+          "influenceScore": 0.4,
+          "breadthScore": 100,
+          "impactScore": 25.2
+        },
+        "services": {
+          "centralityScore": 8.4,
+          "influenceScore": 1.3,
+          "breadthScore": 100,
+          "impactScore": 28.8
+        },
+        "ee": {
+          "centralityScore": 0.9,
+          "influenceScore": 1.9,
+          "breadthScore": 100,
+          "impactScore": 26
+        },
+        "rust": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".github": {
+          "centralityScore": 66,
+          "influenceScore": 100,
+          "breadthScore": 100,
+          "impactScore": 86.4
+        },
+        "nodejs": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "packages": {
+          "centralityScore": 0.1,
+          "influenceScore": 2.5,
+          "breadthScore": 100,
+          "impactScore": 25.9
+        },
+        "common": {
+          "centralityScore": 19,
+          "influenceScore": 54.5,
+          "breadthScore": 100,
+          "impactScore": 51.7
+        },
+        ".semgrep": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "tools": {
+          "centralityScore": 100,
+          "influenceScore": 100,
+          "breadthScore": 100,
+          "impactScore": 100
+        },
+        ".agents": {
+          "centralityScore": 11.8,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 29.7
+        },
+        "docs": {
+          "centralityScore": 0.8,
+          "influenceScore": 17.6,
+          "breadthScore": 100,
+          "impactScore": 31.5
+        },
+        "bin": {
+          "centralityScore": 0.4,
+          "influenceScore": 100,
+          "breadthScore": 100,
+          "impactScore": 60.2
+        },
+        "playwright": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli-2.0": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "proto": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docker": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        }
+      }
+    },
+    {
+      "login": "VojtechBartos",
+      "avatarUrl": "https://github.com/VojtechBartos.png?size=64",
+      "prCount": 65,
+      "filesCount": 439,
+      "uniqueModules": 7,
+      "samplePRTitles": [
+        "fix(tasks): reliably start the Slack agent-design relay child workflow",
+        "refactor(slack_app): consolidate feature flags into one aligned module",
+        "feat(slack-app): post only the final agent turn text to Slack"
+      ],
+      "centralityScore": 9,
+      "influenceScore": 50.1,
+      "breadthScore": 33.3,
+      "impactScore": 29.5,
+      "topFiles": [
+        {
+          "path": "services/mcp/src/api/generated.ts",
+          "module": "services",
+          "additions": 9,
+          "uniqueAuthors": 88
+        },
+        {
+          "path": "frontend/snapshots.yml",
+          "module": "frontend",
+          "additions": 44,
+          "uniqueAuthors": 59
+        },
+        {
+          "path": "services/mcp/schema/tool-definitions-all.json",
+          "module": "services",
+          "additions": 75,
+          "uniqueAuthors": 54
+        },
+        {
+          "path": "services/mcp/schema/generated-tool-definitions.json",
+          "module": "services",
+          "additions": 75,
+          "uniqueAuthors": 53
+        },
+        {
+          "path": "frontend/src/lib/constants.tsx",
+          "module": "frontend",
+          "additions": 0,
+          "uniqueAuthors": 46
+        }
+      ],
+      "moduleList": [
+        ".github",
+        "docs",
+        "ee",
+        "frontend",
+        "posthog",
+        "products",
+        "services"
+      ],
+      "moduleScores": {
+        "products": {
+          "centralityScore": 13.7,
+          "influenceScore": 35.2,
+          "breadthScore": 100,
+          "impactScore": 42.8
+        },
+        "posthog": {
+          "centralityScore": 4.2,
+          "influenceScore": 25.6,
+          "breadthScore": 100,
+          "impactScore": 35.6
+        },
+        "frontend": {
+          "centralityScore": 0.6,
+          "influenceScore": 5.7,
+          "breadthScore": 100,
+          "impactScore": 27.2
+        },
+        "services": {
+          "centralityScore": 62.2,
+          "influenceScore": 100,
+          "breadthScore": 100,
+          "impactScore": 84.9
+        },
+        "ee": {
+          "centralityScore": 3.9,
+          "influenceScore": 9,
+          "breadthScore": 100,
+          "impactScore": 29.7
+        },
+        "rust": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".github": {
+          "centralityScore": 0.3,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25.1
+        },
+        "nodejs": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "packages": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "common": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".semgrep": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "tools": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".agents": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docs": {
+          "centralityScore": 0.1,
+          "influenceScore": 5.9,
+          "breadthScore": 100,
+          "impactScore": 27.1
+        },
+        "bin": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "playwright": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli-2.0": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "proto": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docker": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        }
+      }
+    },
+    {
+      "login": "robbie-c",
+      "avatarUrl": "https://github.com/robbie-c.png?size=64",
+      "prCount": 91,
+      "filesCount": 612,
+      "uniqueModules": 14,
+      "samplePRTitles": [
+        "fix(replay): memoize image blurs within a Kafka message",
+        "chore(hogli): add worktrees:clean to clear unused worktrees",
+        "feat(taxonomy): document missing system properties and events"
+      ],
+      "centralityScore": 13.2,
+      "influenceScore": 21.3,
+      "breadthScore": 66.7,
+      "impactScore": 29.4,
+      "topFiles": [
+        {
+          "path": "services/mcp/src/api/generated.ts",
+          "module": "services",
+          "additions": 1,
+          "uniqueAuthors": 88
+        },
+        {
+          "path": "frontend/snapshots.yml",
+          "module": "frontend",
+          "additions": 1333,
+          "uniqueAuthors": 59
+        },
+        {
+          "path": "frontend/src/queries/schema.json",
+          "module": "frontend",
+          "additions": 3,
+          "uniqueAuthors": 44
+        },
+        {
+          "path": "pnpm-lock.yaml",
+          "module": "(root)",
+          "additions": 170,
+          "uniqueAuthors": 41
+        },
+        {
+          "path": "posthog/schema.py",
+          "module": "posthog",
+          "additions": 1,
+          "uniqueAuthors": 41
+        }
+      ],
+      "moduleList": [
+        "(root)",
+        ".agents",
+        ".github",
+        "common",
+        "ee",
+        "frontend",
+        "nodejs",
+        "packages",
+        "playwright",
+        "posthog",
+        "products",
+        "rust",
+        "services",
+        "tools"
+      ],
+      "moduleScores": {
+        "products": {
+          "centralityScore": 8.3,
+          "influenceScore": 5.4,
+          "breadthScore": 100,
+          "impactScore": 30.2
+        },
+        "posthog": {
+          "centralityScore": 18.2,
+          "influenceScore": 54,
+          "breadthScore": 100,
+          "impactScore": 51.2
+        },
+        "frontend": {
+          "centralityScore": 0.8,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25.3
+        },
+        "services": {
+          "centralityScore": 6.6,
+          "influenceScore": 0.7,
+          "breadthScore": 100,
+          "impactScore": 27.9
+        },
+        "ee": {
+          "centralityScore": 1.6,
+          "influenceScore": 8.4,
+          "breadthScore": 100,
+          "impactScore": 28.6
+        },
+        "rust": {
+          "centralityScore": 27.7,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 36.1
+        },
+        ".github": {
+          "centralityScore": 6.3,
+          "influenceScore": 8.5,
+          "breadthScore": 100,
+          "impactScore": 30.5
+        },
+        "nodejs": {
+          "centralityScore": 9,
+          "influenceScore": 5.4,
+          "breadthScore": 100,
+          "impactScore": 30.5
+        },
+        "packages": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25
+        },
+        "common": {
+          "centralityScore": 73,
+          "influenceScore": 81.8,
+          "breadthScore": 100,
+          "impactScore": 82.8
+        },
+        ".semgrep": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "tools": {
+          "centralityScore": 5.9,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 27.4
+        },
+        ".agents": {
+          "centralityScore": 5.9,
+          "influenceScore": 75,
+          "breadthScore": 100,
+          "impactScore": 53.6
+        },
+        "docs": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "bin": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "playwright": {
+          "centralityScore": 20.7,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 33.3
+        },
+        "cli": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli-2.0": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "proto": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docker": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        }
+      }
+    },
+    {
+      "login": "skoob13",
+      "avatarUrl": "https://github.com/skoob13.png?size=64",
+      "prCount": 92,
+      "filesCount": 1105,
+      "uniqueModules": 9,
+      "samplePRTitles": [
+        "fix(phai): make the new sidebar view scroll internally",
+        "feat(mcp): enable CLI mode for Ando client",
+        "refactor(posthog_ai): migrate VirtualizedThread from react-window to TanStack Virtual"
+      ],
+      "centralityScore": 13.2,
+      "influenceScore": 34,
+      "breadthScore": 42.9,
+      "impactScore": 27.9,
+      "topFiles": [
+        {
+          "path": "services/mcp/src/api/generated.ts",
+          "module": "services",
+          "additions": 19,
+          "uniqueAuthors": 88
+        },
+        {
+          "path": "frontend/snapshots.yml",
+          "module": "frontend",
+          "additions": 1,
+          "uniqueAuthors": 59
+        },
+        {
+          "path": "services/mcp/schema/tool-definitions-all.json",
+          "module": "services",
+          "additions": 0,
+          "uniqueAuthors": 54
+        },
+        {
+          "path": "services/mcp/schema/generated-tool-definitions.json",
+          "module": "services",
+          "additions": 0,
+          "uniqueAuthors": 53
+        },
+        {
+          "path": "frontend/src/queries/schema.json",
+          "module": "frontend",
+          "additions": 9,
+          "uniqueAuthors": 44
+        }
+      ],
+      "moduleList": [
+        "(root)",
+        ".agents",
+        ".github",
+        "docs",
+        "ee",
+        "frontend",
+        "posthog",
+        "products",
+        "services"
+      ],
+      "moduleScores": {
+        "products": {
+          "centralityScore": 14.1,
+          "influenceScore": 13.5,
+          "breadthScore": 100,
+          "impactScore": 35.4
+        },
+        "posthog": {
+          "centralityScore": 0.3,
+          "influenceScore": 1,
+          "breadthScore": 100,
+          "impactScore": 25.5
+        },
+        "frontend": {
+          "centralityScore": 4.4,
+          "influenceScore": 0.7,
+          "breadthScore": 100,
+          "impactScore": 27
+        },
+        "services": {
+          "centralityScore": 95.2,
+          "influenceScore": 92.5,
+          "breadthScore": 100,
+          "impactScore": 95.4
+        },
+        "ee": {
+          "centralityScore": 12.7,
+          "influenceScore": 14.8,
+          "breadthScore": 100,
+          "impactScore": 35.3
+        },
+        "rust": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".github": {
+          "centralityScore": 0.4,
+          "influenceScore": 3,
+          "breadthScore": 100,
+          "impactScore": 26.2
+        },
+        "nodejs": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "packages": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "common": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".semgrep": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "tools": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".agents": {
+          "centralityScore": 3.1,
+          "influenceScore": 25,
+          "breadthScore": 100,
+          "impactScore": 35
+        },
+        "docs": {
+          "centralityScore": 0.8,
+          "influenceScore": 17.6,
+          "breadthScore": 100,
+          "impactScore": 31.5
+        },
+        "bin": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "playwright": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli-2.0": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "proto": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docker": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        }
+      }
+    },
+    {
+      "login": "TueHaulund",
+      "avatarUrl": "https://github.com/TueHaulund.png?size=64",
+      "prCount": 75,
+      "filesCount": 967,
+      "uniqueModules": 10,
+      "samplePRTitles": [
+        "feat(replay-vision): retry failed observations and first-scan handoff",
+        "fix(replay-vision): frontend review hardening and cleanups",
+        "fix(replay-vision): backend review hardening and cleanups"
+      ],
+      "centralityScore": 15.7,
+      "influenceScore": 26,
+      "breadthScore": 47.6,
+      "impactScore": 27.3,
+      "topFiles": [
+        {
+          "path": "services/mcp/src/api/generated.ts",
+          "module": "services",
+          "additions": 8,
+          "uniqueAuthors": 88
+        },
+        {
+          "path": "frontend/snapshots.yml",
+          "module": "frontend",
+          "additions": 2,
+          "uniqueAuthors": 59
+        },
+        {
+          "path": "services/mcp/schema/tool-definitions-all.json",
+          "module": "services",
+          "additions": 2,
+          "uniqueAuthors": 54
+        },
+        {
+          "path": "services/mcp/schema/generated-tool-definitions.json",
+          "module": "services",
+          "additions": 2,
+          "uniqueAuthors": 53
+        },
+        {
+          "path": "frontend/src/lib/constants.tsx",
+          "module": "frontend",
+          "additions": 1,
+          "uniqueAuthors": 46
+        }
+      ],
+      "moduleList": [
+        "(root)",
+        ".github",
+        ".semgrep",
+        "bin",
+        "ee",
+        "frontend",
+        "nodejs",
+        "posthog",
+        "products",
+        "services"
+      ],
+      "moduleScores": {
+        "products": {
+          "centralityScore": 30,
+          "influenceScore": 25.4,
+          "breadthScore": 100,
+          "impactScore": 45.9
+        },
+        "posthog": {
+          "centralityScore": 14.5,
+          "influenceScore": 40.5,
+          "breadthScore": 100,
+          "impactScore": 45
+        },
+        "frontend": {
+          "centralityScore": 1.6,
+          "influenceScore": 5.3,
+          "breadthScore": 100,
+          "impactScore": 27.5
+        },
+        "services": {
+          "centralityScore": 3.4,
+          "influenceScore": 0.7,
+          "breadthScore": 100,
+          "impactScore": 26.6
+        },
+        "ee": {
+          "centralityScore": 3.6,
+          "influenceScore": 9.7,
+          "breadthScore": 100,
+          "impactScore": 29.8
+        },
+        "rust": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".github": {
+          "centralityScore": 0.4,
+          "influenceScore": 4,
+          "breadthScore": 100,
+          "impactScore": 26.6
+        },
+        "nodejs": {
+          "centralityScore": 17.7,
+          "influenceScore": 4.3,
+          "breadthScore": 100,
+          "impactScore": 33.6
+        },
+        "packages": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "common": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".semgrep": {
+          "centralityScore": 5.1,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 27.1
+        },
+        "tools": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".agents": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docs": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "bin": {
+          "centralityScore": 2.5,
+          "influenceScore": 33.3,
+          "breadthScore": 100,
+          "impactScore": 37.7
+        },
+        "playwright": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli-2.0": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "proto": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docker": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        }
+      }
+    },
+    {
+      "login": "gantoine",
+      "avatarUrl": "https://github.com/gantoine.png?size=64",
+      "prCount": 29,
+      "filesCount": 249,
+      "uniqueModules": 16,
+      "samplePRTitles": [
+        "fix(file-system): allow deleting ref-less desktop canvas rows",
+        "test(storybook): migrate remaining mswDecorator resolvers to MSW v2 signatures",
+        "chore(ci): skip playwright e2e and mcp integration tests on draft PRs"
+      ],
+      "centralityScore": 5.6,
+      "influenceScore": 17,
+      "breadthScore": 76.2,
+      "impactScore": 27.2,
+      "topFiles": [
+        {
+          "path": "frontend/snapshots.yml",
+          "module": "frontend",
+          "additions": 1,
+          "uniqueAuthors": 59
+        },
+        {
+          "path": "pnpm-lock.yaml",
+          "module": "(root)",
+          "additions": 677,
+          "uniqueAuthors": 41
+        },
+        {
+          "path": "frontend/package.json",
+          "module": "frontend",
+          "additions": 5,
+          "uniqueAuthors": 23
+        },
+        {
+          "path": "pnpm-workspace.yaml",
+          "module": "(root)",
+          "additions": 3,
+          "uniqueAuthors": 12
+        },
+        {
+          "path": ".github/workflows/ci-backend.yml",
+          "module": ".github",
+          "additions": 5,
+          "uniqueAuthors": 11
+        }
+      ],
+      "moduleList": [
+        "(root)",
+        ".agents",
+        ".flox",
+        ".github",
+        "bin",
+        "common",
+        "docs",
+        "frontend",
+        "nodejs",
+        "packages",
+        "playwright",
+        "posthog",
+        "products",
+        "rust",
+        "services",
+        "tools"
+      ],
+      "moduleScores": {
+        "products": {
+          "centralityScore": 1.9,
+          "influenceScore": 3.7,
+          "breadthScore": 100,
+          "impactScore": 27.1
+        },
+        "posthog": {
+          "centralityScore": 0.2,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25.1
+        },
+        "frontend": {
+          "centralityScore": 1.2,
+          "influenceScore": 4.9,
+          "breadthScore": 100,
+          "impactScore": 27.2
+        },
+        "services": {
+          "centralityScore": 1.9,
+          "influenceScore": 0.7,
+          "breadthScore": 100,
+          "impactScore": 26
+        },
+        "ee": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "rust": {
+          "centralityScore": 2.3,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25.9
+        },
+        ".github": {
+          "centralityScore": 12.4,
+          "influenceScore": 24.1,
+          "breadthScore": 100,
+          "impactScore": 38.4
+        },
+        "nodejs": {
+          "centralityScore": 36,
+          "influenceScore": 47.3,
+          "breadthScore": 100,
+          "impactScore": 56
+        },
+        "packages": {
+          "centralityScore": 1.1,
+          "influenceScore": 1.2,
+          "breadthScore": 100,
+          "impactScore": 25.9
+        },
+        "common": {
+          "centralityScore": 41.9,
+          "influenceScore": 100,
+          "breadthScore": 100,
+          "impactScore": 76.8
+        },
+        ".semgrep": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "tools": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25
+        },
+        ".agents": {
+          "centralityScore": 0,
+          "influenceScore": 12.5,
+          "breadthScore": 100,
+          "impactScore": 29.4
+        },
+        "docs": {
+          "centralityScore": 0.4,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25.2
+        },
+        "bin": {
+          "centralityScore": 15,
+          "influenceScore": 33.3,
+          "breadthScore": 100,
+          "impactScore": 42.7
+        },
+        "playwright": {
+          "centralityScore": 100,
+          "influenceScore": 60,
+          "breadthScore": 100,
+          "impactScore": 86
+        },
+        "cli": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli-2.0": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "proto": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docker": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        }
+      }
+    },
+    {
+      "login": "fercgomes",
+      "avatarUrl": "https://github.com/fercgomes.png?size=64",
+      "prCount": 53,
+      "filesCount": 896,
+      "uniqueModules": 9,
+      "samplePRTitles": [
+        "chore(auth): bump login typewriter teams count to 500,000+",
+        "fix(session-replay): keep xgboost off the temporal worker import path",
+        "feat(onboarding): add versioned instrumentation for the context-first funnel"
+      ],
+      "centralityScore": 19.1,
+      "influenceScore": 23.5,
+      "breadthScore": 42.9,
+      "impactScore": 26.6,
+      "topFiles": [
+        {
+          "path": "services/mcp/src/api/generated.ts",
+          "module": "services",
+          "additions": 15,
+          "uniqueAuthors": 88
+        },
+        {
+          "path": "frontend/snapshots.yml",
+          "module": "frontend",
+          "additions": 178,
+          "uniqueAuthors": 59
+        },
+        {
+          "path": "frontend/src/types.ts",
+          "module": "frontend",
+          "additions": 13,
+          "uniqueAuthors": 46
+        },
+        {
+          "path": "frontend/src/lib/constants.tsx",
+          "module": "frontend",
+          "additions": 5,
+          "uniqueAuthors": 46
+        },
+        {
+          "path": "pnpm-lock.yaml",
+          "module": "(root)",
+          "additions": 15,
+          "uniqueAuthors": 41
+        }
+      ],
+      "moduleList": [
+        "(root)",
+        ".semgrep",
+        "bin",
+        "docs",
+        "ee",
+        "frontend",
+        "posthog",
+        "products",
+        "services"
+      ],
+      "moduleScores": {
+        "products": {
+          "centralityScore": 6.8,
+          "influenceScore": 5.4,
+          "breadthScore": 100,
+          "impactScore": 29.6
+        },
+        "posthog": {
+          "centralityScore": 5,
+          "influenceScore": 31.1,
+          "breadthScore": 100,
+          "impactScore": 37.9
+        },
+        "frontend": {
+          "centralityScore": 10.9,
+          "influenceScore": 17.2,
+          "breadthScore": 100,
+          "impactScore": 35.4
+        },
+        "services": {
+          "centralityScore": 0.4,
+          "influenceScore": 0.3,
+          "breadthScore": 100,
+          "impactScore": 25.3
+        },
+        "ee": {
+          "centralityScore": 0.2,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25.1
+        },
+        "rust": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".github": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "nodejs": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "packages": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "common": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".semgrep": {
+          "centralityScore": 0,
+          "influenceScore": 4,
+          "breadthScore": 100,
+          "impactScore": 26.4
+        },
+        "tools": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".agents": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docs": {
+          "centralityScore": 100,
+          "influenceScore": 47.1,
+          "breadthScore": 100,
+          "impactScore": 81.5
+        },
+        "bin": {
+          "centralityScore": 2.1,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25.9
+        },
+        "playwright": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli-2.0": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "proto": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docker": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        }
+      }
+    },
+    {
+      "login": "yasen-posthog",
+      "avatarUrl": "https://github.com/yasen-posthog.png?size=64",
+      "prCount": 35,
+      "filesCount": 389,
+      "uniqueModules": 7,
+      "samplePRTitles": [
+        "feat(api): roll out environments->projects redirect incrementally per team",
+        "feat: Revert \"fix(proxy): let Retry recover \"",
+        "chore(proxy): assign managed reverse proxy to platform-features"
+      ],
+      "centralityScore": 9.3,
+      "influenceScore": 33.4,
+      "breadthScore": 33.3,
+      "impactScore": 23.7,
+      "topFiles": [
+        {
+          "path": "services/mcp/src/api/generated.ts",
+          "module": "services",
+          "additions": 190,
+          "uniqueAuthors": 88
+        },
+        {
+          "path": "frontend/snapshots.yml",
+          "module": "frontend",
+          "additions": 8,
+          "uniqueAuthors": 59
+        },
+        {
+          "path": "services/mcp/schema/tool-definitions-all.json",
+          "module": "services",
+          "additions": 70,
+          "uniqueAuthors": 54
+        },
+        {
+          "path": "services/mcp/schema/generated-tool-definitions.json",
+          "module": "services",
+          "additions": 70,
+          "uniqueAuthors": 53
+        },
+        {
+          "path": "frontend/src/lib/constants.tsx",
+          "module": "frontend",
+          "additions": 1,
+          "uniqueAuthors": 46
+        }
+      ],
+      "moduleList": [
+        "(root)",
+        ".semgrep",
+        "ee",
+        "frontend",
+        "posthog",
+        "products",
+        "services"
+      ],
+      "moduleScores": {
+        "products": {
+          "centralityScore": 13,
+          "influenceScore": 4.4,
+          "breadthScore": 100,
+          "impactScore": 31.8
+        },
+        "posthog": {
+          "centralityScore": 6.6,
+          "influenceScore": 67,
+          "breadthScore": 100,
+          "impactScore": 51.1
+        },
+        "frontend": {
+          "centralityScore": 3.6,
+          "influenceScore": 9.9,
+          "breadthScore": 100,
+          "impactScore": 29.9
+        },
+        "services": {
+          "centralityScore": 14.6,
+          "influenceScore": 6.2,
+          "breadthScore": 100,
+          "impactScore": 33
+        },
+        "ee": {
+          "centralityScore": 1.3,
+          "influenceScore": 1.3,
+          "breadthScore": 100,
+          "impactScore": 26
+        },
+        "rust": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".github": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "nodejs": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "packages": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "common": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".semgrep": {
+          "centralityScore": 1.3,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25.5
+        },
+        "tools": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".agents": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docs": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "bin": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "playwright": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli-2.0": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "proto": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docker": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        }
+      }
+    },
+    {
+      "login": "veryayskiy",
+      "avatarUrl": "https://github.com/veryayskiy.png?size=64",
+      "prCount": 94,
+      "filesCount": 616,
+      "uniqueModules": 9,
+      "samplePRTitles": [
+        "feat(conversations): track support slack bot channel joins",
+        "fix: widget tickets limit ignored on cached first page",
+        "chore: ticket status in elegibility"
+      ],
+      "centralityScore": 11,
+      "influenceScore": 23.8,
+      "breadthScore": 42.9,
+      "impactScore": 23.5,
+      "topFiles": [
+        {
+          "path": "services/mcp/src/api/generated.ts",
+          "module": "services",
+          "additions": 73,
+          "uniqueAuthors": 88
+        },
+        {
+          "path": "frontend/snapshots.yml",
+          "module": "frontend",
+          "additions": 2,
+          "uniqueAuthors": 59
+        },
+        {
+          "path": "services/mcp/schema/tool-definitions-all.json",
+          "module": "services",
+          "additions": 1,
+          "uniqueAuthors": 54
+        },
+        {
+          "path": "services/mcp/schema/generated-tool-definitions.json",
+          "module": "services",
+          "additions": 1,
+          "uniqueAuthors": 53
+        },
+        {
+          "path": "frontend/src/lib/constants.tsx",
+          "module": "frontend",
+          "additions": 0,
+          "uniqueAuthors": 46
+        }
+      ],
+      "moduleList": [
+        "(root)",
+        ".github",
+        ".semgrep",
+        "frontend",
+        "nodejs",
+        "playwright",
+        "posthog",
+        "products",
+        "services"
+      ],
+      "moduleScores": {
+        "products": {
+          "centralityScore": 31.9,
+          "influenceScore": 16.1,
+          "breadthScore": 100,
+          "impactScore": 43.4
+        },
+        "posthog": {
+          "centralityScore": 1.5,
+          "influenceScore": 15.5,
+          "breadthScore": 100,
+          "impactScore": 31.1
+        },
+        "frontend": {
+          "centralityScore": 2.3,
+          "influenceScore": 13.8,
+          "breadthScore": 100,
+          "impactScore": 30.8
+        },
+        "services": {
+          "centralityScore": 6.3,
+          "influenceScore": 5.2,
+          "breadthScore": 100,
+          "impactScore": 29.3
+        },
+        "ee": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "rust": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".github": {
+          "centralityScore": 0.1,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25.1
+        },
+        "nodejs": {
+          "centralityScore": 2.7,
+          "influenceScore": 5.4,
+          "breadthScore": 100,
+          "impactScore": 28
+        },
+        "packages": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "common": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".semgrep": {
+          "centralityScore": 7.7,
+          "influenceScore": 100,
+          "breadthScore": 100,
+          "impactScore": 63.1
+        },
+        "tools": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".agents": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docs": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "bin": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "playwright": {
+          "centralityScore": 5.2,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 27.1
+        },
+        "cli": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli-2.0": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "proto": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docker": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        }
+      }
+    },
+    {
+      "login": "annaszell",
+      "avatarUrl": "https://github.com/annaszell.png?size=64",
+      "prCount": 4,
+      "filesCount": 149,
+      "uniqueModules": 12,
+      "samplePRTitles": [
+        "feat(notebooks): add telemetry for markdown notebook architecture",
+        "feat(endpoints): record product intent on endpoints scene view",
+        "Anna/catalog UI iteration"
+      ],
+      "centralityScore": 5.1,
+      "influenceScore": 16.1,
+      "breadthScore": 57.1,
+      "impactScore": 22,
+      "topFiles": [
+        {
+          "path": "services/mcp/src/api/generated.ts",
+          "module": "services",
+          "additions": 19,
+          "uniqueAuthors": 88
+        },
+        {
+          "path": "frontend/src/lib/constants.tsx",
+          "module": "frontend",
+          "additions": 1,
+          "uniqueAuthors": 46
+        },
+        {
+          "path": "frontend/src/queries/schema.json",
+          "module": "frontend",
+          "additions": 1,
+          "uniqueAuthors": 44
+        },
+        {
+          "path": "pnpm-lock.yaml",
+          "module": "(root)",
+          "additions": 21,
+          "uniqueAuthors": 41
+        },
+        {
+          "path": "posthog/schema.py",
+          "module": "posthog",
+          "additions": 1,
+          "uniqueAuthors": 41
+        }
+      ],
+      "moduleList": [
+        "(root)",
+        ".agents",
+        ".claude",
+        ".github",
+        "docs",
+        "frontend",
+        "nodejs",
+        "packages",
+        "posthog",
+        "products",
+        "rust",
+        "services"
+      ],
+      "moduleScores": {
+        "products": {
+          "centralityScore": 8.6,
+          "influenceScore": 15.2,
+          "breadthScore": 100,
+          "impactScore": 33.7
+        },
+        "posthog": {
+          "centralityScore": 2.2,
+          "influenceScore": 12.3,
+          "breadthScore": 100,
+          "impactScore": 30.2
+        },
+        "frontend": {
+          "centralityScore": 2.3,
+          "influenceScore": 7.5,
+          "breadthScore": 100,
+          "impactScore": 28.6
+        },
+        "services": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25
+        },
+        "ee": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "rust": {
+          "centralityScore": 2.8,
+          "influenceScore": 27.3,
+          "breadthScore": 100,
+          "impactScore": 35.7
+        },
+        ".github": {
+          "centralityScore": 0.4,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25.2
+        },
+        "nodejs": {
+          "centralityScore": 2.8,
+          "influenceScore": 2.2,
+          "breadthScore": 100,
+          "impactScore": 26.9
+        },
+        "packages": {
+          "centralityScore": 0.1,
+          "influenceScore": 9.9,
+          "breadthScore": 100,
+          "impactScore": 28.5
+        },
+        "common": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".semgrep": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "tools": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".agents": {
+          "centralityScore": 9.1,
+          "influenceScore": 37.5,
+          "breadthScore": 100,
+          "impactScore": 41.8
+        },
+        "docs": {
+          "centralityScore": 0.3,
+          "influenceScore": 17.6,
+          "breadthScore": 100,
+          "impactScore": 31.3
+        },
+        "bin": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "playwright": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli-2.0": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "proto": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docker": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        }
+      }
+    },
+    {
+      "login": "hpouillot",
+      "avatarUrl": "https://github.com/hpouillot.png?size=64",
+      "prCount": 47,
+      "filesCount": 404,
+      "uniqueModules": 12,
+      "samplePRTitles": [
+        "fix(error-tracking): tolerate rebalance commit errors in embeddings consumer",
+        "fix(error-tracking): drop stale spike notifications",
+        "fix(cymbal): tune notifications defaults"
+      ],
+      "centralityScore": 7.5,
+      "influenceScore": 11.9,
+      "breadthScore": 57.1,
+      "impactScore": 21.5,
+      "topFiles": [
+        {
+          "path": "services/mcp/src/api/generated.ts",
+          "module": "services",
+          "additions": 136,
+          "uniqueAuthors": 88
+        },
+        {
+          "path": "frontend/src/types.ts",
+          "module": "frontend",
+          "additions": 6,
+          "uniqueAuthors": 46
+        },
+        {
+          "path": "tach.toml",
+          "module": "(root)",
+          "additions": 19,
+          "uniqueAuthors": 28
+        },
+        {
+          "path": "pyproject.toml",
+          "module": "(root)",
+          "additions": 0,
+          "uniqueAuthors": 17
+        },
+        {
+          "path": "rust/Cargo.lock",
+          "module": "rust",
+          "additions": 5,
+          "uniqueAuthors": 13
+        }
+      ],
+      "moduleList": [
+        "(root)",
+        ".github",
+        "bin",
+        "cli",
+        "ee",
+        "frontend",
+        "posthog",
+        "products",
+        "proto",
+        "rust",
+        "services",
+        "tools"
+      ],
+      "moduleScores": {
+        "products": {
+          "centralityScore": 12.9,
+          "influenceScore": 8.9,
+          "breadthScore": 100,
+          "impactScore": 33.3
+        },
+        "posthog": {
+          "centralityScore": 0.3,
+          "influenceScore": 6.8,
+          "breadthScore": 100,
+          "impactScore": 27.5
+        },
+        "frontend": {
+          "centralityScore": 0.3,
+          "influenceScore": 0.9,
+          "breadthScore": 100,
+          "impactScore": 25.4
+        },
+        "services": {
+          "centralityScore": 3.8,
+          "influenceScore": 4.9,
+          "breadthScore": 100,
+          "impactScore": 28.2
+        },
+        "ee": {
+          "centralityScore": 0.8,
+          "influenceScore": 1.3,
+          "breadthScore": 100,
+          "impactScore": 25.8
+        },
+        "rust": {
+          "centralityScore": 100,
+          "influenceScore": 100,
+          "breadthScore": 100,
+          "impactScore": 100
+        },
+        ".github": {
+          "centralityScore": 0.6,
+          "influenceScore": 1.5,
+          "breadthScore": 100,
+          "impactScore": 25.8
+        },
+        "nodejs": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "packages": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "common": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".semgrep": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "tools": {
+          "centralityScore": 3.9,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 26.6
+        },
+        ".agents": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docs": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "bin": {
+          "centralityScore": 0,
+          "influenceScore": 66.7,
+          "breadthScore": 100,
+          "impactScore": 48.3
+        },
+        "playwright": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli": {
+          "centralityScore": 47.6,
+          "influenceScore": 100,
+          "breadthScore": 100,
+          "impactScore": 79
+        },
+        "cli-2.0": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "proto": {
+          "centralityScore": 34.1,
+          "influenceScore": 33.3,
+          "breadthScore": 100,
+          "impactScore": 50.3
+        },
+        "docker": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        }
+      }
+    },
+    {
+      "login": "nickbest-ph",
+      "avatarUrl": "https://github.com/nickbest-ph.png?size=64",
+      "prCount": 51,
+      "filesCount": 367,
+      "uniqueModules": 12,
+      "samplePRTitles": [
+        "fix(django): wrong db choice for gtm eventual consistency",
+        "fix(personhog): split person query relied on version pg 15",
+        "chore(admin): rm person distinct id admin page"
+      ],
+      "centralityScore": 7.3,
+      "influenceScore": 11.2,
+      "breadthScore": 57.1,
+      "impactScore": 21.1,
+      "topFiles": [
+        {
+          "path": "services/mcp/src/api/generated.ts",
+          "module": "services",
+          "additions": 12,
+          "uniqueAuthors": 88
+        },
+        {
+          "path": "posthog/session_recordings/queries/test/listing_recordings/__snapshots__/test_session_recording_list_from_query.ambr",
+          "module": "posthog",
+          "additions": 30,
+          "uniqueAuthors": 27
+        },
+        {
+          "path": "posthog/session_recordings/test/__snapshots__/test_session_recording_playlist.ambr",
+          "module": "posthog",
+          "additions": 48,
+          "uniqueAuthors": 21
+        },
+        {
+          "path": "rust/Cargo.lock",
+          "module": "rust",
+          "additions": 1,
+          "uniqueAuthors": 13
+        },
+        {
+          "path": "posthog/models/resource_transfer/test/__snapshots__/test_visitor_field_snapshots.ambr",
+          "module": "posthog",
+          "additions": 0,
+          "uniqueAuthors": 13
+        }
+      ],
+      "moduleList": [
+        "(root)",
+        ".github",
+        ".semgrep",
+        "bin",
+        "devenv",
+        "ee",
+        "nodejs",
+        "posthog",
+        "products",
+        "proto",
+        "rust",
+        "services"
+      ],
+      "moduleScores": {
+        "products": {
+          "centralityScore": 1,
+          "influenceScore": 3.3,
+          "breadthScore": 100,
+          "impactScore": 26.5
+        },
+        "posthog": {
+          "centralityScore": 7.6,
+          "influenceScore": 15.2,
+          "breadthScore": 100,
+          "impactScore": 33.4
+        },
+        "frontend": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "services": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25
+        },
+        "ee": {
+          "centralityScore": 7.1,
+          "influenceScore": 22.6,
+          "breadthScore": 100,
+          "impactScore": 35.8
+        },
+        "rust": {
+          "centralityScore": 81.6,
+          "influenceScore": 81.8,
+          "breadthScore": 100,
+          "impactScore": 86.3
+        },
+        ".github": {
+          "centralityScore": 0.4,
+          "influenceScore": 1,
+          "breadthScore": 100,
+          "impactScore": 25.5
+        },
+        "nodejs": {
+          "centralityScore": 15.7,
+          "influenceScore": 8.6,
+          "breadthScore": 100,
+          "impactScore": 34.3
+        },
+        "packages": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "common": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".semgrep": {
+          "centralityScore": 8.5,
+          "influenceScore": 4,
+          "breadthScore": 100,
+          "impactScore": 29.8
+        },
+        "tools": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".agents": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docs": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "bin": {
+          "centralityScore": 2.9,
+          "influenceScore": 33.3,
+          "breadthScore": 100,
+          "impactScore": 37.8
+        },
+        "playwright": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli-2.0": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "proto": {
+          "centralityScore": 100,
+          "influenceScore": 100,
+          "breadthScore": 100,
+          "impactScore": 100
+        },
+        "docker": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        }
+      }
+    },
+    {
+      "login": "dmarticus",
+      "avatarUrl": "https://github.com/dmarticus.png?size=64",
+      "prCount": 36,
+      "filesCount": 355,
+      "uniqueModules": 11,
+      "samplePRTitles": [
+        "feat(agent-platform): dry-run custom tools in a single-shot sandbox via janitor",
+        "feat(agents): runtime-mcps PR 7 — prod resolver + concierge unblock + MCP-tool approval gating",
+        "feat(agents): cron trigger scheduler v0"
+      ],
+      "centralityScore": 9.1,
+      "influenceScore": 12,
+      "breadthScore": 52.4,
+      "impactScore": 20.9,
+      "topFiles": [
+        {
+          "path": "services/mcp/src/api/generated.ts",
+          "module": "services",
+          "additions": 40,
+          "uniqueAuthors": 88
+        },
+        {
+          "path": "frontend/snapshots.yml",
+          "module": "frontend",
+          "additions": 4,
+          "uniqueAuthors": 59
+        },
+        {
+          "path": "services/mcp/schema/tool-definitions-all.json",
+          "module": "services",
+          "additions": 15,
+          "uniqueAuthors": 54
+        },
+        {
+          "path": "services/mcp/schema/generated-tool-definitions.json",
+          "module": "services",
+          "additions": 15,
+          "uniqueAuthors": 53
+        },
+        {
+          "path": "pnpm-lock.yaml",
+          "module": "(root)",
+          "additions": 57,
+          "uniqueAuthors": 41
+        }
+      ],
+      "moduleList": [
+        "(root)",
+        ".semgrep",
+        "bin",
+        "docs",
+        "ee",
+        "frontend",
+        "packages",
+        "posthog",
+        "products",
+        "rust",
+        "services"
+      ],
+      "moduleScores": {
+        "products": {
+          "centralityScore": 6.1,
+          "influenceScore": 4.9,
+          "breadthScore": 100,
+          "impactScore": 29.2
+        },
+        "posthog": {
+          "centralityScore": 3.9,
+          "influenceScore": 10.7,
+          "breadthScore": 100,
+          "impactScore": 30.3
+        },
+        "frontend": {
+          "centralityScore": 0.9,
+          "influenceScore": 5.6,
+          "breadthScore": 100,
+          "impactScore": 27.3
+        },
+        "services": {
+          "centralityScore": 100,
+          "influenceScore": 12.1,
+          "breadthScore": 100,
+          "impactScore": 69.2
+        },
+        "ee": {
+          "centralityScore": 0.1,
+          "influenceScore": 1.3,
+          "breadthScore": 100,
+          "impactScore": 25.5
+        },
+        "rust": {
+          "centralityScore": 1.1,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25.5
+        },
+        ".github": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "nodejs": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "packages": {
+          "centralityScore": 1.4,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25.6
+        },
+        "common": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".semgrep": {
+          "centralityScore": 2.6,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 26
+        },
+        "tools": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        ".agents": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docs": {
+          "centralityScore": 3.8,
+          "influenceScore": 5.9,
+          "breadthScore": 100,
+          "impactScore": 28.6
+        },
+        "bin": {
+          "centralityScore": 1,
+          "influenceScore": 0,
+          "breadthScore": 100,
+          "impactScore": 25.4
+        },
+        "playwright": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "cli-2.0": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "proto": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        },
+        "docker": {
+          "centralityScore": 0,
+          "influenceScore": 0,
+          "breadthScore": 0,
+          "impactScore": 0
+        }
+      }
+    }
+  ],
+  "topCentralFiles": [
+    {
+      "path": "services/mcp/src/api/generated.ts",
+      "module": "services",
+      "uniqueAuthors": 88,
+      "totalAdditions": 44827,
+      "authors": [
+        "thmsobrmlr",
+        "andrewm4894",
+        "jonmcwest",
+        "MattPua",
+        "jabahamondes"
+      ]
+    },
+    {
+      "path": "frontend/snapshots.yml",
+      "module": "frontend",
+      "uniqueAuthors": 59,
+      "totalAdditions": 11655,
+      "authors": [
+        "adamleithp",
+        "MattPua",
+        "rossgray",
+        "jabahamondes",
+        "jonmcwest"
+      ]
+    },
+    {
+      "path": "services/mcp/schema/tool-definitions-all.json",
+      "module": "services",
+      "uniqueAuthors": 54,
+      "totalAdditions": 4874,
+      "authors": [
+        "andrewm4894",
+        "VojtechBartos",
+        "pauldambra",
+        "frankh",
+        "cat-ph"
+      ]
+    },
+    {
+      "path": "services/mcp/schema/generated-tool-definitions.json",
+      "module": "services",
+      "uniqueAuthors": 53,
+      "totalAdditions": 4749,
+      "authors": [
+        "andrewm4894",
+        "VojtechBartos",
+        "pauldambra",
+        "frankh",
+        "cat-ph"
+      ]
+    },
+    {
+      "path": "frontend/src/types.ts",
+      "module": "frontend",
+      "uniqueAuthors": 46,
+      "totalAdditions": 280,
+      "authors": [
+        "vdekrijger",
+        "ReeceJones",
+        "lricoy",
+        "a-lider",
+        "rossgray"
+      ]
+    },
+    {
+      "path": "frontend/src/lib/constants.tsx",
+      "module": "frontend",
+      "uniqueAuthors": 46,
+      "totalAdditions": 237,
+      "authors": [
+        "MattPua",
+        "jabahamondes",
+        "veryayskiy",
+        "andehen",
+        "jordanm-posthog"
+      ]
+    },
+    {
+      "path": "frontend/src/queries/schema.json",
+      "module": "frontend",
+      "uniqueAuthors": 44,
+      "totalAdditions": 8091,
+      "authors": [
+        "rodrigoi",
+        "jabahamondes",
+        "MattPua",
+        "sakce",
+        "a-lider"
+      ]
+    },
+    {
+      "path": "posthog/schema.py",
+      "module": "posthog",
+      "uniqueAuthors": 41,
+      "totalAdditions": 4048,
+      "authors": [
+        "rodrigoi",
+        "jabahamondes",
+        "MattPua",
+        "sakce",
+        "a-lider"
+      ]
+    },
+    {
+      "path": "frontend/src/queries/schema/schema-general.ts",
+      "module": "frontend",
+      "uniqueAuthors": 36,
+      "totalAdditions": 2069,
+      "authors": [
+        "rodrigoi",
+        "jabahamondes",
+        "MattPua",
+        "sakce",
+        "jurajmajerik"
+      ]
+    },
+    {
+      "path": "frontend/src/lib/api.ts",
+      "module": "frontend",
+      "uniqueAuthors": 34,
+      "totalAdditions": 1228,
+      "authors": [
+        "dmarchuk",
+        "VojtechBartos",
+        "ablaszkiewicz",
+        "a-lider",
+        "danielcarletti"
+      ]
+    },
+    {
+      "path": "posthog/migrations/max_migration.txt",
+      "module": "posthog",
+      "uniqueAuthors": 33,
+      "totalAdditions": 66,
+      "authors": [
+        "jabahamondes",
+        "MattPua",
+        "orian",
+        "yasen-posthog",
+        "a-lider"
+      ]
+    },
+    {
+      "path": "products/product_analytics/frontend/generated/api.schemas.ts",
+      "module": "products",
+      "uniqueAuthors": 27,
+      "totalAdditions": 1393,
+      "authors": [
+        "posthog",
+        "a-lider",
+        "jurajmajerik",
+        "brandonleung",
+        "thmsobrmlr"
+      ]
+    },
+    {
+      "path": "posthog/session_recordings/queries/test/listing_recordings/__snapshots__/test_session_recording_list_from_query.ambr",
+      "module": "posthog",
+      "uniqueAuthors": 27,
+      "totalAdditions": 2182,
+      "authors": [
+        "robbie-c",
+        "rorylshanks",
+        "adamleithp",
+        "sampennington",
+        "sakce"
+      ]
+    },
+    {
+      "path": "posthog/settings/web.py",
+      "module": "posthog",
+      "uniqueAuthors": 26,
+      "totalAdditions": 140,
+      "authors": [
+        "yasen-posthog",
+        "sakce",
+        "rafaeelaudibert",
+        "a-lider",
+        "webjunkie"
+      ]
+    },
+    {
+      "path": ".semgrep/rules/idor-team-scoped-models.yaml",
+      "module": ".semgrep",
+      "uniqueAuthors": 26,
+      "totalAdditions": 181,
+      "authors": [
+        "veryayskiy",
+        "a-lider",
+        "MattPua",
+        "ablaszkiewicz",
+        "sakce"
+      ]
+    }
+  ],
   "methodology": {
-    "centrality": { "weight": 0.40, "description": "" },
-    "influence": { "weight": 0.35, "description": "" },
-    "breadth": { "weight": 0.25, "description": "" }
+    "centrality": {
+      "weight": 0.4,
+      "description": "Files touched by many unique engineers = load-bearing infrastructure. Score weights your contribution share by file popularity."
+    },
+    "influence": {
+      "weight": 0.35,
+      "description": "Files you contributed to early that others subsequently built on. Captures 'I laid the foundation, others extended it'."
+    },
+    "breadth": {
+      "weight": 0.25,
+      "description": "Unique modules (top-level directories) contributed to. Broad contributors reduce silos and multiply team-wide value."
+    }
   }
 }
