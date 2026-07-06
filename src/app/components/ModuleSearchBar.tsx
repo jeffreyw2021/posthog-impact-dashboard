@@ -70,7 +70,7 @@ export function ModuleSearchBar({
       <Stack direction="row" spacing={0.5} alignItems="stretch">
         <OutlinedInput
           fullWidth
-          placeholder="Focus on a module (e.g. frontend, posthog)…"
+          placeholder="Defaults to entire codebase, or search for a specific module to focus on..."
           value={query}
           onChange={(e) => {
             setQuery(e.target.value);
