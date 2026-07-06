@@ -42,20 +42,36 @@ function isBot(login) {
   return BOT_PATTERNS.some(p => p.test(login));
 }
 
-// ─── Load PR authors (for self-review detection) ──────────────────────────────
+// ─── Load PR meta (for self-review detection + week keys) ────────────────────
 if (!existsSync(prsPath)) {
   console.error('prs-raw.json not found. Run fetch-prs.mjs first.');
   process.exit(1);
 }
 const { prs } = JSON.parse(readFileSync(prsPath, 'utf8'));
-const prAuthorByNumber = new Map(prs.map(p => [p.number, p.author]));
+// Store author + mergedAt so approvals can be bucketed by the PR's merge week
+const prMetaByNumber = new Map(prs.map(p => [p.number, { author: p.author, mergedAt: p.mergedAt }]));
+
+function getWeekKey(dateStr) {
+  if (!dateStr) return null;
+  const d = new Date(dateStr);
+  if (isNaN(d.getTime())) return null;
+  const day = d.getUTCDay() || 7; // Mon=1…Sun=7
+  d.setUTCDate(d.getUTCDate() + 1 - day); // snap to Monday
+  return d.toISOString().slice(0, 10);
+}
 
 // review tally
-const reviewMap = new Map(); // login → { reviewComments, approvals }
-function tally(login, field) {
+const reviewMap = new Map(); // login → { reviewComments, approvals, weeklyActivity }
+function tally(login, field, weekKey) {
   if (isBot(login)) return;
-  if (!reviewMap.has(login)) reviewMap.set(login, { reviewComments: 0, approvals: 0 });
-  reviewMap.get(login)[field]++;
+  if (!reviewMap.has(login)) reviewMap.set(login, { reviewComments: 0, approvals: 0, weeklyActivity: new Map() });
+  const entry = reviewMap.get(login);
+  entry[field]++;
+  if (weekKey) {
+    if (!entry.weeklyActivity.has(weekKey)) entry.weeklyActivity.set(weekKey, { comments: 0, approvals: 0 });
+    const wk = entry.weeklyActivity.get(weekKey);
+    wk[field === 'reviewComments' ? 'comments' : 'approvals']++;
+  }
 }
 
 // ─── 1. Bulk review comments ─────────────────────────────────────────────────
@@ -76,9 +92,10 @@ while (true) {
     if (!reviewer || isBot(reviewer)) continue;
     // Extract PR number from pull_request_url: ".../pulls/12345"
     const prNum = Number(c.pull_request_url?.split('/pulls/')[1]);
-    const author = prAuthorByNumber.get(prNum);
-    if (reviewer === author) continue; // skip self-review
-    tally(reviewer, 'reviewComments');
+    const prMeta = prMetaByNumber.get(prNum);
+    if (reviewer === prMeta?.author) continue; // skip self-review
+    const weekKey = getWeekKey(c.created_at); // exact review timestamp
+    tally(reviewer, 'reviewComments', weekKey);
   }
   totalComments += batch.length;
   process.stdout.write(`\r  comments fetched: ${totalComments}   `);
@@ -114,10 +131,12 @@ for (let i = 0; i < prNumbers.length; i += BATCH) {
     const prData = repo[`pr${prNum}`];
     if (!prData) continue;
     const prAuthor = prData.author?.login;
+    // Use PR merge date as week proxy for approvals (no separate review timestamp in this query)
+    const weekKey = getWeekKey(prMetaByNumber.get(prNum)?.mergedAt);
     for (const review of prData.reviews?.nodes || []) {
       const reviewer = review.author?.login;
       if (!reviewer || reviewer === prAuthor || isBot(reviewer)) continue;
-      tally(reviewer, 'approvals');
+      tally(reviewer, 'approvals', weekKey);
       approvalCount++;
     }
   }
@@ -127,7 +146,13 @@ console.log('\n  → approval reviews processed');
 
 // ─── Output ───────────────────────────────────────────────────────────────────
 const output = [...reviewMap.entries()]
-  .map(([login, v]) => ({ login, ...v }))
+  .map(([login, v]) => ({
+    login,
+    reviewComments: v.reviewComments,
+    approvals: v.approvals,
+    // Serialize weeklyActivity Map → plain object sorted by week key
+    weeklyActivity: Object.fromEntries([...v.weeklyActivity.entries()].sort()),
+  }))
   .sort((a, b) => (b.reviewComments + b.approvals * 0.5) - (a.reviewComments + a.approvals * 0.5));
 
 writeFileSync(outPath, JSON.stringify(output, null, 2));

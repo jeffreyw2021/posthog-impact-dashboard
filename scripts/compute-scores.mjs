@@ -43,6 +43,15 @@ function getModule(filePath) {
   return parts.length === 1 ? '(root)' : parts[0];
 }
 
+function getWeekKey(dateStr) {
+  if (!dateStr) return null;
+  const d = new Date(dateStr);
+  if (isNaN(d.getTime())) return null;
+  const day = d.getUTCDay() || 7;
+  d.setUTCDate(d.getUTCDate() + 1 - day); // snap to Monday
+  return d.toISOString().slice(0, 10);
+}
+
 function main() {
   console.log('=== Step 3: Compute impact scores ===');
 
@@ -75,6 +84,8 @@ function main() {
   }
 
   // reviewing raw score: comments + 0.5 × approvals, keyed by login
+  const reviewsRawByLogin = new Map(reviewsRaw.map(r => [r.login, r]));
+
   const reviewingByLogin = new Map(
     reviewsRaw
       .filter(r => !isBotReviewer(r.login))
@@ -120,12 +131,13 @@ function main() {
   function getOrCreate(login) {
     if (!engineerMap.has(login)) {
       engineerMap.set(login, {
-        login,
-        prCount: 0,
-        samplePRTitles: [],
-        fileContribs: [],
-        modules: new Set(),
-        shippingRaw: 0,
+      login,
+      prCount: 0,
+      samplePRTitles: [],
+      fileContribs: [],
+      modules: new Set(),
+      shippingRaw: 0,
+      prDetails: [], // { title, files, loc } — for Shipping scatter
       });
     }
     return engineerMap.get(login);
@@ -140,6 +152,7 @@ function main() {
     const loc = Math.max((pr.additions || 0) + (pr.deletions || 0), 1);
     const files = Math.max(pr.changedFiles || 0, 0);
     e.shippingRaw += Math.sqrt(files) * Math.log10(loc);
+    e.prDetails.push({ title: pr.title, files, loc, mergedAt: pr.mergedAt });
   }
 
   // Populate file contributions
@@ -254,8 +267,88 @@ function main() {
           uniqueAuthors: fileMap.get(f.path)?.authorMap.size || 0,
         }))
         .sort((a, b) => b.uniqueAuthors - a.uniqueAuthors)
-        .slice(0, 5),
+        .slice(0, 10),
       moduleList: [...e.modules].sort(),
+
+      // ── Module contribution breakdown (for Breadth heatmap) ───────────────
+      moduleContribs: (() => {
+        const modMap = new Map(); // module → { additions }
+        const modFiles = new Map(); // module → Set<path>
+        for (const { path, additions } of e.fileContribs) {
+          const mod = getModule(path);
+          if (!modMap.has(mod)) { modMap.set(mod, { additions: 0 }); modFiles.set(mod, new Set()); }
+          modFiles.get(mod).add(path);
+          modMap.get(mod).additions += additions;
+        }
+        return [...modMap.entries()]
+          .map(([module, data]) => ({ module, fileCount: modFiles.get(module).size, additions: data.additions }))
+          .sort((a, b) => b.additions - a.additions);
+      })(),
+
+      // ── Weekly shipping weight (for GitHub-style timeline) ────────────────
+      weeklyShipping: (() => {
+        const map = new Map();
+        for (const p of e.prDetails) {
+          if (!p.mergedAt || p.files <= 0) continue;
+          const wk = getWeekKey(p.mergedAt);
+          if (!wk) continue;
+          const w = Math.sqrt(p.files) * Math.log10(Math.max(p.loc, 1));
+          map.set(wk, (map.get(wk) || 0) + w);
+        }
+        return [...map.entries()].sort().map(([week, weight]) => ({ week, weight: Math.round(weight * 10) / 10 }));
+      })(),
+
+      // ── Weekly reviewing activity (from reviews-raw weeklyActivity) ────────
+      weeklyReviewing: (() => {
+        const weekly = reviewsRawByLogin.get(e.login)?.weeklyActivity || {};
+        return Object.entries(weekly)
+          .sort()
+          .map(([week, d]) => ({ week, comments: d.comments || 0, approvals: d.approvals || 0, total: Math.round(((d.comments || 0) + (d.approvals || 0) * 0.5) * 10) / 10 }));
+      })(),
+
+      // ── Influence: files where you were an early pioneer ──────────────────
+      influenceFiles: (() => {
+        const result = [];
+        const seen = new Set();
+        for (const { path } of e.fileContribs) {
+          if (seen.has(path)) continue;
+          seen.add(path);
+          const fm = fileMap.get(path);
+          if (!fm) continue;
+          const sorted = [...fm.authorMap.entries()]
+            .sort((a, b) => a[1].firstSeen.localeCompare(b[1].firstSeen));
+          const rank = sorted.findIndex(([l]) => l === e.login);
+          if (rank >= 0 && rank <= 2) {
+            const laterAuthors = sorted.slice(rank + 1).length;
+            if (laterAuthors > 0) {
+              result.push({
+                path,
+                module: getModule(path),
+                laterAuthors,
+                earlyRank: rank + 1, // 1 = first contributor, 2 = second, 3 = third
+                totalAuthors: sorted.length,
+              });
+            }
+          }
+        }
+        return result.sort((a, b) => b.laterAuthors - a.laterAuthors).slice(0, 8);
+      })(),
+
+      // ── Shipping: top PRs by shipping weight for scatter plot ─────────────
+      topPRsByWeight: e.prDetails
+        .filter(p => p.files > 0 && p.loc > 1)
+        .map(p => ({
+          title: p.title,
+          files: p.files,
+          loc: p.loc,
+          weight: Math.round(Math.sqrt(p.files) * Math.log10(p.loc) * 100) / 100,
+        }))
+        .sort((a, b) => b.weight - a.weight)
+        .slice(0, 20),
+
+      // ── Reviewing: raw comment + approval counts ──────────────────────────
+      reviewComments: reviewsRawByLogin.get(e.login)?.reviewComments || 0,
+      reviewApprovals: reviewsRawByLogin.get(e.login)?.approvals || 0,
     };
   }).sort((a, b) => b.impactScore - a.impactScore);
 

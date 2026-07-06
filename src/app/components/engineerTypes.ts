@@ -5,6 +5,27 @@ export type TopFile = {
   uniqueAuthors: number;
 };
 
+export type InfluenceFile = {
+  path: string;
+  module: string;
+  laterAuthors: number;
+  earlyRank: number;   // 1 = first contributor, 2 = second, 3 = third
+  totalAuthors: number;
+};
+
+export type TopPR = {
+  title: string;
+  files: number;
+  loc: number;
+  weight: number;
+};
+
+export type ModuleContrib = {
+  module: string;
+  fileCount: number;
+  additions: number;
+};
+
 export type Engineer = {
   login: string;
   avatarUrl: string;
@@ -19,6 +40,14 @@ export type Engineer = {
   impactScore: number;
   samplePRTitles: string[];
   topFiles: TopFile[];
+  moduleList?: string[];
+  influenceFiles?: InfluenceFile[];
+  topPRsByWeight?: TopPR[];
+  reviewComments?: number;
+  reviewApprovals?: number;
+  moduleContribs?: ModuleContrib[];
+  weeklyShipping?: { week: string; weight: number }[];
+  weeklyReviewing?: { week: string; comments: number; approvals: number; total: number }[];
 };
 
 // Each dimension scores 0–20; total impact = sum of all five (0–100)

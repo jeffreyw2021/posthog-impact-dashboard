@@ -8,12 +8,15 @@ import rawData from "./data.json";
 import { type Engineer } from "./components/engineerTypes";
 import { EngineerListCard } from "./components/EngineerListCard";
 import { DimensionChartCard } from "./components/DimensionChartCard";
-import { EngineerDetailCards } from "./components/EngineerDetailCards";
+import { ScoreBreakdownCard } from "./components/ScoreBreakdownCard";
+import { LoadBearingFilesCard } from "./components/LoadBearingFilesCard";
+import { RecentPRsCard } from "./components/RecentPRsCard";
 import { ModuleSearchBar, type Module } from "./components/ModuleSearchBar";
+import { DimensionDeepDive } from "./components/DimensionDeepDive";
 
 const top5: Engineer[] = (rawData.all as unknown as Engineer[]).slice(0, 5);
 const modules = (rawData as unknown as { modules: Module[] }).modules;
-
+const { since, until } = rawData as unknown as { since: string; until: string };
 
 export default function Page() {
   const [selectedIdx, setSelectedIdx] = useState(0);
@@ -41,8 +44,6 @@ export default function Page() {
           onChange={setSelectedModule}
         />
 
-
-
         {/* Main two-panel grid — list (narrow) left, chart (wide) right */}
         <Box sx={{ display: "grid", gridTemplateColumns: "1fr 3fr", gap: 1 }}>
           <EngineerListCard
@@ -53,8 +54,20 @@ export default function Page() {
           <DimensionChartCard engineers={top5} />
         </Box>
 
+        {/* Dimension deep-dive — 5 tab chips + full-width viz card */}
+        <DimensionDeepDive
+          engineer={top5[selectedIdx]}
+          allModules={modules}
+          since={since}
+          until={until}
+        />
+
         {/* Selected engineer detail — 3 equal cards in a row */}
-        <EngineerDetailCards engineer={top5[selectedIdx]} />
+        <Box sx={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gridAutoRows: "360px", gap: 1 }}>
+          <ScoreBreakdownCard engineer={top5[selectedIdx]} />
+          <LoadBearingFilesCard engineer={top5[selectedIdx]} />
+          <RecentPRsCard engineer={top5[selectedIdx]} />
+        </Box>
       </Stack>
     </Box>
   );

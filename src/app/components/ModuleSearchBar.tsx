@@ -46,7 +46,6 @@ export function ModuleSearchBar({
     return () => document.removeEventListener("mousedown", onMouseDown);
   }, []);
 
-
   const filtered = useMemo(() => {
     if (!query) return modules;
     const q = query.toLowerCase();
@@ -71,7 +70,7 @@ export function ModuleSearchBar({
       <Stack direction="row" spacing={0.5} alignItems="stretch">
         <OutlinedInput
           fullWidth
-          placeholder="Defaults to entire codebase — search for a specific module to focus on"
+          placeholder="Focus on a module (e.g. frontend, posthog)…"
           value={query}
           onChange={(e) => {
             setQuery(e.target.value);
@@ -82,7 +81,10 @@ export function ModuleSearchBar({
             value ? (
               <Box
                 component="button"
-                onClick={() => { onChange(null); setQuery(""); }}
+                onClick={() => {
+                  onChange(null);
+                  setQuery("");
+                }}
                 sx={{
                   display: "flex",
                   border: "none",

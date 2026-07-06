@@ -1,902 +1,6250 @@
 [
   {
     "login": "Copilot",
-    "reviewComments": 2257,
-    "approvals": 0
+    "reviewComments": 2259,
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 128,
+        "approvals": 0
+      },
+      "2026-04-13": {
+        "comments": 233,
+        "approvals": 0
+      },
+      "2026-04-20": {
+        "comments": 337,
+        "approvals": 0
+      },
+      "2026-04-27": {
+        "comments": 229,
+        "approvals": 0
+      },
+      "2026-05-04": {
+        "comments": 194,
+        "approvals": 0
+      },
+      "2026-05-11": {
+        "comments": 54,
+        "approvals": 0
+      },
+      "2026-05-18": {
+        "comments": 216,
+        "approvals": 0
+      },
+      "2026-05-25": {
+        "comments": 116,
+        "approvals": 0
+      },
+      "2026-06-01": {
+        "comments": 187,
+        "approvals": 0
+      },
+      "2026-06-08": {
+        "comments": 150,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 126,
+        "approvals": 0
+      },
+      "2026-06-22": {
+        "comments": 126,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 161,
+        "approvals": 0
+      },
+      "2026-07-06": {
+        "comments": 2,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "pauldambra",
     "reviewComments": 1877,
-    "approvals": 144
+    "approvals": 144,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 12,
+        "approvals": 0
+      },
+      "2026-04-13": {
+        "comments": 87,
+        "approvals": 15
+      },
+      "2026-04-20": {
+        "comments": 387,
+        "approvals": 13
+      },
+      "2026-04-27": {
+        "comments": 190,
+        "approvals": 20
+      },
+      "2026-05-04": {
+        "comments": 116,
+        "approvals": 18
+      },
+      "2026-05-11": {
+        "comments": 92,
+        "approvals": 10
+      },
+      "2026-05-18": {
+        "comments": 164,
+        "approvals": 15
+      },
+      "2026-05-25": {
+        "comments": 35,
+        "approvals": 5
+      },
+      "2026-06-01": {
+        "comments": 113,
+        "approvals": 14
+      },
+      "2026-06-08": {
+        "comments": 338,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 45,
+        "approvals": 11
+      },
+      "2026-06-22": {
+        "comments": 156,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 142,
+        "approvals": 23
+      }
+    }
   },
   {
     "login": "sampennington",
     "reviewComments": 1618,
-    "approvals": 73
+    "approvals": 73,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 21,
+        "approvals": 3
+      },
+      "2026-04-13": {
+        "comments": 3,
+        "approvals": 6
+      },
+      "2026-04-20": {
+        "comments": 15,
+        "approvals": 1
+      },
+      "2026-04-27": {
+        "comments": 13,
+        "approvals": 3
+      },
+      "2026-05-04": {
+        "comments": 13,
+        "approvals": 7
+      },
+      "2026-05-11": {
+        "comments": 12,
+        "approvals": 1
+      },
+      "2026-05-18": {
+        "comments": 189,
+        "approvals": 5
+      },
+      "2026-05-25": {
+        "comments": 456,
+        "approvals": 5
+      },
+      "2026-06-01": {
+        "comments": 169,
+        "approvals": 12
+      },
+      "2026-06-08": {
+        "comments": 230,
+        "approvals": 1
+      },
+      "2026-06-15": {
+        "comments": 171,
+        "approvals": 17
+      },
+      "2026-06-22": {
+        "comments": 144,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 182,
+        "approvals": 12
+      }
+    }
   },
   {
     "login": "haacked",
     "reviewComments": 973,
-    "approvals": 51
+    "approvals": 51,
+    "weeklyActivity": {
+      "2026-03-02": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-04-13": {
+        "comments": 52,
+        "approvals": 7
+      },
+      "2026-04-20": {
+        "comments": 56,
+        "approvals": 1
+      },
+      "2026-04-27": {
+        "comments": 66,
+        "approvals": 1
+      },
+      "2026-05-04": {
+        "comments": 108,
+        "approvals": 6
+      },
+      "2026-05-18": {
+        "comments": 45,
+        "approvals": 2
+      },
+      "2026-05-25": {
+        "comments": 33,
+        "approvals": 0
+      },
+      "2026-06-01": {
+        "comments": 104,
+        "approvals": 9
+      },
+      "2026-06-08": {
+        "comments": 233,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 100,
+        "approvals": 7
+      },
+      "2026-06-22": {
+        "comments": 82,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 92,
+        "approvals": 18
+      }
+    }
   },
   {
     "login": "andrewm4894",
     "reviewComments": 838,
-    "approvals": 118
+    "approvals": 118,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 26,
+        "approvals": 1
+      },
+      "2026-04-13": {
+        "comments": 73,
+        "approvals": 18
+      },
+      "2026-04-20": {
+        "comments": 75,
+        "approvals": 5
+      },
+      "2026-04-27": {
+        "comments": 21,
+        "approvals": 6
+      },
+      "2026-05-04": {
+        "comments": 28,
+        "approvals": 4
+      },
+      "2026-05-11": {
+        "comments": 7,
+        "approvals": 0
+      },
+      "2026-05-18": {
+        "comments": 45,
+        "approvals": 4
+      },
+      "2026-05-25": {
+        "comments": 168,
+        "approvals": 3
+      },
+      "2026-06-01": {
+        "comments": 128,
+        "approvals": 21
+      },
+      "2026-06-08": {
+        "comments": 130,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 20,
+        "approvals": 34
+      },
+      "2026-06-22": {
+        "comments": 109,
+        "approvals": 3
+      },
+      "2026-06-29": {
+        "comments": 8,
+        "approvals": 19
+      }
+    }
   },
   {
     "login": "vdekrijger",
     "reviewComments": 826,
-    "approvals": 70
+    "approvals": 70,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 8,
+        "approvals": 2
+      },
+      "2026-04-13": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-04-20": {
+        "comments": 35,
+        "approvals": 8
+      },
+      "2026-04-27": {
+        "comments": 26,
+        "approvals": 4
+      },
+      "2026-05-04": {
+        "comments": 26,
+        "approvals": 14
+      },
+      "2026-05-18": {
+        "comments": 8,
+        "approvals": 7
+      },
+      "2026-05-25": {
+        "comments": 298,
+        "approvals": 7
+      },
+      "2026-06-01": {
+        "comments": 114,
+        "approvals": 13
+      },
+      "2026-06-08": {
+        "comments": 85,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 56,
+        "approvals": 8
+      },
+      "2026-06-22": {
+        "comments": 85,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 85,
+        "approvals": 5
+      }
+    }
   },
   {
     "login": "Gilbert09",
     "reviewComments": 493,
-    "approvals": 120
+    "approvals": 120,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 25,
+        "approvals": 0
+      },
+      "2026-04-13": {
+        "comments": 11,
+        "approvals": 10
+      },
+      "2026-04-20": {
+        "comments": 22,
+        "approvals": 16
+      },
+      "2026-04-27": {
+        "comments": 24,
+        "approvals": 11
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-18": {
+        "comments": 28,
+        "approvals": 5
+      },
+      "2026-05-25": {
+        "comments": 5,
+        "approvals": 6
+      },
+      "2026-06-01": {
+        "comments": 28,
+        "approvals": 17
+      },
+      "2026-06-08": {
+        "comments": 140,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 49,
+        "approvals": 21
+      },
+      "2026-06-22": {
+        "comments": 141,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 19,
+        "approvals": 33
+      },
+      "2026-07-06": {
+        "comments": 1,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "sortafreel",
     "reviewComments": 462,
-    "approvals": 33
+    "approvals": 33,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 96,
+        "approvals": 0
+      },
+      "2026-04-13": {
+        "comments": 22,
+        "approvals": 3
+      },
+      "2026-04-20": {
+        "comments": 40,
+        "approvals": 8
+      },
+      "2026-04-27": {
+        "comments": 99,
+        "approvals": 2
+      },
+      "2026-05-04": {
+        "comments": 39,
+        "approvals": 4
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-18": {
+        "comments": 42,
+        "approvals": 2
+      },
+      "2026-05-25": {
+        "comments": 60,
+        "approvals": 2
+      },
+      "2026-06-01": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-06-15": {
+        "comments": 57,
+        "approvals": 4
+      },
+      "2026-06-22": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 6,
+        "approvals": 5
+      }
+    }
   },
   {
     "login": "MattBro",
     "reviewComments": 340,
-    "approvals": 17
+    "approvals": 17,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 57,
+        "approvals": 0
+      },
+      "2026-04-13": {
+        "comments": 30,
+        "approvals": 2
+      },
+      "2026-04-20": {
+        "comments": 85,
+        "approvals": 2
+      },
+      "2026-04-27": {
+        "comments": 17,
+        "approvals": 0
+      },
+      "2026-05-04": {
+        "comments": 17,
+        "approvals": 2
+      },
+      "2026-05-18": {
+        "comments": 23,
+        "approvals": 1
+      },
+      "2026-05-25": {
+        "comments": 20,
+        "approvals": 1
+      },
+      "2026-06-01": {
+        "comments": 15,
+        "approvals": 3
+      },
+      "2026-06-08": {
+        "comments": 38,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 32,
+        "approvals": 6
+      },
+      "2026-06-22": {
+        "comments": 6,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "rafaeelaudibert",
     "reviewComments": 255,
-    "approvals": 131
+    "approvals": 131,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 33,
+        "approvals": 4
+      },
+      "2026-04-13": {
+        "comments": 24,
+        "approvals": 21
+      },
+      "2026-04-20": {
+        "comments": 5,
+        "approvals": 11
+      },
+      "2026-05-04": {
+        "comments": 20,
+        "approvals": 2
+      },
+      "2026-05-18": {
+        "comments": 49,
+        "approvals": 32
+      },
+      "2026-05-25": {
+        "comments": 14,
+        "approvals": 9
+      },
+      "2026-06-01": {
+        "comments": 8,
+        "approvals": 20
+      },
+      "2026-06-08": {
+        "comments": 18,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 34,
+        "approvals": 24
+      },
+      "2026-06-22": {
+        "comments": 34,
+        "approvals": 1
+      },
+      "2026-06-29": {
+        "comments": 16,
+        "approvals": 7
+      }
+    }
   },
   {
     "login": "MattPua",
     "reviewComments": 274,
-    "approvals": 47
+    "approvals": 47,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 4,
+        "approvals": 1
+      },
+      "2026-04-13": {
+        "comments": 2,
+        "approvals": 6
+      },
+      "2026-04-20": {
+        "comments": 5,
+        "approvals": 12
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-05-18": {
+        "comments": 4,
+        "approvals": 6
+      },
+      "2026-05-25": {
+        "comments": 6,
+        "approvals": 1
+      },
+      "2026-06-01": {
+        "comments": 95,
+        "approvals": 6
+      },
+      "2026-06-08": {
+        "comments": 68,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 53,
+        "approvals": 6
+      },
+      "2026-06-22": {
+        "comments": 14,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 23,
+        "approvals": 6
+      }
+    }
   },
   {
     "login": "webjunkie",
     "reviewComments": 233,
-    "approvals": 97
+    "approvals": 97,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-04-13": {
+        "comments": 0,
+        "approvals": 9
+      },
+      "2026-04-20": {
+        "comments": 8,
+        "approvals": 3
+      },
+      "2026-04-27": {
+        "comments": 4,
+        "approvals": 10
+      },
+      "2026-05-04": {
+        "comments": 18,
+        "approvals": 14
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 3
+      },
+      "2026-05-18": {
+        "comments": 5,
+        "approvals": 12
+      },
+      "2026-05-25": {
+        "comments": 3,
+        "approvals": 6
+      },
+      "2026-06-01": {
+        "comments": 0,
+        "approvals": 9
+      },
+      "2026-06-08": {
+        "comments": 19,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 19,
+        "approvals": 14
+      },
+      "2026-06-22": {
+        "comments": 68,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 89,
+        "approvals": 16
+      }
+    }
   },
   {
     "login": "skoob13",
     "reviewComments": 209,
-    "approvals": 114
+    "approvals": 114,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 16,
+        "approvals": 1
+      },
+      "2026-04-13": {
+        "comments": 13,
+        "approvals": 8
+      },
+      "2026-04-20": {
+        "comments": 13,
+        "approvals": 10
+      },
+      "2026-04-27": {
+        "comments": 6,
+        "approvals": 11
+      },
+      "2026-05-04": {
+        "comments": 15,
+        "approvals": 16
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 3
+      },
+      "2026-05-18": {
+        "comments": 7,
+        "approvals": 12
+      },
+      "2026-05-25": {
+        "comments": 8,
+        "approvals": 0
+      },
+      "2026-06-01": {
+        "comments": 5,
+        "approvals": 19
+      },
+      "2026-06-08": {
+        "comments": 67,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 17,
+        "approvals": 12
+      },
+      "2026-06-22": {
+        "comments": 25,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 17,
+        "approvals": 22
+      }
+    }
   },
   {
     "login": "richardsolomou",
     "reviewComments": 215,
-    "approvals": 78
+    "approvals": 78,
+    "weeklyActivity": {
+      "2026-04-13": {
+        "comments": 1,
+        "approvals": 2
+      },
+      "2026-04-20": {
+        "comments": 4,
+        "approvals": 8
+      },
+      "2026-04-27": {
+        "comments": 5,
+        "approvals": 8
+      },
+      "2026-05-04": {
+        "comments": 12,
+        "approvals": 9
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-05-18": {
+        "comments": 16,
+        "approvals": 11
+      },
+      "2026-05-25": {
+        "comments": 26,
+        "approvals": 6
+      },
+      "2026-06-01": {
+        "comments": 29,
+        "approvals": 11
+      },
+      "2026-06-08": {
+        "comments": 25,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 42,
+        "approvals": 9
+      },
+      "2026-06-22": {
+        "comments": 42,
+        "approvals": 1
+      },
+      "2026-06-29": {
+        "comments": 13,
+        "approvals": 11
+      }
+    }
   },
   {
     "login": "sakce",
     "reviewComments": 210,
-    "approvals": 41
+    "approvals": 41,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 9,
+        "approvals": 1
+      },
+      "2026-04-13": {
+        "comments": 0,
+        "approvals": 4
+      },
+      "2026-04-20": {
+        "comments": 1,
+        "approvals": 3
+      },
+      "2026-04-27": {
+        "comments": 6,
+        "approvals": 2
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-05-18": {
+        "comments": 1,
+        "approvals": 5
+      },
+      "2026-05-25": {
+        "comments": 8,
+        "approvals": 2
+      },
+      "2026-06-01": {
+        "comments": 5,
+        "approvals": 9
+      },
+      "2026-06-08": {
+        "comments": 145,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 10,
+        "approvals": 2
+      },
+      "2026-06-22": {
+        "comments": 4,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 21,
+        "approvals": 9
+      }
+    }
   },
   {
     "login": "tomasfarias",
-    "reviewComments": 200,
-    "approvals": 39
+    "reviewComments": 199,
+    "approvals": 39,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 44,
+        "approvals": 3
+      },
+      "2026-04-13": {
+        "comments": 8,
+        "approvals": 6
+      },
+      "2026-04-20": {
+        "comments": 12,
+        "approvals": 1
+      },
+      "2026-04-27": {
+        "comments": 4,
+        "approvals": 6
+      },
+      "2026-05-04": {
+        "comments": 11,
+        "approvals": 3
+      },
+      "2026-05-11": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-05-18": {
+        "comments": 7,
+        "approvals": 1
+      },
+      "2026-05-25": {
+        "comments": 7,
+        "approvals": 0
+      },
+      "2026-06-01": {
+        "comments": 26,
+        "approvals": 9
+      },
+      "2026-06-08": {
+        "comments": 28,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 26,
+        "approvals": 6
+      },
+      "2026-06-22": {
+        "comments": 20,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 2,
+        "approvals": 4
+      },
+      "2026-07-06": {
+        "comments": 1,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "ablaszkiewicz",
     "reviewComments": 179,
-    "approvals": 78
+    "approvals": 78,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 40,
+        "approvals": 1
+      },
+      "2026-04-13": {
+        "comments": 2,
+        "approvals": 17
+      },
+      "2026-04-20": {
+        "comments": 24,
+        "approvals": 11
+      },
+      "2026-04-27": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-04": {
+        "comments": 2,
+        "approvals": 8
+      },
+      "2026-05-11": {
+        "comments": 2,
+        "approvals": 3
+      },
+      "2026-05-18": {
+        "comments": 15,
+        "approvals": 10
+      },
+      "2026-05-25": {
+        "comments": 36,
+        "approvals": 0
+      },
+      "2026-06-01": {
+        "comments": 7,
+        "approvals": 9
+      },
+      "2026-06-08": {
+        "comments": 26,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 7,
+        "approvals": 7
+      },
+      "2026-06-22": {
+        "comments": 18,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 0,
+        "approvals": 11
+      }
+    }
   },
   {
     "login": "a-lider",
     "reviewComments": 190,
-    "approvals": 46
+    "approvals": 46,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 19,
+        "approvals": 3
+      },
+      "2026-04-13": {
+        "comments": 11,
+        "approvals": 5
+      },
+      "2026-04-20": {
+        "comments": 18,
+        "approvals": 2
+      },
+      "2026-04-27": {
+        "comments": 18,
+        "approvals": 4
+      },
+      "2026-05-04": {
+        "comments": 25,
+        "approvals": 9
+      },
+      "2026-05-18": {
+        "comments": 13,
+        "approvals": 4
+      },
+      "2026-05-25": {
+        "comments": 15,
+        "approvals": 1
+      },
+      "2026-06-01": {
+        "comments": 23,
+        "approvals": 4
+      },
+      "2026-06-08": {
+        "comments": 14,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 18,
+        "approvals": 3
+      },
+      "2026-06-22": {
+        "comments": 9,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 7,
+        "approvals": 11
+      }
+    }
   },
   {
     "login": "joshsny",
     "reviewComments": 150,
-    "approvals": 124
+    "approvals": 124,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 8,
+        "approvals": 1
+      },
+      "2026-04-13": {
+        "comments": 19,
+        "approvals": 13
+      },
+      "2026-04-20": {
+        "comments": 8,
+        "approvals": 16
+      },
+      "2026-04-27": {
+        "comments": 19,
+        "approvals": 14
+      },
+      "2026-05-04": {
+        "comments": 8,
+        "approvals": 10
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-18": {
+        "comments": 24,
+        "approvals": 14
+      },
+      "2026-05-25": {
+        "comments": 17,
+        "approvals": 10
+      },
+      "2026-06-01": {
+        "comments": 18,
+        "approvals": 23
+      },
+      "2026-06-08": {
+        "comments": 8,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 13,
+        "approvals": 12
+      },
+      "2026-06-22": {
+        "comments": 6,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 2,
+        "approvals": 10
+      }
+    }
   },
   {
     "login": "gantoine",
     "reviewComments": 117,
-    "approvals": 183
+    "approvals": 183,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 9,
+        "approvals": 3
+      },
+      "2026-04-13": {
+        "comments": 19,
+        "approvals": 30
+      },
+      "2026-04-20": {
+        "comments": 5,
+        "approvals": 10
+      },
+      "2026-05-04": {
+        "comments": 8,
+        "approvals": 3
+      },
+      "2026-05-11": {
+        "comments": 7,
+        "approvals": 12
+      },
+      "2026-05-18": {
+        "comments": 16,
+        "approvals": 38
+      },
+      "2026-05-25": {
+        "comments": 6,
+        "approvals": 11
+      },
+      "2026-06-01": {
+        "comments": 9,
+        "approvals": 27
+      },
+      "2026-06-08": {
+        "comments": 15,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 9,
+        "approvals": 28
+      },
+      "2026-06-22": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 11,
+        "approvals": 21
+      }
+    }
   },
   {
     "login": "danielcarletti",
     "reviewComments": 171,
-    "approvals": 72
+    "approvals": 72,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 18,
+        "approvals": 2
+      },
+      "2026-04-13": {
+        "comments": 3,
+        "approvals": 9
+      },
+      "2026-04-20": {
+        "comments": 3,
+        "approvals": 1
+      },
+      "2026-04-27": {
+        "comments": 7,
+        "approvals": 5
+      },
+      "2026-05-04": {
+        "comments": 12,
+        "approvals": 7
+      },
+      "2026-05-11": {
+        "comments": 2,
+        "approvals": 4
+      },
+      "2026-05-18": {
+        "comments": 4,
+        "approvals": 5
+      },
+      "2026-05-25": {
+        "comments": 18,
+        "approvals": 6
+      },
+      "2026-06-01": {
+        "comments": 2,
+        "approvals": 6
+      },
+      "2026-06-08": {
+        "comments": 20,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 11,
+        "approvals": 15
+      },
+      "2026-06-22": {
+        "comments": 16,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 55,
+        "approvals": 12
+      }
+    }
   },
   {
     "login": "fercgomes",
     "reviewComments": 170,
-    "approvals": 69
+    "approvals": 69,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 4,
+        "approvals": 0
+      },
+      "2026-04-13": {
+        "comments": 8,
+        "approvals": 11
+      },
+      "2026-04-20": {
+        "comments": 51,
+        "approvals": 8
+      },
+      "2026-04-27": {
+        "comments": 9,
+        "approvals": 7
+      },
+      "2026-05-04": {
+        "comments": 4,
+        "approvals": 8
+      },
+      "2026-05-18": {
+        "comments": 8,
+        "approvals": 6
+      },
+      "2026-05-25": {
+        "comments": 21,
+        "approvals": 1
+      },
+      "2026-06-01": {
+        "comments": 10,
+        "approvals": 15
+      },
+      "2026-06-08": {
+        "comments": 19,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 23,
+        "approvals": 8
+      },
+      "2026-06-22": {
+        "comments": 6,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 7,
+        "approvals": 5
+      }
+    }
   },
   {
     "login": "Twixes",
     "reviewComments": 182,
-    "approvals": 32
+    "approvals": 32,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 14,
+        "approvals": 0
+      },
+      "2026-04-13": {
+        "comments": 26,
+        "approvals": 8
+      },
+      "2026-04-20": {
+        "comments": 12,
+        "approvals": 4
+      },
+      "2026-04-27": {
+        "comments": 31,
+        "approvals": 3
+      },
+      "2026-05-04": {
+        "comments": 7,
+        "approvals": 5
+      },
+      "2026-05-18": {
+        "comments": 13,
+        "approvals": 1
+      },
+      "2026-05-25": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-06-01": {
+        "comments": 8,
+        "approvals": 3
+      },
+      "2026-06-08": {
+        "comments": 7,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 30,
+        "approvals": 1
+      },
+      "2026-06-22": {
+        "comments": 19,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 14,
+        "approvals": 7
+      }
+    }
   },
   {
     "login": "MarconLP",
     "reviewComments": 51,
-    "approvals": 288
+    "approvals": 288,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-04-13": {
+        "comments": 3,
+        "approvals": 6
+      },
+      "2026-04-20": {
+        "comments": 4,
+        "approvals": 8
+      },
+      "2026-04-27": {
+        "comments": 3,
+        "approvals": 7
+      },
+      "2026-05-04": {
+        "comments": 2,
+        "approvals": 6
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 4
+      },
+      "2026-05-18": {
+        "comments": 3,
+        "approvals": 8
+      },
+      "2026-05-25": {
+        "comments": 13,
+        "approvals": 0
+      },
+      "2026-06-01": {
+        "comments": 3,
+        "approvals": 93
+      },
+      "2026-06-08": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 0,
+        "approvals": 40
+      },
+      "2026-06-22": {
+        "comments": 16,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 1,
+        "approvals": 116
+      }
+    }
   },
   {
     "login": "Radu-Raicea",
     "reviewComments": 148,
-    "approvals": 94
+    "approvals": 94,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 2,
+        "approvals": 4
+      },
+      "2026-04-13": {
+        "comments": 10,
+        "approvals": 9
+      },
+      "2026-04-20": {
+        "comments": 12,
+        "approvals": 4
+      },
+      "2026-04-27": {
+        "comments": 11,
+        "approvals": 10
+      },
+      "2026-05-04": {
+        "comments": 28,
+        "approvals": 19
+      },
+      "2026-05-18": {
+        "comments": 13,
+        "approvals": 10
+      },
+      "2026-05-25": {
+        "comments": 22,
+        "approvals": 7
+      },
+      "2026-06-01": {
+        "comments": 14,
+        "approvals": 19
+      },
+      "2026-06-08": {
+        "comments": 11,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 4,
+        "approvals": 3
+      },
+      "2026-06-22": {
+        "comments": 10,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 11,
+        "approvals": 9
+      }
+    }
   },
   {
     "login": "cat-ph",
     "reviewComments": 160,
-    "approvals": 68
+    "approvals": 68,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 4,
+        "approvals": 1
+      },
+      "2026-04-13": {
+        "comments": 9,
+        "approvals": 14
+      },
+      "2026-04-20": {
+        "comments": 11,
+        "approvals": 7
+      },
+      "2026-04-27": {
+        "comments": 7,
+        "approvals": 6
+      },
+      "2026-05-04": {
+        "comments": 23,
+        "approvals": 8
+      },
+      "2026-05-11": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-05-18": {
+        "comments": 17,
+        "approvals": 9
+      },
+      "2026-05-25": {
+        "comments": 19,
+        "approvals": 1
+      },
+      "2026-06-01": {
+        "comments": 3,
+        "approvals": 7
+      },
+      "2026-06-08": {
+        "comments": 22,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 17,
+        "approvals": 3
+      },
+      "2026-06-22": {
+        "comments": 19,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 8,
+        "approvals": 12
+      }
+    }
   },
   {
     "login": "carlos-marchal-ph",
     "reviewComments": 160,
-    "approvals": 47
+    "approvals": 47,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-04-13": {
+        "comments": 47,
+        "approvals": 6
+      },
+      "2026-04-20": {
+        "comments": 6,
+        "approvals": 4
+      },
+      "2026-04-27": {
+        "comments": 13,
+        "approvals": 1
+      },
+      "2026-05-04": {
+        "comments": 13,
+        "approvals": 11
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 3
+      },
+      "2026-05-18": {
+        "comments": 11,
+        "approvals": 6
+      },
+      "2026-05-25": {
+        "comments": 1,
+        "approvals": 3
+      },
+      "2026-06-01": {
+        "comments": 9,
+        "approvals": 2
+      },
+      "2026-06-08": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 27,
+        "approvals": 5
+      },
+      "2026-06-22": {
+        "comments": 17,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 10,
+        "approvals": 6
+      }
+    }
   },
   {
     "login": "eli-r-ph",
     "reviewComments": 148,
-    "approvals": 55
+    "approvals": 55,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 35,
+        "approvals": 1
+      },
+      "2026-04-13": {
+        "comments": 5,
+        "approvals": 4
+      },
+      "2026-04-20": {
+        "comments": 24,
+        "approvals": 6
+      },
+      "2026-04-27": {
+        "comments": 19,
+        "approvals": 8
+      },
+      "2026-05-04": {
+        "comments": 1,
+        "approvals": 11
+      },
+      "2026-05-18": {
+        "comments": 3,
+        "approvals": 6
+      },
+      "2026-05-25": {
+        "comments": 12,
+        "approvals": 1
+      },
+      "2026-06-01": {
+        "comments": 5,
+        "approvals": 9
+      },
+      "2026-06-08": {
+        "comments": 12,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 7,
+        "approvals": 5
+      },
+      "2026-06-22": {
+        "comments": 12,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 13,
+        "approvals": 4
+      }
+    }
   },
   {
     "login": "rnegron",
     "reviewComments": 100,
-    "approvals": 146
+    "approvals": 146,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 8,
+        "approvals": 2
+      },
+      "2026-04-13": {
+        "comments": 5,
+        "approvals": 19
+      },
+      "2026-04-20": {
+        "comments": 12,
+        "approvals": 12
+      },
+      "2026-04-27": {
+        "comments": 7,
+        "approvals": 19
+      },
+      "2026-05-04": {
+        "comments": 7,
+        "approvals": 18
+      },
+      "2026-05-11": {
+        "comments": 1,
+        "approvals": 3
+      },
+      "2026-05-18": {
+        "comments": 2,
+        "approvals": 16
+      },
+      "2026-05-25": {
+        "comments": 8,
+        "approvals": 2
+      },
+      "2026-06-01": {
+        "comments": 9,
+        "approvals": 16
+      },
+      "2026-06-08": {
+        "comments": 13,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 10,
+        "approvals": 17
+      },
+      "2026-06-22": {
+        "comments": 14,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 4,
+        "approvals": 22
+      }
+    }
   },
   {
     "login": "yasen-posthog",
-    "reviewComments": 149,
-    "approvals": 39
+    "reviewComments": 146,
+    "approvals": 39,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 13,
+        "approvals": 3
+      },
+      "2026-04-13": {
+        "comments": 2,
+        "approvals": 1
+      },
+      "2026-04-20": {
+        "comments": 21,
+        "approvals": 3
+      },
+      "2026-04-27": {
+        "comments": 20,
+        "approvals": 3
+      },
+      "2026-05-04": {
+        "comments": 17,
+        "approvals": 10
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 3
+      },
+      "2026-05-18": {
+        "comments": 2,
+        "approvals": 4
+      },
+      "2026-05-25": {
+        "comments": 8,
+        "approvals": 1
+      },
+      "2026-06-01": {
+        "comments": 3,
+        "approvals": 2
+      },
+      "2026-06-08": {
+        "comments": 20,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 1,
+        "approvals": 2
+      },
+      "2026-06-22": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 37,
+        "approvals": 7
+      }
+    }
   },
   {
     "login": "dmarticus",
     "reviewComments": 140,
-    "approvals": 40
+    "approvals": 40,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 14,
+        "approvals": 3
+      },
+      "2026-04-13": {
+        "comments": 13,
+        "approvals": 3
+      },
+      "2026-04-20": {
+        "comments": 17,
+        "approvals": 4
+      },
+      "2026-04-27": {
+        "comments": 17,
+        "approvals": 6
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 3
+      },
+      "2026-05-18": {
+        "comments": 22,
+        "approvals": 6
+      },
+      "2026-06-01": {
+        "comments": 6,
+        "approvals": 4
+      },
+      "2026-06-08": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 5,
+        "approvals": 11
+      },
+      "2026-06-22": {
+        "comments": 33,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 12,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "TueHaulund",
     "reviewComments": 124,
-    "approvals": 67
+    "approvals": 67,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 7,
+        "approvals": 3
+      },
+      "2026-04-13": {
+        "comments": 9,
+        "approvals": 4
+      },
+      "2026-04-20": {
+        "comments": 24,
+        "approvals": 5
+      },
+      "2026-04-27": {
+        "comments": 4,
+        "approvals": 9
+      },
+      "2026-05-04": {
+        "comments": 9,
+        "approvals": 5
+      },
+      "2026-05-18": {
+        "comments": 2,
+        "approvals": 6
+      },
+      "2026-05-25": {
+        "comments": 4,
+        "approvals": 2
+      },
+      "2026-06-01": {
+        "comments": 9,
+        "approvals": 6
+      },
+      "2026-06-08": {
+        "comments": 11,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 8,
+        "approvals": 13
+      },
+      "2026-06-22": {
+        "comments": 11,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 26,
+        "approvals": 14
+      }
+    }
   },
   {
     "login": "hpouillot",
     "reviewComments": 121,
-    "approvals": 58
+    "approvals": 58,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 14,
+        "approvals": 1
+      },
+      "2026-04-13": {
+        "comments": 5,
+        "approvals": 15
+      },
+      "2026-04-20": {
+        "comments": 12,
+        "approvals": 5
+      },
+      "2026-04-27": {
+        "comments": 7,
+        "approvals": 2
+      },
+      "2026-05-11": {
+        "comments": 3,
+        "approvals": 2
+      },
+      "2026-05-18": {
+        "comments": 18,
+        "approvals": 9
+      },
+      "2026-05-25": {
+        "comments": 3,
+        "approvals": 1
+      },
+      "2026-06-01": {
+        "comments": 12,
+        "approvals": 10
+      },
+      "2026-06-08": {
+        "comments": 14,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 11,
+        "approvals": 4
+      },
+      "2026-06-22": {
+        "comments": 17,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 5,
+        "approvals": 9
+      }
+    }
   },
   {
     "login": "oliverb123",
     "reviewComments": 125,
-    "approvals": 29
+    "approvals": 29,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 6,
+        "approvals": 0
+      },
+      "2026-04-13": {
+        "comments": 18,
+        "approvals": 8
+      },
+      "2026-04-20": {
+        "comments": 6,
+        "approvals": 2
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 4
+      },
+      "2026-05-18": {
+        "comments": 17,
+        "approvals": 5
+      },
+      "2026-06-01": {
+        "comments": 23,
+        "approvals": 4
+      },
+      "2026-06-08": {
+        "comments": 12,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 4,
+        "approvals": 5
+      },
+      "2026-06-22": {
+        "comments": 39,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 0,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "z0br0wn",
     "reviewComments": 109,
-    "approvals": 55
+    "approvals": 55,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 11,
+        "approvals": 2
+      },
+      "2026-04-13": {
+        "comments": 25,
+        "approvals": 5
+      },
+      "2026-04-20": {
+        "comments": 3,
+        "approvals": 2
+      },
+      "2026-04-27": {
+        "comments": 1,
+        "approvals": 3
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-05-18": {
+        "comments": 4,
+        "approvals": 2
+      },
+      "2026-05-25": {
+        "comments": 15,
+        "approvals": 3
+      },
+      "2026-06-01": {
+        "comments": 12,
+        "approvals": 12
+      },
+      "2026-06-08": {
+        "comments": 5,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 10,
+        "approvals": 13
+      },
+      "2026-06-22": {
+        "comments": 19,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 4,
+        "approvals": 11
+      }
+    }
   },
   {
     "login": "arthurdedeus",
     "reviewComments": 106,
-    "approvals": 51
+    "approvals": 51,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 10,
+        "approvals": 2
+      },
+      "2026-04-20": {
+        "comments": 4,
+        "approvals": 3
+      },
+      "2026-04-27": {
+        "comments": 2,
+        "approvals": 4
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 3
+      },
+      "2026-05-18": {
+        "comments": 0,
+        "approvals": 10
+      },
+      "2026-05-25": {
+        "comments": 9,
+        "approvals": 4
+      },
+      "2026-06-01": {
+        "comments": 2,
+        "approvals": 8
+      },
+      "2026-06-08": {
+        "comments": 19,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 11,
+        "approvals": 9
+      },
+      "2026-06-22": {
+        "comments": 36,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 13,
+        "approvals": 8
+      }
+    }
   },
   {
     "login": "dmarchuk",
     "reviewComments": 104,
-    "approvals": 52
+    "approvals": 52,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 4,
+        "approvals": 1
+      },
+      "2026-04-13": {
+        "comments": 6,
+        "approvals": 7
+      },
+      "2026-04-20": {
+        "comments": 9,
+        "approvals": 3
+      },
+      "2026-04-27": {
+        "comments": 4,
+        "approvals": 3
+      },
+      "2026-05-04": {
+        "comments": 11,
+        "approvals": 8
+      },
+      "2026-05-18": {
+        "comments": 2,
+        "approvals": 11
+      },
+      "2026-05-25": {
+        "comments": 5,
+        "approvals": 2
+      },
+      "2026-06-01": {
+        "comments": 20,
+        "approvals": 5
+      },
+      "2026-06-08": {
+        "comments": 9,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 21,
+        "approvals": 9
+      },
+      "2026-06-22": {
+        "comments": 7,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 6,
+        "approvals": 3
+      }
+    }
   },
   {
     "login": "ReeceJones",
     "reviewComments": 109,
-    "approvals": 42
+    "approvals": 42,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-04-13": {
+        "comments": 15,
+        "approvals": 6
+      },
+      "2026-04-20": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-04-27": {
+        "comments": 10,
+        "approvals": 4
+      },
+      "2026-05-04": {
+        "comments": 20,
+        "approvals": 5
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-18": {
+        "comments": 8,
+        "approvals": 8
+      },
+      "2026-05-25": {
+        "comments": 14,
+        "approvals": 3
+      },
+      "2026-06-01": {
+        "comments": 11,
+        "approvals": 8
+      },
+      "2026-06-08": {
+        "comments": 6,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 13,
+        "approvals": 3
+      },
+      "2026-06-22": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 8,
+        "approvals": 3
+      }
+    }
   },
   {
     "login": "tatoalo",
     "reviewComments": 78,
-    "approvals": 101
+    "approvals": 101,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 2,
+        "approvals": 2
+      },
+      "2026-04-13": {
+        "comments": 4,
+        "approvals": 11
+      },
+      "2026-04-20": {
+        "comments": 7,
+        "approvals": 11
+      },
+      "2026-04-27": {
+        "comments": 15,
+        "approvals": 16
+      },
+      "2026-05-04": {
+        "comments": 5,
+        "approvals": 16
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 3
+      },
+      "2026-05-18": {
+        "comments": 4,
+        "approvals": 18
+      },
+      "2026-05-25": {
+        "comments": 2,
+        "approvals": 2
+      },
+      "2026-06-01": {
+        "comments": 2,
+        "approvals": 8
+      },
+      "2026-06-08": {
+        "comments": 18,
+        "approvals": 0
+      },
+      "2026-06-22": {
+        "comments": 18,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 1,
+        "approvals": 14
+      }
+    }
   },
   {
     "login": "jose-sequeira",
     "reviewComments": 112,
-    "approvals": 31
+    "approvals": 31,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 8,
+        "approvals": 0
+      },
+      "2026-04-13": {
+        "comments": 7,
+        "approvals": 3
+      },
+      "2026-04-20": {
+        "comments": 40,
+        "approvals": 1
+      },
+      "2026-04-27": {
+        "comments": 10,
+        "approvals": 3
+      },
+      "2026-05-04": {
+        "comments": 7,
+        "approvals": 2
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-05-18": {
+        "comments": 5,
+        "approvals": 1
+      },
+      "2026-05-25": {
+        "comments": 7,
+        "approvals": 1
+      },
+      "2026-06-01": {
+        "comments": 10,
+        "approvals": 6
+      },
+      "2026-06-08": {
+        "comments": 4,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 8,
+        "approvals": 9
+      },
+      "2026-06-22": {
+        "comments": 6,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 0,
+        "approvals": 3
+      }
+    }
   },
   {
     "login": "rossgray",
     "reviewComments": 107,
-    "approvals": 36
+    "approvals": 36,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 17,
+        "approvals": 3
+      },
+      "2026-04-13": {
+        "comments": 5,
+        "approvals": 7
+      },
+      "2026-04-27": {
+        "comments": 8,
+        "approvals": 2
+      },
+      "2026-05-04": {
+        "comments": 13,
+        "approvals": 3
+      },
+      "2026-05-11": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-05-18": {
+        "comments": 9,
+        "approvals": 3
+      },
+      "2026-06-01": {
+        "comments": 13,
+        "approvals": 5
+      },
+      "2026-06-08": {
+        "comments": 8,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 8,
+        "approvals": 5
+      },
+      "2026-06-22": {
+        "comments": 16,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 9,
+        "approvals": 8
+      }
+    }
   },
   {
     "login": "pawel-cebula",
     "reviewComments": 104,
-    "approvals": 20
+    "approvals": 20,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-04-13": {
+        "comments": 13,
+        "approvals": 2
+      },
+      "2026-04-20": {
+        "comments": 3,
+        "approvals": 1
+      },
+      "2026-04-27": {
+        "comments": 6,
+        "approvals": 1
+      },
+      "2026-05-04": {
+        "comments": 14,
+        "approvals": 6
+      },
+      "2026-05-18": {
+        "comments": 5,
+        "approvals": 0
+      },
+      "2026-05-25": {
+        "comments": 9,
+        "approvals": 0
+      },
+      "2026-06-01": {
+        "comments": 7,
+        "approvals": 4
+      },
+      "2026-06-08": {
+        "comments": 11,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 6,
+        "approvals": 0
+      },
+      "2026-06-22": {
+        "comments": 15,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 13,
+        "approvals": 6
+      }
+    }
   },
   {
     "login": "veryayskiy",
     "reviewComments": 94,
-    "approvals": 39
+    "approvals": 39,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 3,
+        "approvals": 1
+      },
+      "2026-04-13": {
+        "comments": 6,
+        "approvals": 4
+      },
+      "2026-04-20": {
+        "comments": 7,
+        "approvals": 4
+      },
+      "2026-04-27": {
+        "comments": 1,
+        "approvals": 1
+      },
+      "2026-05-04": {
+        "comments": 2,
+        "approvals": 9
+      },
+      "2026-05-11": {
+        "comments": 1,
+        "approvals": 1
+      },
+      "2026-05-18": {
+        "comments": 5,
+        "approvals": 1
+      },
+      "2026-05-25": {
+        "comments": 0,
+        "approvals": 6
+      },
+      "2026-06-01": {
+        "comments": 1,
+        "approvals": 4
+      },
+      "2026-06-08": {
+        "comments": 34,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 3,
+        "approvals": 2
+      },
+      "2026-06-22": {
+        "comments": 22,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 9,
+        "approvals": 6
+      }
+    }
   },
   {
     "login": "Piccirello",
     "reviewComments": 73,
-    "approvals": 78
+    "approvals": 78,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 5,
+        "approvals": 7
+      },
+      "2026-04-13": {
+        "comments": 4,
+        "approvals": 10
+      },
+      "2026-04-20": {
+        "comments": 4,
+        "approvals": 7
+      },
+      "2026-04-27": {
+        "comments": 11,
+        "approvals": 6
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 4
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-18": {
+        "comments": 6,
+        "approvals": 13
+      },
+      "2026-05-25": {
+        "comments": 12,
+        "approvals": 3
+      },
+      "2026-06-01": {
+        "comments": 8,
+        "approvals": 12
+      },
+      "2026-06-08": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 13,
+        "approvals": 12
+      },
+      "2026-06-22": {
+        "comments": 5,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 2,
+        "approvals": 3
+      }
+    }
   },
   {
     "login": "brandonleung",
     "reviewComments": 84,
-    "approvals": 42
+    "approvals": 42,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-04-20": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-04-27": {
+        "comments": 19,
+        "approvals": 9
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-18": {
+        "comments": 4,
+        "approvals": 5
+      },
+      "2026-05-25": {
+        "comments": 4,
+        "approvals": 3
+      },
+      "2026-06-01": {
+        "comments": 2,
+        "approvals": 5
+      },
+      "2026-06-08": {
+        "comments": 25,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 12,
+        "approvals": 11
+      },
+      "2026-06-22": {
+        "comments": 17,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 0,
+        "approvals": 7
+      }
+    }
   },
   {
     "login": "meikelmosby",
     "reviewComments": 80,
-    "approvals": 48
+    "approvals": 48,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-04-13": {
+        "comments": 5,
+        "approvals": 10
+      },
+      "2026-04-20": {
+        "comments": 4,
+        "approvals": 5
+      },
+      "2026-04-27": {
+        "comments": 6,
+        "approvals": 2
+      },
+      "2026-05-04": {
+        "comments": 5,
+        "approvals": 10
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-18": {
+        "comments": 0,
+        "approvals": 5
+      },
+      "2026-05-25": {
+        "comments": 4,
+        "approvals": 3
+      },
+      "2026-06-01": {
+        "comments": 38,
+        "approvals": 7
+      },
+      "2026-06-08": {
+        "comments": 6,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 0,
+        "approvals": 4
+      },
+      "2026-06-22": {
+        "comments": 8,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 3,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "estefaniarabadan",
     "reviewComments": 83,
-    "approvals": 32
+    "approvals": 32,
+    "weeklyActivity": {
+      "2026-04-13": {
+        "comments": 17,
+        "approvals": 10
+      },
+      "2026-04-20": {
+        "comments": 0,
+        "approvals": 3
+      },
+      "2026-04-27": {
+        "comments": 11,
+        "approvals": 3
+      },
+      "2026-05-04": {
+        "comments": 17,
+        "approvals": 7
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-18": {
+        "comments": 13,
+        "approvals": 3
+      },
+      "2026-05-25": {
+        "comments": 9,
+        "approvals": 0
+      },
+      "2026-06-01": {
+        "comments": 8,
+        "approvals": 1
+      },
+      "2026-06-22": {
+        "comments": 4,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 4,
+        "approvals": 4
+      }
+    }
   },
   {
     "login": "mariusandra",
     "reviewComments": 55,
-    "approvals": 79
+    "approvals": 79,
+    "weeklyActivity": {
+      "2026-04-13": {
+        "comments": 5,
+        "approvals": 4
+      },
+      "2026-04-20": {
+        "comments": 5,
+        "approvals": 9
+      },
+      "2026-04-27": {
+        "comments": 12,
+        "approvals": 4
+      },
+      "2026-05-04": {
+        "comments": 8,
+        "approvals": 7
+      },
+      "2026-05-18": {
+        "comments": 9,
+        "approvals": 23
+      },
+      "2026-05-25": {
+        "comments": 0,
+        "approvals": 6
+      },
+      "2026-06-01": {
+        "comments": 3,
+        "approvals": 7
+      },
+      "2026-06-08": {
+        "comments": 7,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 1,
+        "approvals": 14
+      },
+      "2026-06-29": {
+        "comments": 5,
+        "approvals": 5
+      }
+    }
   },
   {
     "login": "pl",
     "reviewComments": 82,
-    "approvals": 19
+    "approvals": 19,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 14,
+        "approvals": 0
+      },
+      "2026-04-13": {
+        "comments": 0,
+        "approvals": 5
+      },
+      "2026-04-20": {
+        "comments": 7,
+        "approvals": 1
+      },
+      "2026-04-27": {
+        "comments": 3,
+        "approvals": 1
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-18": {
+        "comments": 2,
+        "approvals": 2
+      },
+      "2026-05-25": {
+        "comments": 10,
+        "approvals": 0
+      },
+      "2026-06-01": {
+        "comments": 14,
+        "approvals": 2
+      },
+      "2026-06-08": {
+        "comments": 9,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 21,
+        "approvals": 5
+      },
+      "2026-06-22": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 0,
+        "approvals": 2
+      }
+    }
   },
   {
     "login": "ksvat",
     "reviewComments": 77,
-    "approvals": 29
+    "approvals": 29,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 2,
+        "approvals": 1
+      },
+      "2026-04-13": {
+        "comments": 4,
+        "approvals": 4
+      },
+      "2026-04-20": {
+        "comments": 3,
+        "approvals": 2
+      },
+      "2026-05-04": {
+        "comments": 3,
+        "approvals": 1
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 6
+      },
+      "2026-05-18": {
+        "comments": 5,
+        "approvals": 2
+      },
+      "2026-05-25": {
+        "comments": 2,
+        "approvals": 2
+      },
+      "2026-06-01": {
+        "comments": 2,
+        "approvals": 5
+      },
+      "2026-06-08": {
+        "comments": 31,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 16,
+        "approvals": 5
+      },
+      "2026-06-22": {
+        "comments": 4,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 5,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "VojtechBartos",
     "reviewComments": 72,
-    "approvals": 38
+    "approvals": 38,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 7,
+        "approvals": 0
+      },
+      "2026-04-13": {
+        "comments": 2,
+        "approvals": 7
+      },
+      "2026-04-20": {
+        "comments": 12,
+        "approvals": 6
+      },
+      "2026-04-27": {
+        "comments": 0,
+        "approvals": 7
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 4
+      },
+      "2026-05-18": {
+        "comments": 8,
+        "approvals": 5
+      },
+      "2026-05-25": {
+        "comments": 11,
+        "approvals": 1
+      },
+      "2026-06-01": {
+        "comments": 1,
+        "approvals": 4
+      },
+      "2026-06-08": {
+        "comments": 4,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 5,
+        "approvals": 1
+      },
+      "2026-06-22": {
+        "comments": 22,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 0,
+        "approvals": 3
+      }
+    }
   },
   {
     "login": "patricio-posthog",
     "reviewComments": 79,
-    "approvals": 24
+    "approvals": 24,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-04-13": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-04-20": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-04-27": {
+        "comments": 0,
+        "approvals": 3
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 6
+      },
+      "2026-05-18": {
+        "comments": 0,
+        "approvals": 7
+      },
+      "2026-05-25": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-06-01": {
+        "comments": 3,
+        "approvals": 2
+      },
+      "2026-06-08": {
+        "comments": 51,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 11,
+        "approvals": 1
+      },
+      "2026-06-22": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 6,
+        "approvals": 3
+      }
+    }
   },
   {
     "login": "gustavohstrassburger",
     "reviewComments": 74,
-    "approvals": 29
+    "approvals": 29,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 4,
+        "approvals": 2
+      },
+      "2026-04-13": {
+        "comments": 4,
+        "approvals": 5
+      },
+      "2026-04-20": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-04-27": {
+        "comments": 2,
+        "approvals": 2
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 4
+      },
+      "2026-05-18": {
+        "comments": 3,
+        "approvals": 9
+      },
+      "2026-06-01": {
+        "comments": 4,
+        "approvals": 5
+      },
+      "2026-06-08": {
+        "comments": 6,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 14,
+        "approvals": 0
+      },
+      "2026-06-22": {
+        "comments": 24,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 11,
+        "approvals": 2
+      }
+    }
   },
   {
     "login": "lricoy",
     "reviewComments": 42,
-    "approvals": 90
+    "approvals": 90,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 4,
+        "approvals": 2
+      },
+      "2026-04-13": {
+        "comments": 7,
+        "approvals": 9
+      },
+      "2026-04-20": {
+        "comments": 1,
+        "approvals": 9
+      },
+      "2026-04-27": {
+        "comments": 1,
+        "approvals": 8
+      },
+      "2026-05-04": {
+        "comments": 2,
+        "approvals": 6
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 4
+      },
+      "2026-05-18": {
+        "comments": 4,
+        "approvals": 17
+      },
+      "2026-05-25": {
+        "comments": 8,
+        "approvals": 7
+      },
+      "2026-06-01": {
+        "comments": 4,
+        "approvals": 9
+      },
+      "2026-06-08": {
+        "comments": 5,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 2,
+        "approvals": 11
+      },
+      "2026-06-29": {
+        "comments": 4,
+        "approvals": 8
+      }
+    }
   },
   {
     "login": "robbie-c",
     "reviewComments": 75,
-    "approvals": 23
+    "approvals": 23,
+    "weeklyActivity": {
+      "2026-04-13": {
+        "comments": 1,
+        "approvals": 2
+      },
+      "2026-04-20": {
+        "comments": 11,
+        "approvals": 2
+      },
+      "2026-04-27": {
+        "comments": 6,
+        "approvals": 2
+      },
+      "2026-05-11": {
+        "comments": 1,
+        "approvals": 1
+      },
+      "2026-05-18": {
+        "comments": 8,
+        "approvals": 8
+      },
+      "2026-05-25": {
+        "comments": 4,
+        "approvals": 0
+      },
+      "2026-06-01": {
+        "comments": 8,
+        "approvals": 6
+      },
+      "2026-06-08": {
+        "comments": 28,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 3,
+        "approvals": 1
+      },
+      "2026-06-22": {
+        "comments": 4,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 1,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "nickbest-ph",
     "reviewComments": 63,
-    "approvals": 44
+    "approvals": 44,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 7,
+        "approvals": 1
+      },
+      "2026-04-20": {
+        "comments": 7,
+        "approvals": 4
+      },
+      "2026-04-27": {
+        "comments": 5,
+        "approvals": 5
+      },
+      "2026-05-04": {
+        "comments": 5,
+        "approvals": 10
+      },
+      "2026-05-18": {
+        "comments": 5,
+        "approvals": 4
+      },
+      "2026-05-25": {
+        "comments": 7,
+        "approvals": 1
+      },
+      "2026-06-01": {
+        "comments": 2,
+        "approvals": 10
+      },
+      "2026-06-08": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 10,
+        "approvals": 8
+      },
+      "2026-06-22": {
+        "comments": 12,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 0,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "thmsobrmlr",
     "reviewComments": 45,
-    "approvals": 46
+    "approvals": 46,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 11,
+        "approvals": 0
+      },
+      "2026-04-13": {
+        "comments": 8,
+        "approvals": 5
+      },
+      "2026-04-20": {
+        "comments": 8,
+        "approvals": 5
+      },
+      "2026-04-27": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-05-04": {
+        "comments": 1,
+        "approvals": 2
+      },
+      "2026-05-18": {
+        "comments": 0,
+        "approvals": 10
+      },
+      "2026-05-25": {
+        "comments": 4,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 9,
+        "approvals": 15
+      },
+      "2026-06-22": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 3,
+        "approvals": 7
+      }
+    }
   },
   {
     "login": "orian",
     "reviewComments": 52,
-    "approvals": 30
+    "approvals": 30,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 4,
+        "approvals": 0
+      },
+      "2026-04-13": {
+        "comments": 7,
+        "approvals": 3
+      },
+      "2026-04-20": {
+        "comments": 10,
+        "approvals": 6
+      },
+      "2026-04-27": {
+        "comments": 2,
+        "approvals": 2
+      },
+      "2026-05-04": {
+        "comments": 9,
+        "approvals": 5
+      },
+      "2026-05-11": {
+        "comments": 1,
+        "approvals": 2
+      },
+      "2026-05-18": {
+        "comments": 6,
+        "approvals": 10
+      },
+      "2026-05-25": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-06-01": {
+        "comments": 7,
+        "approvals": 2
+      },
+      "2026-06-22": {
+        "comments": 5,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "benjackwhite",
     "reviewComments": 48,
-    "approvals": 33
+    "approvals": 33,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 2,
+        "approvals": 5
+      },
+      "2026-04-13": {
+        "comments": 5,
+        "approvals": 4
+      },
+      "2026-04-20": {
+        "comments": 2,
+        "approvals": 1
+      },
+      "2026-04-27": {
+        "comments": 3,
+        "approvals": 4
+      },
+      "2026-05-04": {
+        "comments": 1,
+        "approvals": 9
+      },
+      "2026-05-18": {
+        "comments": 2,
+        "approvals": 5
+      },
+      "2026-06-01": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-06-08": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 4,
+        "approvals": 2
+      },
+      "2026-06-22": {
+        "comments": 19,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 9,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "jonmcwest",
     "reviewComments": 53,
-    "approvals": 23
+    "approvals": 23,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-04-13": {
+        "comments": 0,
+        "approvals": 6
+      },
+      "2026-04-20": {
+        "comments": 4,
+        "approvals": 0
+      },
+      "2026-04-27": {
+        "comments": 3,
+        "approvals": 3
+      },
+      "2026-05-18": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-25": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-06-01": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-06-08": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 12,
+        "approvals": 6
+      },
+      "2026-06-22": {
+        "comments": 18,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 14,
+        "approvals": 2
+      }
+    }
   },
   {
     "login": "rorylshanks",
     "reviewComments": 31,
-    "approvals": 62
+    "approvals": 62,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-04-13": {
+        "comments": 7,
+        "approvals": 7
+      },
+      "2026-04-20": {
+        "comments": 0,
+        "approvals": 13
+      },
+      "2026-04-27": {
+        "comments": 2,
+        "approvals": 10
+      },
+      "2026-05-04": {
+        "comments": 3,
+        "approvals": 4
+      },
+      "2026-05-11": {
+        "comments": 1,
+        "approvals": 2
+      },
+      "2026-05-18": {
+        "comments": 8,
+        "approvals": 7
+      },
+      "2026-06-01": {
+        "comments": 1,
+        "approvals": 2
+      },
+      "2026-06-15": {
+        "comments": 1,
+        "approvals": 8
+      },
+      "2026-06-22": {
+        "comments": 6,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 2,
+        "approvals": 8
+      }
+    }
   },
   {
     "login": "georgemunyoro",
     "reviewComments": 29,
-    "approvals": 64
+    "approvals": 64,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 1,
+        "approvals": 3
+      },
+      "2026-04-13": {
+        "comments": 4,
+        "approvals": 9
+      },
+      "2026-04-20": {
+        "comments": 1,
+        "approvals": 9
+      },
+      "2026-04-27": {
+        "comments": 2,
+        "approvals": 7
+      },
+      "2026-05-04": {
+        "comments": 1,
+        "approvals": 9
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 5
+      },
+      "2026-05-18": {
+        "comments": 0,
+        "approvals": 6
+      },
+      "2026-05-25": {
+        "comments": 2,
+        "approvals": 6
+      },
+      "2026-06-01": {
+        "comments": 0,
+        "approvals": 4
+      },
+      "2026-06-08": {
+        "comments": 15,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 2,
+        "approvals": 2
+      },
+      "2026-06-22": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 0,
+        "approvals": 4
+      }
+    }
   },
   {
     "login": "DanielVisca",
     "reviewComments": 40,
-    "approvals": 41
+    "approvals": 41,
+    "weeklyActivity": {
+      "2026-04-20": {
+        "comments": 0,
+        "approvals": 6
+      },
+      "2026-04-27": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-04": {
+        "comments": 4,
+        "approvals": 1
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 5
+      },
+      "2026-05-18": {
+        "comments": 20,
+        "approvals": 6
+      },
+      "2026-05-25": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-06-01": {
+        "comments": 0,
+        "approvals": 6
+      },
+      "2026-06-08": {
+        "comments": 5,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-06-22": {
+        "comments": 5,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 6,
+        "approvals": 12
+      }
+    }
   },
   {
     "login": "fasyy612",
     "reviewComments": 37,
-    "approvals": 45
+    "approvals": 45,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 4,
+        "approvals": 1
+      },
+      "2026-04-13": {
+        "comments": 3,
+        "approvals": 12
+      },
+      "2026-04-20": {
+        "comments": 4,
+        "approvals": 4
+      },
+      "2026-04-27": {
+        "comments": 2,
+        "approvals": 5
+      },
+      "2026-05-04": {
+        "comments": 6,
+        "approvals": 9
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-18": {
+        "comments": 7,
+        "approvals": 7
+      },
+      "2026-06-01": {
+        "comments": 5,
+        "approvals": 6
+      },
+      "2026-06-08": {
+        "comments": 6,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "willwearing",
     "reviewComments": 59,
-    "approvals": 1
+    "approvals": 1,
+    "weeklyActivity": {
+      "2026-04-13": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-18": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-06-22": {
+        "comments": 5,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 53,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "matheus-vb",
     "reviewComments": 46,
-    "approvals": 21
+    "approvals": 21,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 4,
+        "approvals": 0
+      },
+      "2026-04-13": {
+        "comments": 4,
+        "approvals": 1
+      },
+      "2026-04-20": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-04-27": {
+        "comments": 5,
+        "approvals": 2
+      },
+      "2026-05-04": {
+        "comments": 3,
+        "approvals": 3
+      },
+      "2026-05-11": {
+        "comments": 1,
+        "approvals": 8
+      },
+      "2026-05-18": {
+        "comments": 3,
+        "approvals": 2
+      },
+      "2026-05-25": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-06-01": {
+        "comments": 6,
+        "approvals": 3
+      },
+      "2026-06-08": {
+        "comments": 5,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 5,
+        "approvals": 2
+      },
+      "2026-06-22": {
+        "comments": 6,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "lucasheriques",
     "reviewComments": 25,
-    "approvals": 57
+    "approvals": 57,
+    "weeklyActivity": {
+      "2026-04-13": {
+        "comments": 0,
+        "approvals": 9
+      },
+      "2026-04-20": {
+        "comments": 0,
+        "approvals": 5
+      },
+      "2026-04-27": {
+        "comments": 1,
+        "approvals": 6
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 5
+      },
+      "2026-05-11": {
+        "comments": 3,
+        "approvals": 7
+      },
+      "2026-05-18": {
+        "comments": 2,
+        "approvals": 12
+      },
+      "2026-05-25": {
+        "comments": 8,
+        "approvals": 2
+      },
+      "2026-06-01": {
+        "comments": 3,
+        "approvals": 2
+      },
+      "2026-06-08": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 0,
+        "approvals": 4
+      },
+      "2026-06-22": {
+        "comments": 2,
+        "approvals": 1
+      },
+      "2026-06-29": {
+        "comments": 3,
+        "approvals": 4
+      }
+    }
   },
   {
     "login": "cvolzer3",
     "reviewComments": 39,
-    "approvals": 20
+    "approvals": 20,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-04-13": {
+        "comments": 1,
+        "approvals": 2
+      },
+      "2026-04-20": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-04-27": {
+        "comments": 4,
+        "approvals": 3
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 7
+      },
+      "2026-05-25": {
+        "comments": 5,
+        "approvals": 0
+      },
+      "2026-06-01": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-06-08": {
+        "comments": 8,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 3,
+        "approvals": 3
+      },
+      "2026-06-29": {
+        "comments": 15,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "frankh",
     "reviewComments": 16,
-    "approvals": 60
+    "approvals": 60,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 2,
+        "approvals": 2
+      },
+      "2026-04-13": {
+        "comments": 0,
+        "approvals": 10
+      },
+      "2026-04-20": {
+        "comments": 6,
+        "approvals": 11
+      },
+      "2026-04-27": {
+        "comments": 0,
+        "approvals": 9
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 4
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-05-18": {
+        "comments": 3,
+        "approvals": 3
+      },
+      "2026-06-15": {
+        "comments": 0,
+        "approvals": 7
+      },
+      "2026-06-22": {
+        "comments": 4,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 1,
+        "approvals": 12
+      }
+    }
   },
   {
     "login": "andyzzhao",
     "reviewComments": 32,
-    "approvals": 27
+    "approvals": 27,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-04-13": {
+        "comments": 1,
+        "approvals": 4
+      },
+      "2026-04-20": {
+        "comments": 12,
+        "approvals": 0
+      },
+      "2026-04-27": {
+        "comments": 8,
+        "approvals": 1
+      },
+      "2026-05-04": {
+        "comments": 1,
+        "approvals": 3
+      },
+      "2026-05-18": {
+        "comments": 3,
+        "approvals": 6
+      },
+      "2026-05-25": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-06-01": {
+        "comments": 3,
+        "approvals": 3
+      },
+      "2026-06-08": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 0,
+        "approvals": 5
+      },
+      "2026-06-22": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 1,
+        "approvals": 3
+      }
+    }
   },
   {
     "login": "mp-hog",
     "reviewComments": 33,
-    "approvals": 24
+    "approvals": 24,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 4,
+        "approvals": 0
+      },
+      "2026-04-13": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-04-20": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-04-27": {
+        "comments": 7,
+        "approvals": 3
+      },
+      "2026-05-04": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-05-18": {
+        "comments": 1,
+        "approvals": 4
+      },
+      "2026-05-25": {
+        "comments": 6,
+        "approvals": 1
+      },
+      "2026-06-01": {
+        "comments": 1,
+        "approvals": 6
+      },
+      "2026-06-08": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 2,
+        "approvals": 5
+      },
+      "2026-06-22": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 3,
+        "approvals": 2
+      }
+    }
   },
   {
     "login": "marandaneto",
     "reviewComments": 22,
-    "approvals": 45
+    "approvals": 45,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-04-13": {
+        "comments": 0,
+        "approvals": 5
+      },
+      "2026-04-20": {
+        "comments": 0,
+        "approvals": 4
+      },
+      "2026-04-27": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-05-11": {
+        "comments": 1,
+        "approvals": 10
+      },
+      "2026-05-18": {
+        "comments": 1,
+        "approvals": 6
+      },
+      "2026-05-25": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-06-01": {
+        "comments": 3,
+        "approvals": 2
+      },
+      "2026-06-08": {
+        "comments": 11,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 3,
+        "approvals": 11
+      },
+      "2026-06-22": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 0,
+        "approvals": 2
+      }
+    }
   },
   {
     "login": "andrewjmcgehee",
     "reviewComments": 32,
-    "approvals": 24
+    "approvals": 24,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 6,
+        "approvals": 0
+      },
+      "2026-04-13": {
+        "comments": 3,
+        "approvals": 2
+      },
+      "2026-04-20": {
+        "comments": 1,
+        "approvals": 7
+      },
+      "2026-04-27": {
+        "comments": 2,
+        "approvals": 2
+      },
+      "2026-05-04": {
+        "comments": 2,
+        "approvals": 1
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-18": {
+        "comments": 6,
+        "approvals": 4
+      },
+      "2026-06-01": {
+        "comments": 5,
+        "approvals": 2
+      },
+      "2026-06-15": {
+        "comments": 2,
+        "approvals": 1
+      },
+      "2026-06-22": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 3,
+        "approvals": 4
+      }
+    }
   },
   {
     "login": "rodrigoi",
     "reviewComments": 34,
-    "approvals": 19
+    "approvals": 19,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 4,
+        "approvals": 0
+      },
+      "2026-04-13": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-04-20": {
+        "comments": 13,
+        "approvals": 3
+      },
+      "2026-04-27": {
+        "comments": 2,
+        "approvals": 1
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-05-18": {
+        "comments": 0,
+        "approvals": 5
+      },
+      "2026-05-25": {
+        "comments": 1,
+        "approvals": 1
+      },
+      "2026-06-01": {
+        "comments": 2,
+        "approvals": 4
+      },
+      "2026-06-08": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 2,
+        "approvals": 2
+      },
+      "2026-06-22": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 3,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "mayteio",
     "reviewComments": 31,
-    "approvals": 23
+    "approvals": 23,
+    "weeklyActivity": {
+      "2026-05-25": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-06-01": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-06-08": {
+        "comments": 9,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 11,
+        "approvals": 10
+      },
+      "2026-06-22": {
+        "comments": 6,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 3,
+        "approvals": 11
+      }
+    }
   },
   {
     "login": "andehen",
     "reviewComments": 25,
-    "approvals": 34
+    "approvals": 34,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 1,
+        "approvals": 2
+      },
+      "2026-04-13": {
+        "comments": 3,
+        "approvals": 5
+      },
+      "2026-04-20": {
+        "comments": 8,
+        "approvals": 2
+      },
+      "2026-04-27": {
+        "comments": 4,
+        "approvals": 6
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 3
+      },
+      "2026-05-18": {
+        "comments": 5,
+        "approvals": 7
+      },
+      "2026-05-25": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-06-08": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 0,
+        "approvals": 4
+      },
+      "2026-06-22": {
+        "comments": 1,
+        "approvals": 1
+      },
+      "2026-06-29": {
+        "comments": 0,
+        "approvals": 2
+      }
+    }
   },
   {
     "login": "jurajmajerik",
     "reviewComments": 18,
-    "approvals": 46
+    "approvals": 46,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 9,
+        "approvals": 5
+      },
+      "2026-04-13": {
+        "comments": 1,
+        "approvals": 8
+      },
+      "2026-04-20": {
+        "comments": 1,
+        "approvals": 5
+      },
+      "2026-04-27": {
+        "comments": 0,
+        "approvals": 4
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 6
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-05-18": {
+        "comments": 0,
+        "approvals": 6
+      },
+      "2026-05-25": {
+        "comments": 2,
+        "approvals": 1
+      },
+      "2026-06-01": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-06-08": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-06-22": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 1,
+        "approvals": 5
+      }
+    }
   },
   {
     "login": "ricardothe3rd",
     "reviewComments": 38,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-04-13": {
+        "comments": 8,
+        "approvals": 0
+      },
+      "2026-04-20": {
+        "comments": 6,
+        "approvals": 0
+      },
+      "2026-04-27": {
+        "comments": 24,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "abhischekt",
     "reviewComments": 33,
-    "approvals": 9
+    "approvals": 9,
+    "weeklyActivity": {
+      "2026-04-20": {
+        "comments": 4,
+        "approvals": 0
+      },
+      "2026-04-27": {
+        "comments": 6,
+        "approvals": 0
+      },
+      "2026-05-04": {
+        "comments": 10,
+        "approvals": 4
+      },
+      "2026-05-18": {
+        "comments": 1,
+        "approvals": 1
+      },
+      "2026-05-25": {
+        "comments": 5,
+        "approvals": 2
+      },
+      "2026-06-08": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 1,
+        "approvals": 1
+      },
+      "2026-06-22": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 2,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "jabahamondes",
     "reviewComments": 22,
-    "approvals": 28
+    "approvals": 28,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 1,
+        "approvals": 2
+      },
+      "2026-04-13": {
+        "comments": 0,
+        "approvals": 3
+      },
+      "2026-04-27": {
+        "comments": 1,
+        "approvals": 2
+      },
+      "2026-05-04": {
+        "comments": 1,
+        "approvals": 3
+      },
+      "2026-05-11": {
+        "comments": 1,
+        "approvals": 2
+      },
+      "2026-05-18": {
+        "comments": 0,
+        "approvals": 3
+      },
+      "2026-05-25": {
+        "comments": 3,
+        "approvals": 6
+      },
+      "2026-06-01": {
+        "comments": 0,
+        "approvals": 4
+      },
+      "2026-06-08": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-06-22": {
+        "comments": 11,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 1,
+        "approvals": 3
+      }
+    }
   },
   {
     "login": "feliperalmeida",
     "reviewComments": 11,
-    "approvals": 48
+    "approvals": 48,
+    "weeklyActivity": {
+      "2026-04-13": {
+        "comments": 1,
+        "approvals": 4
+      },
+      "2026-04-20": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-04-27": {
+        "comments": 0,
+        "approvals": 3
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 8
+      },
+      "2026-05-18": {
+        "comments": 0,
+        "approvals": 6
+      },
+      "2026-05-25": {
+        "comments": 1,
+        "approvals": 6
+      },
+      "2026-06-01": {
+        "comments": 1,
+        "approvals": 6
+      },
+      "2026-06-15": {
+        "comments": 0,
+        "approvals": 5
+      },
+      "2026-06-22": {
+        "comments": 6,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 1,
+        "approvals": 8
+      }
+    }
   },
   {
     "login": "adamleithp",
     "reviewComments": 6,
-    "approvals": 54
+    "approvals": 54,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 1,
+        "approvals": 4
+      },
+      "2026-04-13": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-04-20": {
+        "comments": 0,
+        "approvals": 4
+      },
+      "2026-04-27": {
+        "comments": 0,
+        "approvals": 4
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 4
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 3
+      },
+      "2026-05-18": {
+        "comments": 0,
+        "approvals": 6
+      },
+      "2026-05-25": {
+        "comments": 0,
+        "approvals": 4
+      },
+      "2026-06-01": {
+        "comments": 0,
+        "approvals": 15
+      },
+      "2026-06-08": {
+        "comments": 4,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 1,
+        "approvals": 5
+      },
+      "2026-06-29": {
+        "comments": 0,
+        "approvals": 3
+      }
+    }
   },
   {
     "login": "gesh",
     "reviewComments": 17,
-    "approvals": 31
+    "approvals": 31,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-04-13": {
+        "comments": 2,
+        "approvals": 3
+      },
+      "2026-04-20": {
+        "comments": 1,
+        "approvals": 2
+      },
+      "2026-04-27": {
+        "comments": 0,
+        "approvals": 3
+      },
+      "2026-05-04": {
+        "comments": 2,
+        "approvals": 3
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-18": {
+        "comments": 2,
+        "approvals": 7
+      },
+      "2026-05-25": {
+        "comments": 4,
+        "approvals": 0
+      },
+      "2026-06-01": {
+        "comments": 2,
+        "approvals": 5
+      },
+      "2026-06-15": {
+        "comments": 1,
+        "approvals": 4
+      },
+      "2026-06-22": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 1,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "arnohillen",
     "reviewComments": 18,
-    "approvals": 26
+    "approvals": 26,
+    "weeklyActivity": {
+      "2026-04-27": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 3
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-18": {
+        "comments": 6,
+        "approvals": 2
+      },
+      "2026-05-25": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-06-01": {
+        "comments": 0,
+        "approvals": 10
+      },
+      "2026-06-08": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 0,
+        "approvals": 3
+      },
+      "2026-06-29": {
+        "comments": 8,
+        "approvals": 6
+      }
+    }
   },
   {
     "login": "christiaan-ph",
     "reviewComments": 27,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-04-20": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-05-18": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-05-25": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-06-08": {
+        "comments": 7,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 11,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 4,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "luke-belton",
     "reviewComments": 25,
-    "approvals": 2
+    "approvals": 2,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 5,
+        "approvals": 0
+      },
+      "2026-04-13": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-06-08": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 15,
+        "approvals": 2
+      }
+    }
   },
   {
     "login": "xljones",
     "reviewComments": 24,
-    "approvals": 4
+    "approvals": 4,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-04-20": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-05-04": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-05-18": {
+        "comments": 1,
+        "approvals": 1
+      },
+      "2026-06-08": {
+        "comments": 13,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-06-22": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 3,
+        "approvals": 2
+      }
+    }
   },
   {
     "login": "thiagosalvatore",
     "reviewComments": 20,
-    "approvals": 9
+    "approvals": 9,
+    "weeklyActivity": {
+      "2026-06-29": {
+        "comments": 20,
+        "approvals": 9
+      }
+    }
   },
   {
     "login": "gewenyu99",
     "reviewComments": 22,
-    "approvals": 2
+    "approvals": 2,
+    "weeklyActivity": {
+      "2026-04-27": {
+        "comments": 8,
+        "approvals": 0
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-18": {
+        "comments": 10,
+        "approvals": 0
+      },
+      "2026-05-25": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-06-22": {
+        "comments": 4,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "jordanm-posthog",
     "reviewComments": 6,
-    "approvals": 30
+    "approvals": 30,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 1,
+        "approvals": 1
+      },
+      "2026-04-13": {
+        "comments": 2,
+        "approvals": 3
+      },
+      "2026-04-20": {
+        "comments": 1,
+        "approvals": 1
+      },
+      "2026-04-27": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-04": {
+        "comments": 1,
+        "approvals": 4
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 6
+      },
+      "2026-05-18": {
+        "comments": 1,
+        "approvals": 9
+      },
+      "2026-05-25": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-06-01": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-06-29": {
+        "comments": 0,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "aspicer",
     "reviewComments": 16,
-    "approvals": 9
+    "approvals": 9,
+    "weeklyActivity": {
+      "2026-04-13": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-04-27": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-18": {
+        "comments": 0,
+        "approvals": 4
+      },
+      "2026-05-25": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-06-01": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-06-08": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 3,
+        "approvals": 2
+      },
+      "2026-06-22": {
+        "comments": 7,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "mjwarren3",
     "reviewComments": 19,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-06-08": {
+        "comments": 10,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 7,
+        "approvals": 0
+      },
+      "2026-06-22": {
+        "comments": 2,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "k11kirky",
     "reviewComments": 13,
-    "approvals": 9
+    "approvals": 9,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 7,
+        "approvals": 0
+      },
+      "2026-04-13": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-04-27": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 4
+      },
+      "2026-05-25": {
+        "comments": 1,
+        "approvals": 1
+      },
+      "2026-06-01": {
+        "comments": 3,
+        "approvals": 1
+      },
+      "2026-06-15": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 0,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "ShashankFC",
     "reviewComments": 17,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 17,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "ryans-posthog",
     "reviewComments": 14,
-    "approvals": 5
+    "approvals": 5,
+    "weeklyActivity": {
+      "2026-04-13": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-04-20": {
+        "comments": 4,
+        "approvals": 0
+      },
+      "2026-05-04": {
+        "comments": 2,
+        "approvals": 4
+      },
+      "2026-05-18": {
+        "comments": 7,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "nicowaltz",
     "reviewComments": 13,
-    "approvals": 5
+    "approvals": 5,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-04-13": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-05-18": {
+        "comments": 2,
+        "approvals": 1
+      },
+      "2026-05-25": {
+        "comments": 4,
+        "approvals": 1
+      },
+      "2026-06-22": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 0,
+        "approvals": 3
+      }
+    }
   },
   {
     "login": "slshults",
     "reviewComments": 14,
-    "approvals": 3
+    "approvals": 3,
+    "weeklyActivity": {
+      "2026-04-13": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-04-20": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-05-04": {
+        "comments": 2,
+        "approvals": 2
+      },
+      "2026-06-01": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-06-08": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-06-22": {
+        "comments": 5,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "jonathanlab",
     "reviewComments": 11,
-    "approvals": 9
+    "approvals": 9,
+    "weeklyActivity": {
+      "2026-04-20": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-04-27": {
+        "comments": 4,
+        "approvals": 2
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-18": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-25": {
+        "comments": 4,
+        "approvals": 0
+      },
+      "2026-06-01": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-06-08": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 1,
+        "approvals": 2
+      }
+    }
   },
   {
     "login": "abigailbramble",
     "reviewComments": 12,
-    "approvals": 6
+    "approvals": 6,
+    "weeklyActivity": {
+      "2026-05-11": {
+        "comments": 12,
+        "approvals": 2
+      },
+      "2026-05-18": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-06-01": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-06-15": {
+        "comments": 0,
+        "approvals": 2
+      }
+    }
   },
   {
     "login": "daniloc",
     "reviewComments": 14,
-    "approvals": 1
+    "approvals": 1,
+    "weeklyActivity": {
+      "2026-06-01": {
+        "comments": 1,
+        "approvals": 1
+      },
+      "2026-06-22": {
+        "comments": 11,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 2,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "raquelmsmith",
     "reviewComments": 13,
-    "approvals": 2
+    "approvals": 2,
+    "weeklyActivity": {
+      "2026-04-13": {
+        "comments": 2,
+        "approvals": 1
+      },
+      "2026-04-20": {
+        "comments": 5,
+        "approvals": 0
+      },
+      "2026-04-27": {
+        "comments": 6,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "dustinbyrne",
     "reviewComments": 8,
-    "approvals": 11
+    "approvals": 11,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-04-27": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-11": {
+        "comments": 4,
+        "approvals": 3
+      },
+      "2026-05-18": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-25": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-06-01": {
+        "comments": 3,
+        "approvals": 3
+      },
+      "2026-06-15": {
+        "comments": 0,
+        "approvals": 2
+      }
+    }
   },
   {
     "login": "fuziontech",
     "reviewComments": 8,
-    "approvals": 11
+    "approvals": 11,
+    "weeklyActivity": {
+      "2026-04-27": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 3
+      },
+      "2026-05-18": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-06-01": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-06-08": {
+        "comments": 8,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-06-29": {
+        "comments": 0,
+        "approvals": 3
+      }
+    }
   },
   {
     "login": "turnipdabeets",
     "reviewComments": 5,
-    "approvals": 16
+    "approvals": 16,
+    "weeklyActivity": {
+      "2026-04-13": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-04-20": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-04-27": {
+        "comments": 0,
+        "approvals": 3
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-05-18": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-25": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-06-01": {
+        "comments": 0,
+        "approvals": 5
+      },
+      "2026-06-08": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-06-22": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 0,
+        "approvals": 2
+      }
+    }
   },
   {
     "login": "jghoman",
     "reviewComments": 3,
-    "approvals": 18
+    "approvals": 18,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-04-20": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-04-27": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-06-01": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-06-15": {
+        "comments": 0,
+        "approvals": 6
+      },
+      "2026-06-22": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 0,
+        "approvals": 7
+      }
+    }
   },
   {
     "login": "cleo-pleurodon",
     "reviewComments": 11,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-05-04": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 8,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "bciaraldi",
     "reviewComments": 2,
-    "approvals": 17
+    "approvals": 17,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 1,
+        "approvals": 1
+      },
+      "2026-04-20": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-04-27": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-04": {
+        "comments": 1,
+        "approvals": 3
+      },
+      "2026-05-18": {
+        "comments": 0,
+        "approvals": 3
+      },
+      "2026-06-01": {
+        "comments": 0,
+        "approvals": 3
+      },
+      "2026-06-29": {
+        "comments": 0,
+        "approvals": 4
+      }
+    }
   },
   {
     "login": "matt-metivier",
     "reviewComments": 9,
-    "approvals": 3
+    "approvals": 3,
+    "weeklyActivity": {
+      "2026-04-13": {
+        "comments": 9,
+        "approvals": 3
+      }
+    }
   },
   {
     "login": "sinan-ku",
     "reviewComments": 4,
-    "approvals": 13
+    "approvals": 13,
+    "weeklyActivity": {
+      "2026-06-15": {
+        "comments": 0,
+        "approvals": 3
+      },
+      "2026-06-22": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 3,
+        "approvals": 10
+      }
+    }
   },
   {
     "login": "adboio",
     "reviewComments": 9,
-    "approvals": 2
+    "approvals": 2,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 9,
+        "approvals": 0
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "ryangchung",
     "reviewComments": 10,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-06-22": {
+        "comments": 4,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 6,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "charlesvien",
     "reviewComments": 2,
-    "approvals": 15
+    "approvals": 15,
+    "weeklyActivity": {
+      "2026-04-13": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-04-20": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-18": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-25": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-06-01": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-06-08": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 0,
+        "approvals": 3
+      },
+      "2026-06-29": {
+        "comments": 0,
+        "approvals": 4
+      }
+    }
   },
   {
     "login": "mirontkachuk2",
     "reviewComments": 9,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-06-08": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 6,
+        "approvals": 0
+      },
+      "2026-06-22": {
+        "comments": 2,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "ricardo-leiva",
     "reviewComments": 9,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-06-22": {
+        "comments": 6,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 3,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "ioannisj",
     "reviewComments": 7,
-    "approvals": 3
+    "approvals": 3,
+    "weeklyActivity": {
+      "2026-04-27": {
+        "comments": 3,
+        "approvals": 2
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-06-08": {
+        "comments": 4,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "benben",
     "reviewComments": 5,
-    "approvals": 5
+    "approvals": 5,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-04-13": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-04-20": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-25": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-06-22": {
+        "comments": 4,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 0,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "ceyniustranberg",
     "reviewComments": 7,
-    "approvals": 1
+    "approvals": 1,
+    "weeklyActivity": {
+      "2026-06-01": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-06-08": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-06-22": {
+        "comments": 5,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "annikaschmid",
     "reviewComments": 7,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 5,
+        "approvals": 0
+      },
+      "2026-04-13": {
+        "comments": 2,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "lucashflores",
     "reviewComments": 7,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-04-20": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-04-27": {
+        "comments": 4,
+        "approvals": 0
+      },
+      "2026-05-11": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-06-01": {
+        "comments": 1,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "IchordeDionysos",
     "reviewComments": 7,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-06-08": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-06-15": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 3,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "marco-g-pm",
     "reviewComments": 7,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-06-22": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 5,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "brandon-julio-t",
     "reviewComments": 6,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-04-13": {
+        "comments": 4,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "fivestarspicy",
     "reviewComments": 6,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-04-27": {
+        "comments": 5,
+        "approvals": 0
+      },
+      "2026-05-18": {
+        "comments": 1,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "rubychilds",
     "reviewComments": 6,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-06-08": {
+        "comments": 6,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "ametel01",
     "reviewComments": 6,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-06-22": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 5,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "janpio",
     "reviewComments": 6,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-06-29": {
+        "comments": 6,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "havenbarnes",
     "reviewComments": 5,
-    "approvals": 1
+    "approvals": 1,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-04-20": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-04-27": {
+        "comments": 1,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "EDsCODE",
     "reviewComments": 1,
-    "approvals": 9
+    "approvals": 9,
+    "weeklyActivity": {
+      "2026-04-27": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-18": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-06-01": {
+        "comments": 0,
+        "approvals": 3
+      },
+      "2026-06-15": {
+        "comments": 0,
+        "approvals": 3
+      },
+      "2026-06-29": {
+        "comments": 0,
+        "approvals": 2
+      }
+    }
   },
   {
     "login": "mcoll-posthog",
     "reviewComments": 4,
-    "approvals": 1
+    "approvals": 1,
+    "weeklyActivity": {
+      "2026-05-04": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-06-01": {
+        "comments": 2,
+        "approvals": 1
+      },
+      "2026-06-29": {
+        "comments": 1,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "darkopia",
     "reviewComments": 4,
-    "approvals": 1
+    "approvals": 1,
+    "weeklyActivity": {
+      "2026-06-15": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 2,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "tpgilmore",
     "reviewComments": 0,
-    "approvals": 9
+    "approvals": 9,
+    "weeklyActivity": {
+      "2026-04-13": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-04-27": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-06-01": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-06-29": {
+        "comments": 0,
+        "approvals": 4
+      }
+    }
   },
   {
     "login": "harsh21234i",
     "reviewComments": 4,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-04-27": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-06-08": {
+        "comments": 1,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "nakshatra-nahar",
     "reviewComments": 4,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-05-18": {
+        "comments": 4,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "phillram",
     "reviewComments": 4,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-06-15": {
+        "comments": 4,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "langesven",
     "reviewComments": 1,
-    "approvals": 5
+    "approvals": 5,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-04-20": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-11": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-18": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-06-15": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-06-29": {
+        "comments": 0,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "corywatilo",
     "reviewComments": 3,
-    "approvals": 1
+    "approvals": 1,
+    "weeklyActivity": {
+      "2026-06-15": {
+        "comments": 3,
+        "approvals": 0
+      },
+      "2026-06-29": {
+        "comments": 0,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "officialasishkumar",
     "reviewComments": 3,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 3,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "igennova",
     "reviewComments": 3,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-06-01": {
+        "comments": 2,
+        "approvals": 0
+      },
+      "2026-06-22": {
+        "comments": 1,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "sarahxsanders",
     "reviewComments": 2,
-    "approvals": 1
+    "approvals": 1,
+    "weeklyActivity": {
+      "2026-04-13": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-04-20": {
+        "comments": 1,
+        "approvals": 0
+      },
+      "2026-05-04": {
+        "comments": 1,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "MichaelKutsch-ph",
     "reviewComments": 1,
-    "approvals": 3
+    "approvals": 3,
+    "weeklyActivity": {
+      "2026-04-13": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-04-20": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-06-29": {
+        "comments": 1,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "ordehi",
     "reviewComments": 2,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 2,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "shubhiscoding",
     "reviewComments": 2,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-05-18": {
+        "comments": 2,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "abusarah-tech",
     "reviewComments": 2,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-05-25": {
+        "comments": 2,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "zaniluca",
     "reviewComments": 2,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-06-08": {
+        "comments": 2,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "artyaz",
     "reviewComments": 2,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-06-15": {
+        "comments": 2,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "blackwell-systems",
     "reviewComments": 2,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-06-15": {
+        "comments": 2,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "daudibrahimhasan",
     "reviewComments": 2,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-06-15": {
+        "comments": 2,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "bill-ph",
     "reviewComments": 0,
-    "approvals": 4
+    "approvals": 4,
+    "weeklyActivity": {
+      "2026-04-27": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-06-01": {
+        "comments": 0,
+        "approvals": 2
+      },
+      "2026-06-29": {
+        "comments": 0,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "Daesgar",
     "reviewComments": 0,
-    "approvals": 4
+    "approvals": 4,
+    "weeklyActivity": {
+      "2026-04-13": {
+        "comments": 0,
+        "approvals": 3
+      },
+      "2026-06-15": {
+        "comments": 0,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "Z3r0Sum",
     "reviewComments": 0,
-    "approvals": 3
+    "approvals": 3,
+    "weeklyActivity": {
+      "2026-04-13": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-18": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-06-01": {
+        "comments": 0,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "edwinyjlim",
     "reviewComments": 0,
-    "approvals": 3
+    "approvals": 3,
+    "weeklyActivity": {
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-05-18": {
+        "comments": 0,
+        "approvals": 2
+      }
+    }
   },
   {
     "login": "Krishnachaitanyakc",
     "reviewComments": 1,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 1,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "yazan-abu-obaideh",
     "reviewComments": 1,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 1,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "sbrin",
     "reviewComments": 1,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-04-13": {
+        "comments": 1,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "Topherhindman",
     "reviewComments": 1,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-04-20": {
+        "comments": 1,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "g2k4qpzj5w-afk",
     "reviewComments": 1,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-04-20": {
+        "comments": 1,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "Basit-Balogun10",
     "reviewComments": 1,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-04-27": {
+        "comments": 1,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "HaynesPostHog",
     "reviewComments": 1,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-04-27": {
+        "comments": 1,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "mandar1045",
     "reviewComments": 1,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-05-04": {
+        "comments": 1,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "RadW2020",
     "reviewComments": 1,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-05-11": {
+        "comments": 1,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "mircoboettcher",
     "reviewComments": 1,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-05-18": {
+        "comments": 1,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "shauryapednekar",
     "reviewComments": 1,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-05-18": {
+        "comments": 1,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "Fraserhardy",
     "reviewComments": 1,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-05-25": {
+        "comments": 1,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "AlexlaGuardia",
     "reviewComments": 1,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-06-15": {
+        "comments": 1,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "jakesciotto",
     "reviewComments": 1,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-06-22": {
+        "comments": 1,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "zugdev",
     "reviewComments": 1,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-06-22": {
+        "comments": 1,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "jaymasiwal",
     "reviewComments": 1,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-06-22": {
+        "comments": 1,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "ivanagas",
     "reviewComments": 1,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-06-29": {
+        "comments": 1,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "annaszell",
     "reviewComments": 1,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-06-29": {
+        "comments": 1,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "george-kats",
     "reviewComments": 1,
-    "approvals": 0
+    "approvals": 0,
+    "weeklyActivity": {
+      "2026-06-29": {
+        "comments": 1,
+        "approvals": 0
+      }
+    }
   },
   {
     "login": "cohenroy",
     "reviewComments": 0,
-    "approvals": 2
+    "approvals": 2,
+    "weeklyActivity": {
+      "2026-06-01": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-06-29": {
+        "comments": 0,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "k33lan",
     "reviewComments": 0,
-    "approvals": 2
+    "approvals": 2,
+    "weeklyActivity": {
+      "2026-05-18": {
+        "comments": 0,
+        "approvals": 1
+      },
+      "2026-06-01": {
+        "comments": 0,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "Zaltsman",
     "reviewComments": 0,
-    "approvals": 1
+    "approvals": 1,
+    "weeklyActivity": {
+      "2026-06-29": {
+        "comments": 0,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "danielxnj",
     "reviewComments": 0,
-    "approvals": 1
+    "approvals": 1,
+    "weeklyActivity": {
+      "2026-06-29": {
+        "comments": 0,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "clr182",
     "reviewComments": 0,
-    "approvals": 1
+    "approvals": 1,
+    "weeklyActivity": {
+      "2026-05-18": {
+        "comments": 0,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "mattfield",
     "reviewComments": 0,
-    "approvals": 1
+    "approvals": 1,
+    "weeklyActivity": {
+      "2026-05-18": {
+        "comments": 0,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "eleftheriatrivyzaki",
     "reviewComments": 0,
-    "approvals": 1
+    "approvals": 1,
+    "weeklyActivity": {
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "joethreepwood",
     "reviewComments": 0,
-    "approvals": 1
+    "approvals": 1,
+    "weeklyActivity": {
+      "2026-05-04": {
+        "comments": 0,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "abheek9",
     "reviewComments": 0,
-    "approvals": 1
+    "approvals": 1,
+    "weeklyActivity": {
+      "2026-04-13": {
+        "comments": 0,
+        "approvals": 1
+      }
+    }
   },
   {
     "login": "lmenezes",
     "reviewComments": 0,
-    "approvals": 1
+    "approvals": 1,
+    "weeklyActivity": {
+      "2026-04-06": {
+        "comments": 0,
+        "approvals": 1
+      }
+    }
   }
 ]
