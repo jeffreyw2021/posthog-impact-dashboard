@@ -278,8 +278,10 @@ function ShippingViz({ engineer, since, until }: { engineer: Engineer; since: st
         <XAxis dataKey="week" tickFormatter={fmtWeek} tick={axTick} {...axLine} minTickGap={36} />
         <YAxis tick={axTick} {...axLine} />
         <Tooltip
-          formatter={(v: number) => [v.toFixed(1), 'Shipping weight']}
-          labelFormatter={(l: string) => `Week of ${fmtWeek(l)}`}
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          formatter={(v: any) => [typeof v === 'number' ? v.toFixed(1) : v, 'Shipping weight']}
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          labelFormatter={(l: any) => `Week of ${fmtWeek(String(l))}`}
           contentStyle={{ fontSize: 12, borderRadius: 8, border: '1px solid #e2e8f0' }}
         />
         <Bar dataKey="weight" fill={color} fillOpacity={0.85} radius={[2, 2, 0, 0]} />
@@ -325,8 +327,10 @@ function ReviewingViz({ engineer, since, until }: { engineer: Engineer; since: s
         <XAxis dataKey="week" tickFormatter={fmtWeek} tick={axTick} {...axLine} minTickGap={36} />
         <YAxis tick={axTick} {...axLine} />
         <Tooltip
-          formatter={(v: number, key: string) => [v, key === 'comments' ? 'Review comments' : 'Approvals']}
-          labelFormatter={(l: string) => `Week of ${fmtWeek(l)}`}
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          formatter={(v: any, key: any) => [v, key === 'comments' ? 'Review comments' : 'Approvals']}
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          labelFormatter={(l: any) => `Week of ${fmtWeek(String(l))}`}
           contentStyle={{ fontSize: 12, borderRadius: 8, border: '1px solid #e2e8f0' }}
         />
         <Bar dataKey="comments" stackId="a" fill={color} fillOpacity={0.85} radius={[0, 0, 0, 0]} />
