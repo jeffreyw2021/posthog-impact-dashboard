@@ -1,20 +1,22 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Urbanist, Inter } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const urbanist = Urbanist({
+  variable: "--font-urbanist",
   subsets: ["latin"],
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
   title: "PostHog Engineering Impact Dashboard",
-  description: "Who are the most impactful engineers at PostHog? Data-driven analysis of the last 90 days.",
+  description: "Who are the most impactful engineers at PostHog? Analysis of code centrality, influence, and breadth across 6,000+ merged PRs.",
 };
 
 export default function RootLayout({
@@ -23,11 +25,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="en" className={`${urbanist.variable} ${inter.variable}`}>
+      <body className="m-0 p-0 antialiased">{children}</body>
     </html>
   );
 }
